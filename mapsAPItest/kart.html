@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+      <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+        #container {
+            position: relative;
+            height: 80%;
+            width: 80%; 
+            margin: auto;
+        }
+        
+        
+
+      </style>
+        
+    
+ 
+  </head>
+  <body>
+      <div id="container">
+    <div id="map"></div>
+    
+    
+          
+      </div>
+      
+    <script>
+      var map;
+      var ikon;
+      function initMap() {
+        ikon = {lat: 59.916158, lng: 10.759654},
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: ikon,
+          zoom: 17
+        });
+        var marker = new google.maps.Marker({
+          position: ikon,
+          map: map
+        });
+          
+       
+          
+        //Innhold i 'trykk-boksen' 
+        var contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Westerdals Fjerdingen</h1>'+
+            '<div id="bodyContent">'+
+            '<p><b>WOACT</b>, bedre kjent som <b>Westerdals Oslo School of Arts, Communications and Technology</b>, er en unik, bransjenær og nyskapende høyskole for deg som vil jobbe innen kunst, kommunikasjon og teknologi.' +
+            'På Westerdals Oslo ACT er det kort avstand mellom teori og praksis, mellom student og underviser, mellom høyskole og bransjer. Du får en unik og annerledes læringsprosess i et dynamisk og kreativt tverrfaglig miljø, 1700 medstudenter og fagfolk som er aktive i sine bransjer.'+
+            '<img src="campus">'+
+            '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+            'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+            '(last visited June 22, 2009).</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+          position: ikon,
+          map: map,
+          title: 'Campus Fjerdingen';
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        }); 
+      }
+      
+        
+        
+ 
+        
+        
+     
+      
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUOSBwWQ1fKQHF-40kF5kK4h_h4VYA46U&callback=initMap"
+    async defer></script>
+  </body>
+</html>
