@@ -36,12 +36,12 @@
             $lat = 59.916158;
             $lng = 10.759654;
         
-       
-       
        ?>
+       var lat = <?php echo $lat  ?>;
+       var lng = <?php echo $lng ?>;
        
        function initMap() {
-        var fjerdingen = {lat: 59.916158, lng: 10.759654 };
+        var fjerdingen = {lat, lng};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 17,
           center: fjerdingen
