@@ -1,9 +1,9 @@
 <?php 
     // 1 . Create a database connection 
 
-    $dbhost = "127.0.0.1"; 
-    $dbuser = "root"; 
-    $dbpass = "Pondus95";
+    $dbhost = "127.0.0.1"; //hvilken host. I dette tilfelelt kjører jeg server på lokalhost ^ 
+    $dbuser = "root"; //brukernavn du har brukt
+    $dbpass = "dittmysqlpassord"; //passord du har brukt på mysql
     $dbname = "world";
     $connection = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
     
