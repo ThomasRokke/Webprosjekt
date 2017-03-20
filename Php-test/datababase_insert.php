@@ -1,9 +1,9 @@
 <?php 
     // 1 . Create a database connection 
 
-    $dbhost = "127.0.0.1"; //hvilken host. I dette tilfelelt kjører jeg server på lokalhost ^ 
-    $dbuser = "root"; //brukernavn du har brukt
-    $dbpass = "Pondus95"; //passord du har brukt på mysql
+    $dbhost = "127.0.0.1"; 
+    $dbuser = "root"; 
+    $dbpass = "Pondus95";
     $dbname = "world";
     $connection = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
     
@@ -41,8 +41,6 @@
 
 
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,22 +54,49 @@
 
 </head>
 <body>
-    <?php
+    
+        
+        
+        <ol>
+        <?php
         
         // 3. use returned data (if any)
     
         //it's not an php array . it mysql result set. 
         //Den incrementer row'en for oss.  Derfor funker ikke foreach
         //foreach - den prøver incremente 'pointeren'
-    
-        while($row = mysqli_fetch_row($result)) { 
+       
+        while($row = mysqli_fetch_assoc($result)) { 
             //output data from each row
-            var_dump($row);
-            echo "<hr />";
+           
+           //  var_dump($row);
+             /*
+            echo $row["Code"] . "<br />";
+            echo $row["Name"] . "<br />";
+            echo $row["Continent"] . "<br />";
+            echo $row["Region"] . "<br />";
+            echo $row["SurfaceArea"] . "<br />";
+            echo $row["IndepYear"] . "<br />";
+            echo $row["Population"] . "<br />";
+            echo $row["LifeExpectancy"] . "<br />";
+            echo $row["GNP"] . "<br />";
+            echo $row["GNOLD"] . "<br />";
+            echo $row["LocalName"] . "<br />";
+            */
+          ?>
             
-        }
+            <!--stopper midt i loopen - gjør litt HTML, også fortsetter--> 
+            
+        <li><?php echo $row["Name"]; ?></li>
+            
+       <?php
+        } //avslutter while løkka. 
+        ?>
+      
     
-    ?>
+    
+    </ol>
+    
     <?php 
         //4. Release returned data
         mysqli_free_result($result); 
