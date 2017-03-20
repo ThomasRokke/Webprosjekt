@@ -3,22 +3,7 @@
 
 <?php require_once("../includes/functions.php") ?>
 
-<?php 
-    //2. Perform database query
 
-    // .= blir det samme som å legge sammen queryen.
-
-    $query  = "SELECT * ";
-    $query .= "FROM subjects ";
-   
-    $result = mysqli_query($connection, $query);
-    //result er en 'resource'
-
-    //test if there was a querry error
-    if(!$result) {
-        die("Database query has failed"); 
-    }    
-?>
 
 <?php include("../includes/layouts/header.php"); ?>
 
@@ -26,23 +11,66 @@
 <div id="main">
         <div id="navigation">
             <ul class="subjects">
+                <?php 
+                    //2. Perform database query
+                    $query  = "SELECT * ";
+                    $query .= "FROM subjects ";
+                    $query .= "WHERE visible = 1 ";
+                    $query .= "ORDER BY position ASC";
+                    $result = mysqli_query($connection, $query);
+                    //test if there was a querry error using function.
+                    confirm_query($result);     
+                ?>
                 <?php
 
                 // 3. use returned data (if any)
-
-                //it's not an php array . it mysql result set. 
-                //Den incrementer row'en for oss.  Derfor funker ikke foreach
-                //foreach - den prøver incremente 'pointeren'
-
+                
                 while($subject = mysqli_fetch_assoc($result)) { 
 
                 ?>
 
-                <li><?php echo $subject["menu_name"];// . " (" . 
-                    //$subject["id"] . ")"; ?></li>     
+                <li>
+                    
+                <?php echo $subject["menu_name"];// . " (" . 
+                //$subject["id"] . ")"; ?>
+
+                <?php 
+                //2. Perform database query
+                $query  = "SELECT * ";
+                $query .= "FROM pages ";
+                $query .= "WHERE visible = 1 ";
+                $query .= "AND subject_id = {$subject["id"]} ";
+                $query .= "ORDER BY position ASC"; 
+                    
+                $pages_result = mysqli_query($connection, $query);
+                //test if there was a querry error using function.
+                confirm_query($pages_result);     
+                ?>
+
+                <ul class ="pages">
+                <?php
+                    while($page = mysqli_fetch_assoc($pages_result)) { 
+
+                    ?>
+
+                <li> <?php echo $page["menu_name"]; ?> </li>
+                    
+                <?php
+                    }
+                ?>
+                    //Free up space
+                <?php mysqli_free_result($pages_result); ?>
+                    
+                </ul>
+                </li>     
 
                <?php
-                } //avslutter while løkka. 
+                    } //avslutter while løkka. 
+                ?>
+                <?php 
+                    //4. Release returned data
+                    mysqli_free_result($pages_result); 
+
                 ?>
     
             </ul>
@@ -55,10 +83,6 @@
         </div>
     </div>
 
-<?php 
-        //4. Release returned data
-        mysqli_free_result($result); 
-    
-?>
+
 
 <?php include("../includes/layouts/footer.php"); ?>
