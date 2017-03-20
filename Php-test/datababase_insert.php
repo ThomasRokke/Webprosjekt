@@ -1,10 +1,10 @@
 <?php 
     // 1 . Create a database connection 
 
-    $dbhost = "127.0.0.1"; 
-    $dbuser = "root"; 
-    $dbpass = "Pondus95";
-    $dbname = "world";
+    $dbhost = "127.0.0.1"; //hvilken host. I dette tilfelelt kjører jeg server på lokalhost ^ 
+    $dbuser = "my_cms"; //brukernavn du har brukt
+    $dbpass = "webprosjekt"; //passord du har brukt på mysql
+    $dbname = "my_company";
     $connection = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
     
     // Test if connection occured
@@ -25,9 +25,8 @@
     // .= blir det samme som å legge sammen queryen.
 
     $query  = "SELECT * ";
-    $query .= "FROM country ";
-    $query .= "WHERE Continent = 'Europe' ";
-
+    $query .= "FROM subjects ";
+   
     $result = mysqli_query($connection, $query);
     //result er en 'resource'
 
@@ -38,6 +37,8 @@
     
     
 ?>
+
+
 
 
 
@@ -54,49 +55,22 @@
 
 </head>
 <body>
-    
-        
-        
-        <ol>
-        <?php
+    <?php
         
         // 3. use returned data (if any)
     
         //it's not an php array . it mysql result set. 
         //Den incrementer row'en for oss.  Derfor funker ikke foreach
         //foreach - den prøver incremente 'pointeren'
-       
-        while($row = mysqli_fetch_assoc($result)) { 
+    
+        while($row = mysqli_fetch_row($result)) { 
             //output data from each row
-           
-           //  var_dump($row);
-             /*
-            echo $row["Code"] . "<br />";
-            echo $row["Name"] . "<br />";
-            echo $row["Continent"] . "<br />";
-            echo $row["Region"] . "<br />";
-            echo $row["SurfaceArea"] . "<br />";
-            echo $row["IndepYear"] . "<br />";
-            echo $row["Population"] . "<br />";
-            echo $row["LifeExpectancy"] . "<br />";
-            echo $row["GNP"] . "<br />";
-            echo $row["GNOLD"] . "<br />";
-            echo $row["LocalName"] . "<br />";
-            */
-          ?>
+            var_dump($row);
+            echo "<hr />";
             
-            <!--stopper midt i loopen - gjør litt HTML, også fortsetter--> 
-            
-        <li><?php echo $row["Name"]; ?></li>
-            
-       <?php
-        } //avslutter while løkka. 
-        ?>
-      
+        }
     
-    
-    </ol>
-    
+    ?>
     <?php 
         //4. Release returned data
         mysqli_free_result($result); 
