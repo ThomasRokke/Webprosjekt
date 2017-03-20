@@ -20,26 +20,42 @@
 ?>
 
 <?php 
-    //2. Perform database query
+
+    // Often these are form values
+
+    $menu_name = "Edit me"; 
+    $position = 4; 
+    $visible = 1; 
+
+    
+    // 2. Perform database query
 
     // .= blir det samme som å legge sammen queryen.
 
-    $query  = "SELECT * ";
-    $query .= "FROM subjects ";
+    $query  = "INSERT INTO subjects (";
+    $query .= " menu_name, position, visible";
+    $query .= ") VALUES (";  
+    $query .= " '{$menu_name}', {$position}, {$visible}";
+    $query .= ")"; 
    
     $result = mysqli_query($connection, $query);
     //result er en 'resource'
 
     //test if there was a querry error
-    if(!$result) {
-        die("Database query has failed"); 
+    if($result) {
+        // Success
+        // recurect_to("somepage.php"); 
+        echo "Success!"; 
+    }
+    else{
+        // Failure
+        // $message = "Subject creation failed"
+        
+        die("Database query has failed " . mysqli_error($connection)); 
     }
     
     
 ?>
-
-
-
 
 
 <!DOCTYPE html>
@@ -55,27 +71,7 @@
 
 </head>
 <body>
-    <?php
-        
-        // 3. use returned data (if any)
-    
-        //it's not an php array . it mysql result set. 
-        //Den incrementer row'en for oss.  Derfor funker ikke foreach
-        //foreach - den prøver incremente 'pointeren'
-    
-        while($row = mysqli_fetch_row($result)) { 
-            //output data from each row
-            var_dump($row);
-            echo "<hr />";
-            
-        }
-    
-    ?>
-    <?php 
-        //4. Release returned data
-        mysqli_free_result($result); 
-    
-    ?>
+  
   
 
 </body>
