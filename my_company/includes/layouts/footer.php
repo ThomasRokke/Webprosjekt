@@ -5,6 +5,11 @@
 
 <?php 
     // 5. Close database connection 
-    mysqli_close($connection); 
+    if(isse($connection)){ //Hvis connetion har blitt skapt
+        
+    mysqli_close($connection); // close connection
+    
+        
+    }
 
 ?>

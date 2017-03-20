@@ -1,11 +1,14 @@
 <?php 
     // 1 . Create a database connection 
 
-    $dbhost = "127.0.0.1"; //hvilken host. I dette tilfelelt kjører jeg server på lokalhost ^ 
-    $dbuser = "my_cms"; //brukernavn du har brukt
-    $dbpass = "webprosjekt"; //passord du har brukt på mysql
-    $dbname = "my_company";
-    $connection = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+    //Definerer variablene som constant. Vi kommer ikke til å endre på disse. 
+    define("DB_SERVER", "127.0.0.1");
+    define("DB_USER", "my_cms");
+    define("DB_PASS", "webprosjekt");
+    define("DB_NAME", "my_company");
+        
+    //oppretter en connection
+    $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
     
     // Test if connection occured
 
@@ -14,4 +17,7 @@
             mysqli_connect_error() . 
             " (" . mysqli_connect_errno() . ")");    
     }
+
+    
+
 ?>
