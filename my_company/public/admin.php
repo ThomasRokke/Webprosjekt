@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
-
-<title>New HMTL document by NewJect</title>
-
-</head>
-<body>
-
-    <div id="header">
-        <h1>My Company</h1>
-    </div>
+<?php require_once("../includes/functions.php") ?>
+<?php include("../includes/layouts/header.php"); ?>
     
-    <div id="main">
+<div id="main">
         <div id="navigation">
             &nbsp;
         </div>
@@ -33,8 +18,5 @@
             </ul>
         </div>
     </div>
-    
-    <div id="footer">Copyright 2017, Thomas Røkke</div>
 
-</body>
-</html>
+<?php include("../includes/layouts/footer.php"); ?>
