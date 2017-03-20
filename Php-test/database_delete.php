@@ -16,34 +16,26 @@
         
     }
     
-
 ?>
-
 <?php 
-
-    // Often these are form values
-
-    $menu_name = "Edit me"; 
-    $position = 4; 
-    $visible = 1; 
-
-    $menu_name = mysqli_real_escape_string($connection, $menu_name); 
+    // 2. Perform database query - DELEE 
     
-    // 2. Perform database query
+    // Often these are form values
+    $id = 6; //hvilken id de har. 
 
     // .= blir det samme som å legge sammen queryen.
 
-    $query  = "INSERT INTO subjects (";
-    $query .= " menu_name, position, visible";
-    $query .= ") VALUES (";  
-    $query .= " '{$menu_name}', {$position}, {$visible}";
-    $query .= ")"; 
+    $query  = "DELETE FROM subjects ";
+    $query .= " WHERE ID = {$id} ";
+    $query .= " LIMIT 1";
+
+    
    
     $result = mysqli_query($connection, $query);
     //result er en 'resource'
 
     //test if there was a querry error
-    if($result) {
+    if($result && mysqli_affected_rows($connection) == 1) {
         // Success
         // recurect_to("somepage.php"); 
         echo "Success!"; 
@@ -52,7 +44,7 @@
         // Failure
         // $message = "Subject creation failed"
         
-        die("Database query has failed " . mysqli_error($connection)); 
+        die("Database delte has failed " . mysqli_error($connection)); 
     }
     
     

@@ -23,7 +23,7 @@
 
     // Often these are form values
     $id = 5; 
-    $menu_name = "Delete me"; 
+    $menu_name = "Delete mee"; 
     $position = 4; 
     $visible = 1; 
 
@@ -43,7 +43,7 @@
     //result er en 'resource'
 
     //test if there was a querry error
-    if($result) {
+    if($result && mysqli_affected_rows($connection) == 1) {
         // Success
         // recurect_to("somepage.php"); 
         echo "Success!"; 
