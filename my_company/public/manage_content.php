@@ -7,44 +7,39 @@
 
 <?php include("../includes/layouts/header.php"); ?>
 
+<?php 
+    if(isset($_GET["subject"])) {
+        $selected_subject_id = $_GET["subject"]; 
+        $selected_page_id = null; 
+    } 
+    elseif(isset($_GET["page"])) {
+        $selected_page_id = $_GET["page"];
+        $selected_subject_id = null;
+    }
+    else{
+        $selected_subject_id = null;
+        $selected_page_id = null;
+    }
+?>
+
 
 <div id="main">
-        <div id="navigation">
-            <ul class="subjects">
-                <?php 
-                    //2. Perform database query
-                    $query  = "SELECT * ";
-                    $query .= "FROM subjects ";
-                    $query .= "WHERE visible = 1 ";
-                    $query .= "ORDER BY position ASC";
-                    $result = mysqli_query($connection, $query);
-                    //test if there was a querry error using function.
-                    confirm_query($result);     
-                ?>
-                <?php
+    <div id="navigation">
+        <ul class="subjects">
+            <?php 
+               $result = find_all_subjects();  
+                // https://www.lynda.com/MySQL-tutorials/Selecting-pages-from-navigation/119003/137027-4.html?autoplay=true
+            ?>
+            <?php
+            while($subject = mysqli_fetch_assoc($result)) { 
+            ?>
 
-                // 3. use returned data (if any)
-                
-                while($subject = mysqli_fetch_assoc($result)) { 
-
-                ?>
-
-                <li>
+            <li>
                     
-                <?php echo $subject["menu_name"];// . " (" . 
-                //$subject["id"] . ")"; ?>
-
-                <?php 
-                //2. Perform database query
-                $query  = "SELECT * ";
-                $query .= "FROM pages ";
-                $query .= "WHERE visible = 1 ";
-                $query .= "AND subject_id = {$subject["id"]} ";
-                $query .= "ORDER BY position ASC"; 
+                <a href="manage_content.php?subject=<?php echo urlencode($subject["id"]); ?>"><?php echo $subject["menu_name"]; ?></a>
                     
-                $pages_result = mysqli_query($connection, $query);
-                //test if there was a querry error using function.
-                confirm_query($pages_result);     
+                <?php  
+                     $pages_result =  find_pages_for_subject($subject["id"]);    
                 ?>
 
                 <ul class ="pages">
@@ -53,12 +48,14 @@
 
                     ?>
 
-                <li> <?php echo $page["menu_name"]; ?> </li>
+                    <li> 
+                        <a href="manage_content.php?page=<?php echo urlencode($page["id"]); ?>"><?php echo $page["menu_name"]; ?></a> 
+                    </li>
                     
                 <?php
                     }
                 ?>
-                    //Free up space
+                    <!--Free up space-->
                 <?php mysqli_free_result($pages_result); ?>
                     
                 </ul>
@@ -78,8 +75,9 @@
         </div>
         <div id="page">
             <h2>Manage content</h2>
-            
-       
+            <?php echo $selected_subject_id; ?> <br />
+            <?php echo $selected_page_id; ?>
+               
         </div>
     </div>
 
