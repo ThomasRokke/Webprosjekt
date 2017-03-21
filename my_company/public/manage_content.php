@@ -57,19 +57,25 @@
                     <li> 
                         <a href="manage_content.php?page=<?php echo urlencode($page["id"]); ?>"><?php echo $page["menu_name"]; ?></a> 
                     </li>
-                    
+                 
                 <?php
                     }
                 ?>
+                    
                     <!--Free up space-->
                 <?php mysqli_free_result($pages_result); ?>
                     
                 </ul>
-                </li>     
-
+                 
+                </li>
+        
+                
+        
                <?php
                     } //avslutter while løkka. 
                 ?>
+                
+          
                 <?php 
                     //4. Release returned data
                     mysqli_free_result($pages_result); 
