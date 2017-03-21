@@ -1,4 +1,4 @@
-    <div id="footer">Copyright 20xx, Widget Corp</div>
+    <div id="footer">Copyright 2017, Thomas Røkke</div>
 
 	</body>
 </html>
