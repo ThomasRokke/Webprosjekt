@@ -3,10 +3,10 @@
 
 <html lang="en">
 	<head>
-		<title>Widget Corp</title>
+		<title>WZup? | Thomas Røkke</title>
 		<link href="stylesheets/public.css" media="all" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
     <div id="header">
-      <h1>Røkke's PHP sjappe</h1>
+      <h1>WZup?</h1>
     </div>
