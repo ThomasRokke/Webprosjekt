@@ -20,9 +20,14 @@
 		<?php echo navigation($selected_subject_id, $selected_page_id); ?>
   </div>
   <div id="page">
-    <h2>Manage Content</h2>
-		<?php echo $selected_subject_id; ?><br />
-		<?php echo $selected_page_id; ?>
+    <h2>For studenter ved Westerdals</h2>
+		<?php // echo $selected_subject_id; ?><br />
+		<?php  // echo $selected_page_id; ?>
+        
+      <div id="kart-div">
+      <?php require_once("../includes/layouts/kart.php"); ?> 
+      </div>
+      
   </div>
 </div>
 
