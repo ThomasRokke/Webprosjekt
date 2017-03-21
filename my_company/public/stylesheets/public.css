@@ -52,7 +52,7 @@ a:hover{color: #1A446C; }
 #navigation a { color: #D4E6F4; text-decoration: none; }
 #nagivation a : hover {color: #FFFFFF}
 
-ul.pages {padding-left: 2em; list-style: square; }
+ul.pages {padding-left: 2em; list-style: square; font-weight: normal; }
 .selected {font-weight: bold;}
 
 #page{
