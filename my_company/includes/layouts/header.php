@@ -7,7 +7,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>My company | ADMIN</title>
+<title>Min bedrift | ADMIN</title>
 
     <link href="stylesheets/public.css" media="all" rel="stylesheet" type="text/css" /> 
 
@@ -15,5 +15,5 @@
 <body>
 
     <div id="header">
-        <h1>My Company</h1>
+        <h1>Min bedrift</h1>
     </div>

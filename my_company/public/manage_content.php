@@ -34,7 +34,13 @@
             while($subject = mysqli_fetch_assoc($result)) { 
             ?>
 
-            <li>
+            <?php 
+                echo "<li"; 
+                if($subject["id"] == $selected_subject_id) {
+                echo " class=\"selected\"";
+                }
+                echo ">"; 
+            ?>
                     
                 <a href="manage_content.php?subject=<?php echo urlencode($subject["id"]); ?>"><?php echo $subject["menu_name"]; ?></a>
                     
