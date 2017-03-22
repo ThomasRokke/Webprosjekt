@@ -16,7 +16,7 @@
        function initMap() {
         var fjerdingen = {lat, lng};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
+          zoom: 16,
           center: fjerdingen
         });
            
