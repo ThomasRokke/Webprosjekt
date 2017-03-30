@@ -85,7 +85,6 @@
     
 <script type="text/javascript">
 $(document).ready(function() {
-
 	var mapCenter = new google.maps.LatLng(59.916158, 10.759654); //Google map Coordinates
 	var map;
 	
@@ -101,7 +100,7 @@ $(document).ready(function() {
 				maxZoom: 25,
 				minZoom: 10,
 				zoomControlOptions: {
-				style: google.maps.ZoomControlStyle.SMALL //zoom control size
+				style: google.maps.ZoomControlStyle.LARGE //zoom control size
 			},
 				scaleControl: true, // enable scale control
 				mapTypeId: google.maps.MapTypeId.ROADMAP // google map type
@@ -129,7 +128,6 @@ $(document).ready(function() {
 			});
    
         }
-
        
     
         function create_marker(MapPos, MapTitle, MapDesc,  InfoOpenDefault, DragAble, Removable, type)
@@ -148,7 +146,7 @@ $(document).ready(function() {
                 ikon = 'cal.svg';   
                 break; 
             default:
-                ikon = 'bank.svg'; 
+                ikon = 'food.svg'; 
         }
        
 		//new marker
@@ -174,7 +172,6 @@ $(document).ready(function() {
 		MapDesc+ 
 		'</span><button name="remove-marker" class="remove-marker" title="Remove Marker">Til nettside</button>'+
 		'</div></div>');	
-
 		
 		//Create an infoWindow
 		var infowindow = new google.maps.InfoWindow();
@@ -196,6 +193,5 @@ $(document).ready(function() {
     
 });
     
-
 </script>
 </html>
