@@ -1,0 +1,136 @@
+body{background-color: beige;}
+#main {
+    width: 1378px;
+    height: 768px;
+    
+    
+    position: relative;
+    background-color:white;
+    margin:auto;
+    padding: 0; 
+    
+    
+}
+
+
+#side-menu {
+    position: relative;
+    width: 170px;
+    height: 100%;
+    background-color: white;
+    padding:0px;
+    margin:0px;
+}
+
+#header {
+    height: 10%;
+    
+    
+}
+
+#header-text {
+    
+    text-align: center;
+    padding-top: 20px;
+    
+
+}
+
+#header-hr {
+    width: 80%;
+}
+
+#side {
+    position: relative;
+    width: 170px;
+    height: 100%;
+    left:171px;
+    
+    padding:0px;
+    margin:0px;
+    bottom:0px;
+    position: absolute;
+    background-color:#aa0b0b;
+}
+
+
+
+#google_map {
+    position: absolute;
+    height: 100%;
+    width: 1036px;
+    right:0px;
+    bottom:0px;
+    
+}
+
+#menu {
+    line-height: 40px;
+    font-size: 17px;
+    /*font-weight: bold;*/
+}
+ul {
+    list-style:circle;
+}
+
+.circle {
+    position: absolute;
+    border:1px solid white;
+    left:35px;
+    background-color:;
+    width: 100px;
+    height:100px;
+    border-radius:1000px;
+    background-color:#aa0b0b;
+    overflow: hidden;
+    
+}
+
+#circle1 {
+    top:130px;
+  
+}
+
+#circle2 {
+    top:330px;
+      border: 3px solid white;
+    
+}
+
+#circle3 {
+    top:530px;
+}
+
+#line {
+    position: absolute;
+    width: 2px;
+    opacity: .7;
+    height: 100%;
+    background-color: white;
+    left:86px;
+}
+
+.ikon {
+    height: 80%;
+    position: absolute;
+    left:10px;
+    bottom:10px;
+}
+
+#today {
+    width: 100%;
+    height: 240px;
+    bottom: 0px;
+    position: absolute;
+}
+
+#todayTekst {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#today-ul {
+    font-size: 14px;
+    line-height: 30px;
+    list-style: none;
+}
