@@ -1,13 +1,14 @@
-body{background-color: beige;}
+body{background-color: beige; margin-top:0; padding-top: 0;}
 #main {
     width: 1378px;
     height: 768px;
-    
+    margin-top: 0;
+    padding-top: 0;
     
     position: relative;
     background-color:white;
     margin:auto;
-    padding: 0; 
+  
     
     
 }
@@ -77,11 +78,11 @@ ul {
 .circle {
     position: absolute;
     border:1px solid white;
-    left:35px;
+    left:37px;
     background-color:;
     width: 100px;
     height:100px;
-    border-radius:1000px;
+    border-radius:10000px;
     background-color:#aa0b0b;
     overflow: hidden;
     
