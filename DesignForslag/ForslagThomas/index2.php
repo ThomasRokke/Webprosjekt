@@ -19,67 +19,17 @@
 
 <div id="main">
     
-    <div id="side-menu">
-        
-        <div id="header"><h1 id="header-text">WZup? </h1></div>
-        <hr id="header-hr">
-        
-        <div id="menu">
-        
-            <ul>
-            
-                <li>Om oss</li>
-                <li>For partnere</li>
-                <li>For studenter</li>
-                <br>
-    
-                <li>Utesteder</li>
-                <li>Mat og drikke</li>
-                <li>Arrangementer</li>
-            
-            </ul>
-        
-        
-        </div>
-        
-        <div id="today">
-        <h1 id="todayTekst">Skjer idag?</h1>
-        <ul id="today-ul">
-            <li>18:00 - Konsert </li>    
-            <li>19:00 - Bakekurs</li>
-            <li>19:30 - Gudstjeneste</li>
-            <li>20:00 - Stand-up</li>
-            <li>22:00 - Konsert</li>
-           
-        </ul>
-        
-        </div>
-        
-        
-    </div>
-    
-        
-    </script>
-    
-    <div id="side">
-       <div id="line"></div>
-        <div id="circle1" class="circle">
-            <img class="ikon" src="drink.png">
-        </div>
-        <div id="circle2" class="circle">
-            <img class="ikon" src="mat.png">
-        </div>
-        <div id="circle3" class="circle">
-            <img class="ikon" src="event.png">
-        </div>
-         
-    
-    
-    </div>
+   
+   
     <!-- Dette er kode for å få inn et veldig basic kart -->
-    <div id="google_map">
+    
+    <div id="wrapper">
         
-
+        <div id="over_map"></div>
+        <div id="google_map">
+        </div>
+        
+        
     </div>
     
 </div>
