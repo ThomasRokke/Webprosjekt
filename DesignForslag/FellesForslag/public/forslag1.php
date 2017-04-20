@@ -15,9 +15,8 @@
 </head>
 <body>
 
-<div id="frontpage_image">
-        <h1 id="frontpage_text">Wzup!</h1>
-</div>
+<?php include_once("../includes/topbilde.php"); ?>
+
 
 </body>
 </html>

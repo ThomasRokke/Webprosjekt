@@ -13,6 +13,24 @@
 }
 
 #frontpage_text {
-    align-content: center;
-    color:red;
+    text-align: center;
+    font-size: 4em;
+    color:antiquewhite;
+    
+}
+
+#mainContent {
+    position: relative;
+    width: 800px;
+    height: 1200px;
+    margin: auto;
+}
+
+#shortDesc {
+    position: absolute;
+    top:50px;
+    font-family: sans-serif;
+    letter-spacing: 0.6px;
+    color:darkslategrey;
+    text-align: center;
 }
