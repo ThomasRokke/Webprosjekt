@@ -33,4 +33,13 @@
     letter-spacing: 0.6px;
     color:darkslategrey;
     text-align: center;
+    z-index: 99;
+}
+
+#trMain {
+    width: 800px;
+    height: 1200px;
+    margin: auto;
+    position: relative;
+    background-color: azure;
 }

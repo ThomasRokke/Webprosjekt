@@ -16,6 +16,10 @@
 <body>
 
 <?php include_once("../includes/topbilde.php"); ?>
+    
+<div id="trMain">
+    
+</div>
 
 
 </body>
