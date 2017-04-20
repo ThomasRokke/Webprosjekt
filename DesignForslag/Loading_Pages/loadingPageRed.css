@@ -1,0 +1,30 @@
+#wZup{
+    font-family: serif;
+    font-size: 60px;
+    z-index: 100;
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+
+/*om du skal endre på størrelsen til sirkelen så juster på høyde og bredde*/
+
+#circle {
+	width:200px;
+	height:200px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50x;
+    border:3px solid black;
+	border-radius: 1000px;
+    position: relative;
+    align-self: center;
+    top: 60px;
+    left: 650px;
+}
+
+#tekst{
+    position: relative;
+    text-align: center;
+    top:90px;
+    font-family: sans-serif;
+}
