@@ -1,5 +1,5 @@
 <?php
-	define("DB_SERVER", "127.0.0.1");
+	define("DB_SERVER", "localhost");
 	define("DB_USER", "my_cms");
 	define("DB_PASS", "webprosjekt");
 	define("DB_NAME", "my_company");
