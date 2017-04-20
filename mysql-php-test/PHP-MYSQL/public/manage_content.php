@@ -15,7 +15,7 @@
 	}
 
 ?>
-<div id="main">
+<div id="main"> <!-- Hoved div --> 
   <div id="navigation">
 		<?php echo navigation($selected_subject_id, $selected_page_id); ?>
   </div>
