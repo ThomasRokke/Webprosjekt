@@ -59,9 +59,11 @@
     </div>
     
         
-    </script>
-    
-    <div id="side">
+    <div id="googleWrapper">
+        <div id="google_map">
+        </div>
+        
+         <div id="side">
        <div id="line"></div>
         <div id="circle1" class="circle">
             <img class="ikon" src="drink.png">
@@ -76,11 +78,14 @@
     
     
     </div>
-    <!-- Dette er kode for å få inn et veldig basic kart -->
-    <div id="google_map">
         
-
+        
     </div>
+    
+   
+    <!-- Dette er kode for å få inn et veldig basic kart -->
+    
+    
     
 </div>
 
