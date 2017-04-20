@@ -42,25 +42,25 @@ body{background-color: beige; margin-top:0; padding-top: 0;}
 }
 
 #side {
-    position: relative;
     width: 170px;
     height: 100%;
-    left:171px;
-    
+    left:0px;
     padding:0px;
     margin:0px;
     bottom:0px;
     position: absolute;
-    background-color:#aa0b0b;
+    
+    background-color: rgb(170, 11, 11, 0.5);
 }
 
 
 
 
 #google_map {
-    height: 100%;
     width: 100%;
-    z-index: ;
+    height: 100%;
+    
+    
 
     
 }
@@ -85,6 +85,7 @@ ul {
     border-radius:10000px;
     background-color:#aa0b0b;
     overflow: hidden;
+    opacity: 1;
     
 }
 
@@ -117,6 +118,7 @@ ul {
     position: absolute;
     left:10px;
     bottom:10px;
+    
 }
 
 #today {
@@ -155,4 +157,23 @@ ul {
     z-index: 99;
     background-color: red;
    
+}
+
+#bokss {
+    position: absolute;
+    z-index: 99; 
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    bottom:100px;
+    opacity: 0.3;
+    
+}
+
+#googleWrapper {
+   height: 768px;
+    width: 1038px;
+    position: absolute;
+    right:0px;
+    top:0px;
 }
