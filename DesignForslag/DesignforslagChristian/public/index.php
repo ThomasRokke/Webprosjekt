@@ -42,7 +42,7 @@
         </a></div>
     <?php } ?>
     
-    <article>Tamen quibusdam e cohaerescant ita o do culpa cernantur aut velit incurreret 
+    <article>Tamen quibusdam e cohaerescant ita o do culpa cernantur aut veli   t incurreret 
         laboris, do cupidatat sed cernantur. Sed in eram cupidatat. Aut arbitror nam 
         laboris. Incurreret domesticarum est aliquip ex o ita culpa arbitror ex legam 
         proident si concursionibus eu elit ingeniis ita concursionibus, fabulas 
