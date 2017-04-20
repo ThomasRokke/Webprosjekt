@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+   color: coral;
+    
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+
+ul{
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+#navbar {
+    height: 60px;
+    background-color: coral;
+}
+
+
+.navbaritems {
+    padding-top: 15px;
+    height: 45px;
+    width: 9em;
+    background-color: coral;
+    font-size: 20px;
+}
+
+ul li:hover a{
+    color: gray
+}
+
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+.content_menu{
+    display: block;
+    margin-top: 2em;    
+    height: 40px;
+    
+}
+
+.content_menu_items{
+    width: 7em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.3em;
+    font-size: 20px;
+    border-bottom: 2px solid coral;
+    font-weight: bold;
+}
+
+.content_menu_items:hover{
+    border-bottom: 2px solid black;
+}
+
+.event_box{
+    display: inline-block;
+    overflow: hidden;   
+    height: 13em;
+    width: 14em;
+    background-color: beige;
+    margin-left: 4em;
+    margin-top: 1em;
+    border-radius: 5%;
+}
+
+.event_box:hover{
+    transform: scale(1.05);
+}
+
+.img_box{
+    display: block;
+    height: 9.5em;
+    background-color: azure;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    
+}
+
+.text_box{  
+    text-align: center;
+    padding-top: 1em;
+    height: 3.5em;
+}
+
+.description{
+    text-align: center;
+    margin: auto;
+    margin-top: 2em;
+    max-width: 60%;
+}
+
+#frontpage_image{
+    background: url('../Images/oslo.png') no-repeat;
+    min-height: 450px;
+    width: 100%;
+    background-size: cover;
+    padding-top: 40px;
+    
+}
+
+article{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px; 
+    margin-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+
+
+
+
+
+
+
+
+

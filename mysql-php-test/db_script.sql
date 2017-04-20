@@ -1,4 +1,4 @@
-
+	
 
 --
 -- Table structure for table `admins`
@@ -56,7 +56,6 @@ CREATE TABLE `subjects` (
 -- Dumping data for table `subjects`
 --
 
-INSERT INTO `subjects` VALUES (1,'About Widget Corp',1,1),(2,'Products',2,1),(3,'Services',3,1),(6,'Today\'s Widget Trivia',4,1);
+INSERT INTO `subjects` VALUES (1,'About...',1,1),(2,'Products',2,1),(3,'Services',3,1),(6,'Today\'s stuff',4,1);
 
 
--- Dump completed on 2013-03-20  0:16:31
