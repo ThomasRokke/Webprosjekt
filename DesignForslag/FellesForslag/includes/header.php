@@ -13,14 +13,3 @@
 <title>Felles Designforslag</title>
 
 </head>
-<body>
-
-<?php include_once("../includes/topbilde.php"); ?>
-    
-<div id="trMain">
-    
-</div>
-
-
-</body>
-</html>
