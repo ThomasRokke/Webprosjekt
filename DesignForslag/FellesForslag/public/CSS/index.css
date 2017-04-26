@@ -76,6 +76,7 @@ a:hover{
 .intro{
     margin: 30px;
 }
+.TRintro{margin: 30px;}
 
 h1{
     text-align: center;
@@ -92,6 +93,12 @@ p{
 /* Map */
 
 #map{
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+#TRMap{
     height: 500px;
     width: 90%;
     margin: auto;
@@ -102,6 +109,12 @@ p{
 
 .footer{
     height: 80px;
+    width: 100%;
+    background-color: dimgray;
+    margin-top: 5%;
+}
+.TRfooter{
+    height: 100px;
     width: 100%;
     background-color: dimgray;
     margin-top: 5%;
@@ -154,3 +167,25 @@ p{
 }
 
 
+
+.TRtittel {
+     padding-top: 70px;
+    font-size: 70px;
+    color:white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#TRmain {
+    width: 80%;
+    height: 200px;
+    position: relative;
+    margin: auto;
+}
+
+#TRfooterText {
+    width: 200px;
+    height: 80px;
+    background-color: red;
+    margin: auto;
+}
