@@ -27,17 +27,15 @@
     
     
     <div id="map"></div>
+    
+    <div id="footerPadding"></div>
         
         
     
-    <div class="TRfooter">
-        <div id="TRfooterText">
-        <h4>Hei</h4>
-        </div>
+  <footer class="TRfooter">
+     <p class="footerText">&copy; 2017 WZup?<p>  <p class="footerAdr">Chr. Krohgs gate 32, 0186 Oslo</p>
     
-    
-    </div>
-    
+  </footer>
     
     
 
