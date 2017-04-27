@@ -13,10 +13,3 @@
 <title>Felles Designforslag</title>
 
 </head>
-<body>
-
-<?php include_once("../includes/topbilde.php"); ?>
-
-
-</body>
-</html>

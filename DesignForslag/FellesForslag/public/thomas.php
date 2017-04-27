@@ -2,7 +2,7 @@
 <body>
     
     <section class="forside_bilde">
-        <h1 class="tittel">Wzup Oslo!</h1>
+        <h1 class="TRtittel">Wzup Oslo!</h1>
         <ul class="top_menu">
             <li class="top_menu_list"><a class="top_menu_links" href="Events.php">Events</a></li>
             <li class="top_menu_list"><a class="top_menu_links" href="matogdrikke.php">Mat og drikke</a></li>
@@ -10,7 +10,8 @@
         </ul>
     </section>
     
-    <section class="intro">
+    <div id="TRmain">
+    <section class="TRintro">
     <h1>Dette er om oss</h1>
         <p>Id incurreret e incurreret, doctrina elit aliquip mandaremus, se irure quis 
             illum excepteur an o minim domesticarum, fore do nam eram doctrina, sint eiusmod 
@@ -21,12 +22,20 @@
             Aute arbitror voluptate o summis consequat se culpa summis non expetendis quis 
             elit te fore qui e summis quae ubi singulis. Magna nostrud officia, quem qu</p>
     </section>
+        
+    </div>
     
     
     <div id="map"></div>
     
-    <div class="footer"></div>
+    <div id="footerPadding"></div>
+        
+        
     
+  <footer class="TRfooter">
+     <p class="footerText">&copy; 2017 WZup?<p>  <p class="footerAdr">Chr. Krohgs gate 32, 0186 Oslo</p>
+    
+  </footer>
     
     
 
