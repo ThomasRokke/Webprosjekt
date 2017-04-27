@@ -4,20 +4,21 @@
     include("../Includes/Layouts/header.php")
 ?>
 <body>
-    <div id="navbar">
+ 
+    
+    
+    
+    <div id="frontpage_image">
+        <div id="navbar">
         <ul>
             <?php
                 $pages = select_all_from_pages();
                 foreach ($pages as $page) {     
             ?>
-            <li class="navbaritems"><a href=""><p><?php echo $page['menu_name']   ?></p></a></li>          
+            <li class="navbaritems"><a href=""><p class="navbar_p"><?php echo $page['menu_name']   ?></p></a></li>          
             <?php } ?>
         </ul>   
     </div>
-    
-    
-    
-    <div id="frontpage_image">
         <h1>Wzup!</h1>
     </div>
     
