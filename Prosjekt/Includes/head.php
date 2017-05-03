@@ -6,7 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="stylesheet" type="text/css" href="CSS/theme.css">    
+<link rel="stylesheet" type="text/css" href="CSS/theme.css">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
 <title>Wzup</title>
 </head>
 <body>
