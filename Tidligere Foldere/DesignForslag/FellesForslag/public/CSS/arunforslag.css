@@ -1,0 +1,89 @@
+ html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://media1.giphy.com/media/12niPtYoN2meuQ/giphy.gif#10-grid1);
+    background-position: center;
+    background-size: cover;
+            }
+
+ul{
+    background-color:#E44424;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: inherit;
+    
+}
+
+li{
+    float: left;
+    border: 1px solid #67BCDB;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color:#F5F3EE;
+   
+}
+
+li a:hover{
+    background-color: #A2AB58;
+}
+
+#rektangel{
+    background-color: #F5F3EE;
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+    position: absolute;
+    top:250px;
+    left:600px;
+}
+
+#wZup{
+    font-family: serif;
+    font-size: 60px;
+    z-index: 100;
+    position: relative;
+    top: 250px;
+    text-align: center;
+    color: #E44424;
+}
+
+/*om du skal endre på størrelsen til sirkelen så juster på høyde og bredde*/
+
+#circle {
+	width:200px;
+	height:200px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50x;
+    border:10px solid #A2AB58;
+	border-radius: 1000px;
+    position: relative;
+    align-self: center;
+    top: 60px;
+    left: 650px;
+}
+
+#circle1{
+    width:200px;
+	height:200px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50x;
+    border:10px solid #E44424;
+	border-radius: 1000px;
+    position: relative;
+    align-self: center;
+    top: 60px;
+    left: 650px;
+    
+}
+
+
+.logo{display: none;}
