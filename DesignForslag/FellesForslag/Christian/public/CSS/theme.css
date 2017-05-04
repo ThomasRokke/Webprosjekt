@@ -73,7 +73,10 @@ h1, h2, h3, h4, h5, h6{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 100px;   
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    
 }
 
 article{
@@ -116,9 +119,18 @@ article{
     
 }
 
+/* Link button */
 
-
-
+.CTbutton{
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: beige;
+    padding: 10px;
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
 
 
 
@@ -126,12 +138,13 @@ article{
 
 .CTbox{
     display: inline-block;
+    margin: 10px;
     background-color: aliceblue ;
-    width: 350px;
-    height: 350px;
+    width: 330px;
+    height: 330px;
     border-radius: 5px;
     overflow: hidden;
-    margin: 3px;
+    box-shadow: 5px 5px 1px #888888;
 }
 
 .CTbox-image{
@@ -145,8 +158,7 @@ article{
 }
 
 .CTbox-info{
-    padding: 10px;
-    text-align: center;
+    padding: 7px;
 }
 
 .CTbox h4{
@@ -155,18 +167,11 @@ article{
 }
 
 .CTbox p{
-    padding: 10px;
+    padding: 5px;
     text-align: left;
 }
 
-.CTbox-info a{
-    display: inline-block;
-    background-color: beige;
-    padding: 10px;
-    margin-top: 5px;
-    width: 50%;
-    border-radius: 10px;
-}
+
 
 .CTbox-info a:hover{
     background-color: lightblue;
@@ -176,6 +181,34 @@ article{
     transform: scale(1.05);
 }
 
+/* Skille mellom boksområde og infoområde */
+
+.CTbreak{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black; 
+    
+}
+
+/* Info Område */
+
+.CTinfo-div{
+    padding: 20px;
+    text-align: center;
+}
+
+.CTinfo-div h2{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.CTinfo-div p{
+    display: block;
+    text-align: left;
+}
 
 
 
