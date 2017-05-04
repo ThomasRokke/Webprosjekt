@@ -1,9 +1,8 @@
 <?php include("../includes/head.php"); ?>
 
     <div class="top-image">
+        
         <?php include("../includes/menu.php"); ?>
-        <h1>fint om noen finner ett nytt bilde, dette var det beste jeg fant og det er ikke særlig bra</h1>
-        <h1>og det her er noe jeg kjapt mekka sammen, ikke vær redd for å gjøre om det dere vil på siden. christian</h1>
     </div>
     
     <section class="main-content">
@@ -23,6 +22,7 @@
             <div class="CTbox-info">
                 <h4>Fest</h4>
                 <p>Dette er en fest hvor det skal festes noe veldig! Gled dere.</p>
+                <a href="">Les mer!</a>
             </div>
         </div>
         

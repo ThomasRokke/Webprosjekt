@@ -127,8 +127,8 @@ article{
 .CTbox{
     display: inline-block;
     background-color: lightgray;
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -141,6 +141,24 @@ article{
 
 .CTbox-info{
     padding: 10px;
+    text-align: center;
+}
+
+.CTbox h4{
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+}
+
+.CTbox p{
+    padding: 10px;
+    text-align: left;
+}
+
+.CTbox-info a{
+    display: inline-block;
+    background-color: beige;
+    padding: 10px;
+    width: 50%;
 }
 
 
