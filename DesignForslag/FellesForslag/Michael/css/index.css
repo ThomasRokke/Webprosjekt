@@ -1,0 +1,300 @@
+
+/* Webprosjekt */
+
+/* CSS Reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Gloabal */
+
+a{
+    text-decoration: none;
+}
+
+li a{
+    display: block;
+}
+
+/*p{
+    line-height: 20px;
+}*/
+
+/*Mike */
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.aktivbox1 {
+    flex-basis: 30%;
+    border: 10px;
+    border-color: rgb(45, 19, 1);
+    border-style: solid;
+    background-color: chocolate;
+}
+
+.imageBox {
+    display: flex;
+    position: relative;
+    height: 40%;
+    width: 100%;
+    /*position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 160px;
+    right: 100px;
+    opacity: 0.3;*/
+}
+
+.image {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.textCard {
+    flex: 1;
+}
+
+.tittel{
+    padding-top: 70px;
+    font-size: 80px;
+    color: rgb(255, 114, 0);
+    font-weight: bold;
+    font-family: inherit;
+}
+
+#nedre {
+    color: rgb(26, 84, 173);
+}
+
+.boxes {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200vh;
+    background-color: rgb(45, 19, 1);
+}
+
+/*@media (min-width: 900px) {
+    .boxes {
+        
+    }
+}*/
+
+
+
+
+/* Christian sin CSS*/
+
+/* Forside */
+
+.forside_bilde{
+    position: relative;
+    background: url(../images/opera.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+/* Tittel */
+
+
+
+/* Top Menu */
+
+.top_menu{
+    text-align: center;
+}
+
+.top_menu_list{
+    display: inline-block;
+    margin-top: 11%;
+    margin-right: 90px;
+}
+
+.top_menu_links{
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+}
+
+h1{
+    text-align: center;
+    color: rgb(164, 84, 234);
+}
+
+
+a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+/* Introduction */
+
+.intro{
+    margin: 30px;
+}
+.TRintro{margin: 30px;}
+
+
+}
+
+p{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/* Map */
+
+#map{
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+#TRMap{
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    background-color: aqua;
+    margin-bottom: 100px;
+}
+
+/* Footer */
+
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: dimgray;
+    margin-top: 5%;
+}
+.TRfooter{
+    height: 100px;
+    width: 100%;
+    background-color: dimgray;
+    margin-top: 5%;
+    position: relative;
+}
+
+
+/* Thomas sin CSS*/
+
+#frontpage_image{
+    background: url('../Images/oslo.png') no-repeat;
+    min-height: 450px;
+    width: 100%;
+    background-size: cover;
+    padding-top: 40px;
+    
+}
+
+
+
+#frontpage_text {
+    text-align: center;
+    font-size: 4em;
+    color:antiquewhite;
+    
+}
+
+#mainContent {
+    position: relative;
+    width: 800px;
+    height: 1200px;
+    margin: auto;
+}
+
+#shortDesc {
+    position: absolute;
+    top:50px;
+    font-family: sans-serif;
+    letter-spacing: 0.6px;
+    color: darkslategrey;
+    text-align: center;
+    z-index: 99;
+}
+
+/* THOMAS NY  */ 
+
+#trMain {
+    width: 800px;
+    height: 1200px;
+    margin: auto;
+    position: relative;
+    background-color: azure;
+}
+
+
+
+.TRtittel {
+     padding-top: 70px;
+    font-size: 70px;
+    color:white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#TRmain {
+    width: 80%;
+    height: 200px;
+    position: relative;
+    margin: auto;
+}
+
+#TRfooterText {
+    width: 400px;
+    height: 100px;
+    background-color:red;
+    left:450px;
+    margin: auto;
+    font-size: 2em;
+    
+    
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+.TRfooter {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: dimgray;
+    
+}
+#footerPadding{
+    height: 100px;
+    
+        
+}
+
+
+.footerText {
+    color:white;
+    font-size: 1.4em;
+}
+
+.footerAdr {
+    color: white;
+    font-size: 1em;
+    
+}
