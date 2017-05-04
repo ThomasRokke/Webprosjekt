@@ -17,7 +17,7 @@
         </article>
         <div id="map"></div>
         
-        <div class="CTbox">
+        <div class="CTbox" id="festbox">
             <div class="CTbox-image">
                 <img src="Images/bj%C3%B8rvika.jpg">
             </div>
@@ -25,9 +25,259 @@
             <div class="CTbox-info">
                 <h4>Fest</h4>
                 <p>Dette er en fest hvor det skal festes noe veldig! Gled dere.</p>
-                <a href="">Les mer!</a>
+                <a href="#fest">Les mer!</a>
             </div>
         </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Party</h4>
+                <p>Partycenralen</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Konsert</h4>
+                <p>Her kan man se mange konserter.</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Butikk</h4>
+                <p>Her skal det handles</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Kino</h4>
+                <p>Se masse filmer.</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Turområde</h4>
+                <p>Her kan man gå tur i marka.</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Turområde</h4>
+                <p>Her kan man gå tur i marka.</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Turområde</h4>
+                <p>Her kan man gå tur i marka.</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Turområde</h4>
+                <p>Her kan man gå tur i marka.</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Turområde</h4>
+                <p>Her kan man gå tur i marka.</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Turområde</h4>
+                <p>Her kan man gå tur i marka.</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Turområde</h4>
+                <p>Her kan man gå tur i marka.</p>
+                <a href="#fest">Les mer!</a>
+            </div>
+        </div>
+        
+        <div>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>
+        <br><br><div>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>
+        <br><br><div>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>
+        <br><br><div>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>
+        <br><br>
+        <div id="fest"><a href="#festbox">FEEESTTT!!!</a>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>
+         <br><br>
+        <div id="fest"><a href="#festbox">FEEESTTT!!!</a>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>  
+         <br><br>
+        <div id="fest"><a href="#festbox">FEEESTTT!!!</a>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>  
+         <br><br>
+        <div id="fest"><a href="#festbox">FEEESTTT!!!</a>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>  
+         <br><br>
+        <div id="fest"><a href="#festbox">FEEESTTT!!!</a>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>  
+         <br><br>
+        <div id="fest"><a href="#festbox">FEEESTTT!!!</a>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>  
+         <br><br>
+        <div id="fest"><a href="#festbox">FEEESTTT!!!</a>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
+            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
+            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
+            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
+            dolore laboris quis hic culpa consequat ea culpa tamen qui mandaremus sint quo 
+            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
+            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
+            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
+            tamen firmissimum laboris veniam cernantur.</div>  
         
     </section>
 

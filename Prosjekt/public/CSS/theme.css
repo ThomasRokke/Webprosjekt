@@ -131,6 +131,7 @@ article{
     height: 350px;
     border-radius: 5px;
     overflow: hidden;
+    margin: 3px;
 }
 
 .CTbox-image{
