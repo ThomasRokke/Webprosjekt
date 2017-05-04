@@ -18,7 +18,10 @@
         <div id="map"></div>
         
         <div class="CTbox">
-            <div class="CTbox-image"></div>
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
             <div class="CTbox-info">
                 <h4>Fest</h4>
                 <p>Dette er en fest hvor det skal festes noe veldig! Gled dere.</p>
