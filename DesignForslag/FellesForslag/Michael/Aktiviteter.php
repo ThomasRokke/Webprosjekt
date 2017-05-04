@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<? include("includes/header.php") ?>
+<body>
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <section class="forside_bilde">
+        <h1 class="tittel">Wzup Oslo!</h1>
+        <h1 id="nedre" class="tittel">Aktiviteter</h1>
+        <!--<ul class="top_menu">
+            <li class="top_menu_list"><a class="top_menu_links" href="Events.php">Events</a></li>
+            <li class="top_menu_list"><a class="top_menu_links" href="matogdrikke.php">Mat og drikke</a></li>
+            <li class="top_menu_list"><a class="top_menu_links" href="kart.php">Kart</a></li>
+        </ul>-->
+    </section>
+    
+    <!--<section class="intro">
+    <h1>Dette er om oss</h1>
+        <p>Id incurreret e incurreret, doctrina elit aliquip mandaremus, se irure quis 
+            illum excepteur an o minim domesticarum, fore do nam eram doctrina, sint eiusmod 
+            aliquip, consequat nam summis officia, ut enim appellat nostrud. Eram aliquip 
+            instituendarum nam legam philosophari officia fugiat proident, in aliqua eram 
+            sunt fabulas, incurreret ad illum nescius, se nostrud tractavissent ne ea si 
+            labore dolor summis, sunt nam ita culpa expetendis aut dolor iudicem nescius. 
+            Aute arbitror voluptate o summis consequat se culpa summis non expetendis quis 
+            elit te fore qui e summis quae ubi singulis. Magna nostrud officia, quem qu</p>
+    </section>
+    
+    
+    <div id="map"></div>-->
+    <section class="boxes">
+        <div id="aktiv1" class="aktivbox1"><div class="imageBox"><img id="bar" src="images/bar.jpg" class="image"></div><div class="textCard"><p>Id incurreret e incurreret, doctrina elit aliquip mandaremus, se irure quis 
+            illum excepteur an o minim domesticarum, fore do nam eram doctrina, sint eiusmod 
+            aliquip, consequat nam summis officia, ut enim appellat nostrud. Eram aliquip 
+            instituendarum nam legam philosophari officia fugiat proident, in aliqua eram 
+            sunt fabulas, incurreret ad illum nescius, se nostrud tractavissent ne ea si 
+            labore dolor summis, sunt nam ita culpa expetendis aut dolor iudicem nescius. 
+            Aute arbitror voluptate o summis consequat se culpa summis non expetendis quis 
+            elit te fore qui e summis quae ubi singulis. Magna nostrud officia, quem qu</p></div></div>
+        <div id="aktiv1" class="aktivbox1"><div class="imageBox"><img id="bar" src="images/bar.jpg" class="image"></div><div class="textCard"><p>Id incurreret e incurreret, doctrina elit aliquip mandaremus, se irure quis 
+            illum excepteur an o minim domesticarum, fore do nam eram doctrina, sint eiusmod 
+            aliquip, consequat nam summis officia, ut enim appellat nostrud. Eram aliquip 
+            instituendarum nam legam philosophari officia fugiat proident, in aliqua eram 
+            sunt fabulas, incurreret ad illum nescius, se nostrud tractavissent ne ea si 
+            labore dolor summis, sunt nam ita culpa expetendis aut dolor iudicem nescius. 
+            Aute arbitror voluptate o summis consequat se culpa summis non expetendis quis 
+            elit te fore qui e summis quae ubi singulis. Magna nostrud officia, quem qu</p></div></div>
+        <div id="aktiv1" class="aktivbox1"><div class="imageBox"><img id="bar" src="images/bar.jpg" class="image"></div><div class="textCard"><p>Id incurreret e incurreret, doctrina elit aliquip mandaremus, se irure quis 
+            illum excepteur an o minim domesticarum, fore do nam eram doctrina, sint eiusmod 
+            aliquip, consequat nam summis officia, ut enim appellat nostrud. Eram aliquip 
+            instituendarum nam legam philosophari officia fugiat proident, in aliqua eram 
+            sunt fabulas, incurreret ad illum nescius, se nostrud tractavissent ne ea si 
+            labore dolor summis, sunt nam ita culpa expetendis aut dolor iudicem nescius. 
+            Aute arbitror voluptate o summis consequat se culpa summis non expetendis quis 
+            elit te fore qui e summis quae ubi singulis. Magna nostrud officia, quem qu</p></div></div>
+        <div id="aktiv1" class="aktivbox1"><div class="imageBox"><img id="bar" src="images/bar.jpg" class="image"></div><div class="textCard"><p>Id incurreret e incurreret, doctrina elit aliquip mandaremus, se irure quis 
+            illum excepteur an o minim domesticarum, fore do nam eram doctrina, sint eiusmod 
+            aliquip, consequat nam summis officia, ut enim appellat nostrud. Eram aliquip 
+            instituendarum nam legam philosophari officia fugiat proident, in aliqua eram 
+            sunt fabulas, incurreret ad illum nescius, se nostrud tractavissent ne ea si 
+            labore dolor summis, sunt nam ita culpa expetendis aut dolor iudicem nescius. 
+            Aute arbitror voluptate o summis consequat se culpa summis non expetendis quis 
+            elit te fore qui e summis quae ubi singulis. Magna nostrud officia, quem qu</p></div></div>
+        <div id="aktiv1" class="aktivbox1"><div class="imageBox"><img id="bar" src="images/bar.jpg" class="image"></div><div class="textCard"><p>Id incurreret e incurreret, doctrina elit aliquip mandaremus, se irure quis 
+            illum excepteur an o minim domesticarum, fore do nam eram doctrina, sint eiusmod 
+            aliquip, consequat nam summis officia, ut enim appellat nostrud. Eram aliquip 
+            instituendarum nam legam philosophari officia fugiat proident, in aliqua eram 
+            sunt fabulas, incurreret ad illum nescius, se nostrud tractavissent ne ea si 
+            labore dolor summis, sunt nam ita culpa expetendis aut dolor iudicem nescius. 
+            Aute arbitror voluptate o summis consequat se culpa summis non expetendis quis 
+            elit te fore qui e summis quae ubi singulis. Magna nostrud officia, quem qu</p></div></div>
+        <div id="aktiv1" class="aktivbox1"><div class="imageBox"><img id="bar" src="images/bar.jpg" class="image"></div><div class="textCard"><p>Id incurreret e incurreret, doctrina elit aliquip mandaremus, se irure quis 
+            illum excepteur an o minim domesticarum, fore do nam eram doctrina, sint eiusmod 
+            aliquip, consequat nam summis officia, ut enim appellat nostrud. Eram aliquip 
+            instituendarum nam legam philosophari officia fugiat proident, in aliqua eram 
+            sunt fabulas, incurreret ad illum nescius, se nostrud tractavissent ne ea si 
+            labore dolor summis, sunt nam ita culpa expetendis aut dolor iudicem nescius. 
+            Aute arbitror voluptate o summis consequat se culpa summis non expetendis quis 
+            elit te fore qui e summis quae ubi singulis. Magna nostrud officia, quem qu</p></div></div>
+
+    </section>
+    
+    <div class="footer"></div>
+    
+    
+    
+
+    <!--<script>
+        function initMap(){
+            var location = {lat: 59.913869, lng: 10.752245};
+            var mapOptions = {
+                zoom: 14, 
+                center: location,
+                scrollwheel: false
+            }
+            
+            var map = new google.maps.Map(document.getElementById('map'),mapOptions
+            )
+            
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            })
+            }; 
+    </script>
+    
+   <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUOSBwWQ1fKQHF-40kF5kK4h_h4VYA46U&callback=initMap">
+    </script>-->
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
