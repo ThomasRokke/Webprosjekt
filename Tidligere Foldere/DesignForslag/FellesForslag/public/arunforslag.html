@@ -1,0 +1,44 @@
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="arunforslag.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body> 
+        <title> wZup Fjerdingen</title>
+           
+             
+             <ul>
+                 <li><a class="active" href="#home">Home</a></li>
+                 <li><a href="#events">Events</a></li>
+                 <li><a href="#food">Food and drinks</a></li>
+                 <li><a href="#bars">Bars</a></li>
+             </ul>
+        
+            <div id ="rektangel"></div>
+           <h3 id = "wzup">wZup</h3>
+           <div id = "circle" class="logo"> </div>
+           <div id = "circle1" class="logo"></div>
+        <script>
+            var index = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("logo");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            index++;
+            if (index > x.length) {index = 1}    
+            x[index-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+           }
+        </script>
+             
+    </body>
+
+
+
+
+
+</html>
