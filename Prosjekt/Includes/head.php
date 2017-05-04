@@ -7,7 +7,10 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="stylesheet" type="text/css" href="CSS/theme.css">
+    
+ <!-- Link to google fonts for "Bree Serif" font used in menu-->
 <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    
 <title>Wzup</title>
 </head>
 <body>
