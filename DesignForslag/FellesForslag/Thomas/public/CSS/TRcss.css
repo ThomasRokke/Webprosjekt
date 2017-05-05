@@ -71,7 +71,7 @@ a:hover{
 #mainContainer {
     position: relative;
     width: 1080px;
-    height: 1000px;
+    height: 1600px;
     margin: auto;
     background-color:#F5F3EE; 
     
@@ -171,4 +171,24 @@ a:hover{
     width: 94%;
     margin: auto;
     position: relative;
+}
+
+
+#iframe {
+    position: absolute;
+    height: 80vh;
+    width: 80%;
+    bottom: 400px;
+    right:10%;
+}
+
+
+
+#mainTopBilde {
+    
+}
+
+#mainBottom {
+    height: 50%;
+    width: 100%;
 }
