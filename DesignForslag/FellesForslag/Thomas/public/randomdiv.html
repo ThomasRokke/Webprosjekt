@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+    
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+        }
+        #main{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: #E9E581;
+        }
+        #mainTop {
+        position: absolute;
+        top:0px;
+        height: 60%;
+        width: 100%;
+        background-color: red;
+        }
+        #mainTopBilde{
+        
+            width: 50%;
+            height: 60%;
+        }
+        #map{
+            width: 50%;
+            height: 60%;
+            float: right;
+        }
+        #mainBottom{
+           height: 40%;
+            width: 100%;
+        }
+    
+    </style>
+
+<title>New HMTL document by NewJect</title>
+
+</head>
+<body>
+
+    <div id="main">
+    
+        <div id="mainTop">
+            <img id="mainTopBilde" src="images/sofienbergparken2012.jpg">
+            <div id="map"></div>
+        </div>
+        
+        
+        <div id="mainBottom">
+            
+        
+        </div>
+    
+    </div>
+
+    
+     <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 59.91961, lng: 10.727077},
+          scrollwheel: false,
+          zoom: 14
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUOSBwWQ1fKQHF-40kF5kK4h_h4VYA46U&callback=initMap"
+    async defer></script>
+</body>
+</html>
