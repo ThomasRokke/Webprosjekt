@@ -1,0 +1,42 @@
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+    position: absolute;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+#topPanel {
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    
+}
+#bottomPanel{
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #E9E581 ;
+}
+
+#topLeft {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+   
+}
+
+#map{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right:0;
+ 
+}

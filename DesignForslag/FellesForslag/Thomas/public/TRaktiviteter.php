@@ -84,7 +84,7 @@
         <p>Pils, grill, og chill i denne store parken.</p>
         </div>
         
-        <div class="merInfo">
+        <div id="mer1" class="merInfo">
                 MER INFO
         </div>    
         
@@ -94,7 +94,6 @@
     <div class="eventBoks"></div>
         
          
-    <iframe id="iframe" src="randomdiv.html"></iframe>
         
     </div>
    
@@ -113,6 +112,14 @@
       }
 
     </script>
+    
+    
+    <script>
+            document.getElementById("mer1").onclick = function {
+                document.getElementById("iframe").style.display = visible; 
+            }
+    </script>
+    
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUOSBwWQ1fKQHF-40kF5kK4h_h4VYA46U&callback=initMap"
     async defer></script>
     
