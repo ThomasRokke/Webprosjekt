@@ -6,62 +6,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-    
-    <style>
-        *{
-            padding: 0;
-            margin:0;
-        }
-        #main{
-            position: absolute;
-            height: 100%;
-            width: 100%;
-            background-color: #E9E581;
-        }
-        #mainTop {
-        position: absolute;
-        top:0px;
-        height: 60%;
-        width: 100%;
-        background-color: red;
-        }
-        #mainTopBilde{
-        
-            width: 50%;
-            height: 60%;
-        }
-        #map{
-            width: 50%;
-            height: 60%;
-            float: right;
-        }
-        #mainBottom{
-           height: 40%;
-            width: 100%;
-        }
-    
-    </style>
+
+    <link href="CSS/popup.css" rel="stylesheet" type="text/css">
 
 <title>New HMTL document by NewJect</title>
 
 </head>
 <body>
 
-    <div id="main">
-    
-        <div id="mainTop">
-            <img id="mainTopBilde" src="images/sofienbergparken2012.jpg">
-            <div id="map"></div>
-        </div>
-        
-        
-        <div id="mainBottom">
+        <div id="main">
             
+        <div id="topPanel">
+            
+            <img id="topLeft" src="images/sofienbergparken2012.jpg">
+            
+            <div id="map"></div>
+            
+        </div>
+            
+        <div id="bottomPanel">
+                
+            
+        </div>
         
+    
+    
         </div>
     
-    </div>
-
     
      <script>
       function initMap() {
