@@ -55,7 +55,7 @@
                </div>
             
         </div>
-          <?php include("Footer.php")?>
+         <?php include("Footer.php") ?>
              
     </body>
 
