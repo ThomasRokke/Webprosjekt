@@ -1,0 +1,67 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F3EE;
+     }
+
+ul{
+    background-color:#4A96AD ;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: inherit; 
+}
+
+#forsidebilde{
+    background-image:url(https://media1.giphy.com/media/12niPtYoN2meuQ/giphy.gif#10-grid1);  
+    background-position: center;
+    background-size: cover;  
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+
+
+li{
+    float: left;
+    border: 1px solid #67BCDB;
+    
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color:#F5F3EE;
+   
+}
+
+li a:hover{
+    background-color: #A2AB58;
+}
+
+
+#navigation {
+    position: fixed;
+    height: 40px;
+    width:100%;
+    z-index: 1;
+}
+
+#mainContainer {
+    position: relative;
+    width: 1080;
+    height: 1000px;
+    margin: auto;
+    background-color: #E9E581;
+}
+
+.naviBoks {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+
