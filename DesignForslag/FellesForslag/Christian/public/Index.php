@@ -95,8 +95,7 @@
             </div>
             
             <div class="CTbox-info">
-                <h4>Turområde</h4>
-                <p>Her kan man gå tur i marka.</p>
+                <h4>Turområde</h4> <p>dkdkdkd dkdkdkdkdkdkd dkdkdk kdkdkdkdkdkdk kdkdkdkdaaa</p>
                 <a class="CTbutton" href="#fest">Les mer!</a>
             </div>
         </div>
