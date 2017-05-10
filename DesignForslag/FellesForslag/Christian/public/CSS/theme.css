@@ -141,7 +141,7 @@ article{
     margin: 10px;
     background-color: aliceblue ;
     width: 330px;
-    height: 330px;
+    height: 350px;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 5px 5px 1px #888888;
@@ -169,6 +169,7 @@ article{
 .CTbox p{
     padding: 5px;
     text-align: left;
+    height: 40px;
 }
 
 
