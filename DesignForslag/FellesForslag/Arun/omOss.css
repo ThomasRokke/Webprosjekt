@@ -12,13 +12,15 @@ ul{
     padding: inherit; 
 }
 
-#forsidebilde{
+.forsidebilde{
     background-image:url(https://media1.giphy.com/media/12niPtYoN2meuQ/giphy.gif#10-grid1);  
     background-position: center;
     background-size: cover;  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     position: relative;
     width: 100%;
-    height: 60vh;
+    height:80vh;
 }
 
 
@@ -52,7 +54,7 @@ li a:hover{
 #mainContainer {
     position: relative;
     width: 1080;
-    height: 700px;
+    height: 1000px;
     margin: auto;
     background-color: #E9E581;
 }
@@ -123,7 +125,7 @@ li a:hover{
 
 #footer{
     width: 100%;
-    background-color: rgba(74, 150, 173,0.3);
+    background-color: rgba(74, 150, 173,1);
     height: 50px;
     padding-top: 10px;
 }
@@ -133,3 +135,21 @@ li a:hover{
     font-family: monospace;
 }
 
+#text1{
+    font-family: monospace;
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    top: 50px;
+    left:40px;
+}
+
+#brødtekst{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 95%;
+}
