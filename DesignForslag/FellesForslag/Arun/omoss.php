@@ -20,7 +20,9 @@
             </div>
              
                     
-           <div class ="forsidebilde"></div>  
+           <div class ="forsidebilde"></div>
+            <div class="logo"></div>
+          
             <div id="mainContainer">
                 <div id="hvem">Hvem er vi?</div>
                 <div class ="oss">
