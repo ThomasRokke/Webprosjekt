@@ -154,3 +154,15 @@ li a:hover{
     left: 40px;
     width: 95%;
 }
+
+.logo{
+    background-image: url(https://raw.githubusercontent.com/ThomasRokke/Webprosjekt-test/master/DesignForslag/FellesForslag/Logo/Med%20bakgrunn/bl%C3%A5W-bak.png);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: 320px 240px;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 90px;
+}
