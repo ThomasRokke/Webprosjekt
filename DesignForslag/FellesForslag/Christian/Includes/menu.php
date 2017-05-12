@@ -1,3 +1,5 @@
+   
+<div id="menu-div">
     <ul class="menu">
         <li>
             <a href="">Utesteder</a>
@@ -12,3 +14,4 @@
             <a href="">Om oss</a>
         </li>
     </ul>
+</div>
