@@ -2,7 +2,7 @@
 <style type="text/css">
     
 /* Bredde og høyde på kartet.  */
-#google_map {width: 100%; height: 600px;margin-top:0px;margin-left:auto;margin-right:auto;}
+#google_map {width: 100%; height: 100vh;margin-top:0px;margin-left:auto;margin-right:auto;}
 
 
 /* Markør Info Window */
