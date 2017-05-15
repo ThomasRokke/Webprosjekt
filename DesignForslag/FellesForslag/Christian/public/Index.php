@@ -19,6 +19,8 @@
         </article>
         <div id="map"></div>
         
+        <div class="CTbreak"></div>
+        
         <div class="CTbox" id="festbox">
             <div class="CTbox-image">
                 <img src="Images/oslonatt.jpg">
