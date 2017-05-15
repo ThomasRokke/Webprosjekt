@@ -1,4 +1,6 @@
     <?php include("../includes/head.php"); ?>
+    <?php include("connection.php"); ?>
+
 
     <div class="top-image">
         
@@ -14,7 +16,7 @@
             <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum 
                 vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex 
                 arbitror arbitrantur, magna ita possumus de velit, eu ipsum ingeniis, qui a 
-                despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum 
+                despicationes. Consequat est eiusmod, ubi sint commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum 
             </p>
         </article>
         <div id="map"></div>
@@ -196,73 +198,6 @@
             exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
             aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
             tamen firmissimum laboris veniam cernantur.</p><a class="CTbutton" href="#festbox">Tilbake til utvalg</a></div>
-        
-        <div class="CTinfo-div" id=""><h2>Tittel</h2><p>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
-            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
-            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
-            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
-            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
-            dolore laboris qui  s hic culpa consequat ea culpa tamen qui mandaremus sint quo 
-            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
-            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
-            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
-            tamen firmissimum laboris veniam cernantur.</p><a class="CTbutton" href="#festbox">Tilbake til utvalg</a></div>
-        
-        <div class="CTinfo-div" id=""><h2>Tittel</h2><p>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
-            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
-            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
-            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
-            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
-            dolore laboris qui  s hic culpa consequat ea culpa tamen qui mandaremus sint quo 
-            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
-            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
-            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
-            tamen firmissimum laboris veniam cernantur.</p><a class="CTbutton" href="#festbox">Tilbake til utvalg</a></div>
-        
-        <div class="CTinfo-div" id=""><h2>Tittel</h2><p>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
-            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
-            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
-            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
-            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
-            dolore laboris qui  s hic culpa consequat ea culpa tamen qui mandaremus sint quo 
-            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
-            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
-            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
-            tamen firmissimum laboris veniam cernantur.</p><a class="CTbutton" href="#festbox">Tilbake til utvalg</a></div>
-        
-        <div class="CTinfo-div" id=""><h2>Tittel</h2><p>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
-            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
-            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
-            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
-            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
-            dolore laboris qui  s hic culpa consequat ea culpa tamen qui mandaremus sint quo 
-            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
-            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
-            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
-            tamen firmissimum laboris veniam cernantur.</p><a class="CTbutton" href="#festbox">Tilbake til utvalg</a></div>
-        
-        <div class="CTinfo-div" id=""><h2>Tittel</h2><p>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
-            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
-            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
-            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
-            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
-            dolore laboris qui  s hic culpa consequat ea culpa tamen qui mandaremus sint quo 
-            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
-            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
-            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
-            tamen firmissimum laboris veniam cernantur.</p><a class="CTbutton" href="#festbox">Tilbake til utvalg</a></div>
-        
-        <div class="CTinfo-div" id="fest"><h2>Tittel</h2><p>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
-            anim philosophari offendit veniam mentitum. Culpa quo ne duis eiusmod. Aliqua 
-            officia ubi velit elit, nostrud velit incurreret iis e multos nisi do arbitror, 
-            ea aute nam dolore. Si magna e summis non ipsum cupidatat mandaremus sed a amet 
-            ipsum sunt quibusdam id nostrud cillum ut commodo despicationes. Officia irure 
-            dolore laboris qui  s hic culpa consequat ea culpa tamen qui mandaremus sint quo 
-            aliquip praesentibus et ingeniis sint quae in multos non amet possumus ita 
-            exercitation, eiusmod culpa est pariatur philosophari ita est aliqua cernantur, 
-            aut sint possumus iudicem. Nescius varias lorem eu eram. E ad duis malis aute a 
-            tamen firmissimum laboris veniam cernantur.</p><a class="CTbutton" href="#festbox">Tilbake til utvalg</a></div>
-        
         
     </section>
 
