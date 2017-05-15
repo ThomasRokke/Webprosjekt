@@ -1,4 +1,4 @@
-/* Reset */
+/* ---- Reset ---- */
 *{
     padding: 0;
     margin: 0;
@@ -10,7 +10,7 @@ font-family: 'Bree Serif', serif;
 
 */
 
-/* Globals */
+/* ---- Globals ---- */
 
 li a{
     display: block;
@@ -24,17 +24,19 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
-    
+/* ---- Navbar Top ---- */
 
-
-/* Navbar Top */
+#menu-div {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 9999;
+}
 
 .menu{
     font-family: 'Bree Serif', serif;
     background-color: rgba(000,000,000,0.4);
     text-align: center;
-    
-    
 }
 
 .menu li{
@@ -57,7 +59,7 @@ h1, h2, h3, h4, h5, h6{
     color: black;
 }
 
-/* Top Image */
+/* ---- Top Image ---- */
 
 .top-image{
     width: 100%;
@@ -67,8 +69,7 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 50px;
 }
 
-
-/* Main Section */
+/* ---- Main Section ---- */
 
 .main-content{
     width: 80%;
@@ -77,7 +78,6 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 100px;
     box-sizing: border-box;
     text-align: center;
-    
 }
 
 article{
@@ -87,7 +87,7 @@ article{
     padding: 40px 20px 40px 20px;
 }
 
-/* Google Maps map inside main section */
+/* ---- Google Maps map inside main section ---- */
 
 #map{
     width: auto;
@@ -95,8 +95,7 @@ article{
     margin-bottom: 70px;
 }
 
-
-/* Footer */
+/* ---- Footer ---- */
 
 .TRfooter {
     width: 100%;
@@ -104,7 +103,6 @@ article{
     text-align: center;
     
 }
-
 
 .footerText {
     color:white;
@@ -117,10 +115,9 @@ article{
     font-size: 1em;
     padding-top: 40px;
     padding-bottom: 10px;
-    
 }
 
-/* Link button */
+/* ---- Link button ---- */
 
 .CTbutton{
     text-align: center;
@@ -133,9 +130,7 @@ article{
     border-radius: 10px;
 }
 
-
-
-/* Christians forslag til boks */
+/* ---- Christians forslag til boks ---- */
 
 .CTbox{
     display: inline-block;
@@ -173,8 +168,6 @@ article{
     height: 40px;
 }
 
-
-
 .CTbox-info a:hover{
     background-color: lightblue;
 }
@@ -183,16 +176,15 @@ article{
     transform: scale(1.05);
 }
 
-/* Skille mellom boksområde og infoområde */
+/* ---- Skille mellom boksområde og infoområde ---- */
 
 .CTbreak{
     margin-top: 30px;
     margin-bottom: 30px;
     border-bottom: 2px solid black; 
-    
 }
 
-/* Info Område */
+/* ---- Info Område ---- */
 
 .CTinfo-div{
     padding: 20px;
@@ -212,20 +204,10 @@ article{
     text-align: left;
 }
 
-
-
-
-
-
-
-
+/* ---- Admin ---- */
 
 #adminH1 {
     font-size: 4em;
 }
 
-#menu-div {
-    position: fixed;
-    height: 50px;
-    width: 100%;
-}
+
