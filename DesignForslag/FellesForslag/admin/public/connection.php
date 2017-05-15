@@ -6,7 +6,7 @@
 	define("DB_NAME", "wzup");
 
 //mysqli
-$mysqli = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
+$connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
 
 if (mysqli_connect_errno()) 
 {
