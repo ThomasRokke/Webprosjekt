@@ -1,0 +1,213 @@
+/* ---- Reset ---- */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Fonts 
+
+font-family: 'Bree Serif', serif;
+
+*/
+
+/* ---- Globals ---- */
+
+li a{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+/* ---- Navbar Top ---- */
+
+#menu-div {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 9999;
+}
+
+.menu{
+    font-family: 'Bree Serif', serif;
+    background-color: rgba(000,000,000,0.4);
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 5px;
+    margin: 0 20px 0 20px;
+    opacity: 1;
+}
+
+.menu li a{
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px; 
+    color: white;
+}
+
+.menu li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* ---- Top Image ---- */
+
+.top-image{
+    width: 100%;
+    height: 80vh;
+    background: url("../Images/barcodenatt.jpg") center no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+}
+
+/* ---- Main Section ---- */
+
+.main-content{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+article{
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 40px 20px 40px 20px;
+}
+
+/* ---- Google Maps map inside main section ---- */
+
+#map{
+    width: auto;
+    height: 500px;
+    margin-bottom: 70px;
+}
+
+/* ---- Footer ---- */
+
+.TRfooter {
+    width: 100%;
+    background-color: dimgray;
+    text-align: center;
+    
+}
+
+.footerText {
+    color:white;
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+
+.footerAdr {
+    color: white;
+    font-size: 1em;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+/* ---- Link button ---- */
+
+.CTbutton{
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: beige;
+    padding: 10px;
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* ---- Christians forslag til boks ---- */
+
+.CTbox{
+    display: inline-block;
+    margin: 10px;
+    background-color: aliceblue ;
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 1px #888888;
+}
+
+.CTbox-image{
+    height: 200px;
+    overflow: hidden;
+}
+
+.CTbox-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.CTbox-info{
+    padding: 7px;
+}
+
+.CTbox h4{
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+}
+
+.CTbox p{
+    padding: 5px;
+    text-align: left;
+    height: 40px;
+}
+
+.CTbox-info a:hover{
+    background-color: lightblue;
+}
+
+.CTbox:hover img{
+    transform: scale(1.05);
+}
+
+/* ---- Skille mellom boksområde og infoområde ---- */
+
+.CTbreak{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black; 
+}
+
+/* ---- Info Område ---- */
+
+.CTinfo-div{
+    padding: 20px;
+    text-align: center;
+}
+
+.CTinfo-div h2{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.CTinfo-div p{
+    display: block;
+    text-align: left;
+}
+
+/* ---- Admin ---- */
+
+#adminH1 {
+    font-size: 4em;
+}
+
+
