@@ -10,37 +10,10 @@
     
     <section class="main-content">
         
-        <h1 id="adminH1">Administrator side</h1>
-        
-        <form>
-            <ul>
-                <li><p>Company name:</p> <input type="text" name="Company name">
-                </li>
-                <li> <p>Name: </p> <input type="text" name="Name"></li>
-                
-                <li>
-                    <p>Phone number: </p> <input type="text" name="Phone Number"> 
-                </li>
-            
-            
-            
-            </ul>
-            
-            <!--
-             Navn:<br>
-            <input type="text" name="firstname">
-            <br>
-            Beskrivelse:<br>
-            <input type="text" name="lastname">
-            <br>
-            
-            <input type="radio" name="gender" value="Utesteder" checked> Utesteder<br>
-            <input type="radio" name="gender" value="Mat og Drikke"> Mat og Drikke<br>
-            <input type="radio" name="gender" value="Aktiviteter"> Aktiviteter
-        
-            -->
-        
-        </form>
+    <?php
+            include_once('addstudent.php');
+    ?>
+
         
         
         
@@ -64,7 +37,7 @@
             var location = {lat: 59.913869, lng: 10.752245};
             var mapOptions = {
                 zoom: 14, 
-                center: location,
+                left: location,
                 scrollwheel: false
             }
             
