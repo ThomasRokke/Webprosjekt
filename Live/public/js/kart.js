@@ -47,8 +47,8 @@ $(document).ready(function() {
     
         function create_marker(MapPos, MapTitle, MapDesc,  InfoOpenDefault, DragAble, Removable, type)
 	{	  	  		  
-		
-        var ikon = ''; //deklarerer en varabel som skal ta vare på ikon navn. 
+
+        var ikon = ''; //deklarerer en varabel som skal ta vare på ikon navn.
         
         switch(type){
             case 'mat':
@@ -61,9 +61,9 @@ $(document).ready(function() {
                 ikon = 'cal.svg';
                 break; 
             default:
-                ikon = 'bank.svg'; 
+                ikon = 'bank.svg';
         }
-       
+
 		//ny markør
 		var marker = new google.maps.Marker({
 			position: MapPos,
