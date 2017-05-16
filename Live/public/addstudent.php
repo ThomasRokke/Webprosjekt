@@ -1,5 +1,5 @@
 
-<form action="/Web/Webprosjekt-test/DesignForslag/FellesForslag/admin/public/studentadded.php" method="post" autocomplete="on">
+<form action="/Web/Webprosjekt-test/Live/public/studentadded.php" method="post" autocomplete="on">
 
 <b>Add a New Student</b>
 
