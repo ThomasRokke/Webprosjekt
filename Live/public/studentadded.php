@@ -11,7 +11,7 @@
 <section class="main-content">
 
     <?php
-    include_once('student_added.php');
+    include_once('../Includes/student_added.php');
     ?>
 
 
