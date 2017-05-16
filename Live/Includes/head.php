@@ -10,6 +10,11 @@
     
  <!-- Link to google fonts for "Bree Serif" font used in menu-->
 <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
+    <?php
+        include('kartCSS.php');
+    ?>
+
     
 <title>Wzup</title>
 </head>

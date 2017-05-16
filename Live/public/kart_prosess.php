@@ -80,7 +80,7 @@ while($obj = $resultat->fetch_object())
   $node = $dom->createElement("marker");  
   $newnode = $parnode->appendChild($node);   
   $newnode->setAttribute("name",$obj->name);
-  $newnode->setAttribute("address", $obj->address);  
+  $newnode->setAttribute("address", $obj->address);
   $newnode->setAttribute("lat", $obj->lat);  
   $newnode->setAttribute("lng", $obj->lng);  
   $newnode->setAttribute("type", $obj->type);	
