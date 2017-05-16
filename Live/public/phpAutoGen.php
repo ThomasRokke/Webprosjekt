@@ -19,21 +19,11 @@
     </article>
     <div id="google_map"></div>
 
-    <div class="CTbox" id="festbox">
-        <div class="CTbox-image">
-            <img src="Images/oslonatt.jpg">
-        </div>
 
-        <div class="CTbox-info">
-            <h4>Fest</h4>
-            <p>Dette er en fest hvor det skal festes noe veldig! Gled dere.</p>
-            <a class="CTbutton" href="#fest">Les mer!</a>
-        </div>
-    </div>
 
     <?php
 
-        require_once('getBox.php');
+        require_once('../Includes/getBox.php');
 
     ?>
 

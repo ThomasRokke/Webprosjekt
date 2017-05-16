@@ -134,11 +134,12 @@ if(isset($_POST['submit'])){
         // Trim white space from the name and store the name
         $lunch = trim($_POST['lunch']);
 
+
     }
 
     if(empty($data_missing)){
 
-        require_once('../Includes/db_tilkobling.php');
+        require_once('db_tilkobling.php');
 
         $query = "INSERT INTO student (first_name, last_name, email,
         street, city, state, zip, phone, birth_date, sex, date_entered,

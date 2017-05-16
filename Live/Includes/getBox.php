@@ -35,7 +35,7 @@ if($response){
             '<p>'.
             $row['sDesc'].
             '</p>' .
-            '<a class="CTbutton" href="#fest">Les mer!</a>' .
+            '<a class="CTbutton" href="#fest">Mer info!</a>' .
             '</div>' .
             '</div>';
         }
