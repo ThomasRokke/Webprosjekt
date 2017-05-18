@@ -183,11 +183,11 @@ if(isset($_POST['submit'])){
     </p>
     
     <p><p>Type:</p>
-        <input type="radio" id="event" name="type">
+        <input type="radio" id="event" value="event" name="type">
         <label for="event">Event</label><br>
-        <input type="radio" id="matogdrikke" name="type" >
+        <input type="radio" id="matogdrikke" value="mat" name="type" >
         <label for="matogdrikke">Mat og Drikke</label><br>
-        <input type="radio" id="aktivitet" name="type" >
+        <input type="radio" id="aktivitet" value="aktivitet" name="type" >
         <label for="aktivitet">Aktivitet</label><br>
     </p>
 
