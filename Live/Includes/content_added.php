@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     } else {
 
         // Trim white space from the name and store the name
-        $tname = trim($_POST['name']);
+        $name = trim($_POST['name']);
 
     }
 
@@ -109,8 +109,8 @@ if(isset($_POST['submit'])){
 
 
 
-        $sporring = "INSERT INTO markers (`id`, `name`, `address`, `lat`, `lng`, `type`, `sDesc`, `description`, `imagepath`) 
-            VALUES (NULL, $tname, $address, $lat, $lng, $type, $sDesc, $description, $imagepath);";
+        $sporring = "INSERT INTO markers (name, address, lat, lng, type, sDesc, description, imagepath) 
+            VALUES ('$name', '$address', '$lat', '$lng', '$type', '$sDesc', '$description', '$imagepath');";
 
 
 
