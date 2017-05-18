@@ -52,13 +52,13 @@ $(document).ready(function() {
         
         switch(type){
             case 'mat':
-                ikon = 'food.svg';
+                ikon = 'Includes/food.svg';
                 break;
             case 'aktivitet':
-                ikon = 'alc.svg';
+                ikon = 'Includes/alc.svg';
                 break;
             case 'event':
-                ikon = 'cal.svg';
+                ikon = 'Includes/cal.svg';
                 break; 
             default:
                 ikon = 'bank.svg';
