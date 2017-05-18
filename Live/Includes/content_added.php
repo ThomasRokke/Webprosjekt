@@ -191,7 +191,9 @@ if(isset($_POST['submit'])){
         <label for="aktivitet">Aktivitet</label><br>
     </p>
 
-    <button form="id1" type="submit" class="send">Send</button>
+   <!-- funkar ikkje  <input class="send" type="submit" name="submit" value="Send" /> -->
+
+    <button name="submit" type="submit" value="send" class="send">Send</button>
     
     
 
