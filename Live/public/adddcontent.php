@@ -6,23 +6,13 @@
 <div class="top-image">
 </div>
 
-
-
 <section class="main-content">
-
 
     <?php
     include_once('../Includes/content_added.php');
     ?>
 
-
-
-    <button onclick="findLatLng()">Finn koordinater</button>
-
 </section>
-
-
-
 
 <script type="text/javascript">
 
