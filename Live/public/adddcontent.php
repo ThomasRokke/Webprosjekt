@@ -16,20 +16,21 @@
     ?>
 
 
-    <script type="text/javascript">
-
-        function findLatLng() {
-            var mittVindu = window.open("http://www.latlong.net/convert-address-to-lat-long.html", "", "width=800,height=600,titlebar=no");
-        }
-
-    </script>
-
 
 
 
 </section>
 
+<button onclick="findLatLng()">Finn koordinater</button>
 
+
+<script type="text/javascript">
+
+    function findLatLng() {
+        var mittVindu = window.open("http://www.latlong.net/convert-address-to-lat-long.html", "", "width=800,height=600,titlebar=no");
+    }
+
+</script>
 <footer class="TRfooter">
     <p class="footerText">&copy; 2017 WZup?<p>
     <p class="footerAdr">Chr. Krohgs gate 32, 0186 Oslo</p>
