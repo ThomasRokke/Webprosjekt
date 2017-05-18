@@ -17,8 +17,8 @@
 
 
     <?php
-
-    require_once('../Includes/getEvent.php');
+    $phpType = 'event';
+    require_once('../Includes/getBox.php');
 
     ?>
 

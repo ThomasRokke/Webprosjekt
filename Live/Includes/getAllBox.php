@@ -22,7 +22,7 @@ if($response){
     while($row = mysqli_fetch_array($response)) {
 
 
-        if($row['type'] == 'event' ){
+
             echo '<div class="CTbox" id="festbox">' .
                 '<div class="CTbox-image">' .
                 '<img src="Images/'.
@@ -40,7 +40,7 @@ if($response){
                 '<a class="CTbutton" href="#fest">Mer info!</a>' .
                 '</div>' .
                 '</div>';
-        }
+
 
 
 
@@ -58,10 +58,3 @@ else {
 
 // Close connection to the database
 mysqli_close($dbc);
-
-
-
-
-
-
-
