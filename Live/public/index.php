@@ -23,7 +23,7 @@
 
     <?php
 
-    require_once('../Includes/getBox.php');
+    require_once('../Includes/getAllBox.php');
 
     ?>
 

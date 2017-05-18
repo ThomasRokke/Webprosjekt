@@ -19,8 +19,8 @@
 
 
     <?php
-
-    include('../Includes/getAktiviteter.php');
+    $phpType = 'aktivitet';
+    require_once('../Includes/getBox.php');
 
     ?>
 
