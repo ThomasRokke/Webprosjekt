@@ -17,8 +17,8 @@
 
 
     <?php
-
-    require_once('../Includes/getMatogdrikke.php');
+    $phpType = 'mat';
+    require_once('../Includes/getBox.php');
 
     ?>
 
