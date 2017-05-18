@@ -22,7 +22,7 @@ if($response){
     while($row = mysqli_fetch_array($response)) {
 
 
-        if($row['type'] == 'event' ){
+        if($row['type'] == 'mat' ){
             echo '<div class="CTbox" id="festbox">' .
                 '<div class="CTbox-image">' .
                 '<img src="Images/'.
