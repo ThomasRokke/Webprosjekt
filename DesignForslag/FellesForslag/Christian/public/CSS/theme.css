@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
+body{
+    
+}
+
     
 
 
@@ -65,6 +69,7 @@ h1, h2, h3, h4, h5, h6{
     background: url("../Images/barcodenatt.jpg") center no-repeat;
     background-size: 100% 100%;
     margin-bottom: 50px;
+    
 }
 
 
@@ -216,7 +221,7 @@ article{
     }
 }
 
-
+/* Input Fields */
 
 
 
