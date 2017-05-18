@@ -472,12 +472,14 @@ $(document).ready(function() {
 
 		   	map = new google.maps.Map(document.getElementById("google_map"), googleMapOptions);
 
-            map.addListener('click', function() {
+            map.addListener('rightclick', function() {
+                var audio = new Audio('audio_file.mp3');
+                audio.play();
                 f();
 
             });
 
-            var i = 0, hvorMangeGanger = 50;
+            var i = 0, hvorMangeGanger = 10;
             var byttIndex = 0;
             function f() {
                 if(byttIndex == 0){
@@ -549,7 +551,7 @@ $(document).ready(function() {
 			position: MapPos,
 			map: map,
 			draggable:DragAble,
-			animation: google.maps.Animation.BOUNCE,
+			animation: google.maps.Animation.DROP,
 			title:"Hello World!",
 			icon: ikon
             
@@ -561,10 +563,13 @@ $(document).ready(function() {
             if (pin.getAnimation() !== null) {
                 pin.setAnimation(null);
             }
+            else{
+                pin.setAnimation(google.maps.Animation.BOUNCE);
+            }
         }
 
-        map.addListener('click', bryter);
-        map.addListener('drag', bryter);
+        map.addListener('rightclick', bryter);
+
 
 
 		////Innhold struktur til info Window for markørene
