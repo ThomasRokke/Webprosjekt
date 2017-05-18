@@ -20,7 +20,7 @@
 
     <?php
 
-    require_once('../Includes/getAktiviteter.php');
+    include('../Includes/getAktiviteter.php');
 
     ?>
 
