@@ -159,7 +159,7 @@ if(isset($_POST['submit'])){
         <input type="text" name="address" size="30" maxlength="85" value="" />
     </p>
 
-    <button onclick="findLatLng()">Finn koordinater</button>
+
 
     <p>lat(lengdegrad):
         <input type="text" name="lat" size="30" maxlength="60" value="" />
