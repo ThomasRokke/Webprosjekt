@@ -14,6 +14,7 @@ $(document).ready(function() {
 				zoom: 16, //zoom level, 0 = earth view to higher value
 				maxZoom: 25,
 				minZoom: 10,
+                scrollwheel: false,
 				zoomControlOptions: {
 				style: google.maps.ZoomControlStyle.SMALL //zoom control size
 			},
@@ -52,13 +53,13 @@ $(document).ready(function() {
         
         switch(type){
             case 'mat':
-                ikon = 'Includes/food.svg';
+                ikon = 'food.svg';
                 break;
             case 'aktivitet':
-                ikon = 'Includes/alc.svg';
+                ikon = 'alc.svg';
                 break;
             case 'event':
-                ikon = 'Includes/cal.svg';
+                ikon = 'cal.svg';
                 break; 
             default:
                 ikon = 'bank.svg';
