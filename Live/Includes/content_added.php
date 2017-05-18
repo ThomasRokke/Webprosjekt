@@ -147,7 +147,7 @@ if(isset($_POST['submit'])){
 
 ?>
 
-<form action="/Web/Webprosjekt-test/Live/public/adddcontent.php" method="post" autocomplete="on">
+<form id="form1" action="/Web/Webprosjekt-test/Live/public/adddcontent.php" method="post" autocomplete="on">
 
     <p class="Form_title">Legg til innhold</p>
 
@@ -191,7 +191,7 @@ if(isset($_POST['submit'])){
         <label for="aktivitet">Aktivitet</label><br>
     </p>
 
-    <button type="submit" class="send">Send</button>
+    <button form="id1" type="submit" class="send">Send</button>
     
     
 
