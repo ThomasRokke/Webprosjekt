@@ -16,6 +16,14 @@
     ?>
 
 
+    <script type="text/javascript">
+
+        function findLatLng() {
+            var mittVindu = window.open("http://www.latlong.net/convert-address-to-lat-long.html", "", "width=800,height=600,titlebar=no");
+        }
+
+    </script>
+
 
 
 
