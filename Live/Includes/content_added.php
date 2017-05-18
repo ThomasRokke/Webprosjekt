@@ -160,7 +160,6 @@ if(isset($_POST['submit'])){
     </p>
 
 
-
     <p>lat(lengdegrad):
         <input type="text" name="lat" size="30" maxlength="60" value="" />
     </p>
@@ -168,6 +167,8 @@ if(isset($_POST['submit'])){
     <p>lng(breddegrad):
         <input type="text" name="lng" size="30" maxlength="60" value="" />
     </p>
+    <button type="button" class="find_coord" onclick="findLatLng()">Finn koordinater</button>
+    
 
     <p>Type:
         <input type="text" name="type" size="30" maxlength="30" value="" />
@@ -176,7 +177,7 @@ if(isset($_POST['submit'])){
     <p>Kort beskrivelse:
         <input type="text" name="sDesc" size="30" maxlength="90" value="" />
     </p>
-
+    
     <p>Beskrivelse:
         <input type="text" name="description" size="30" maxlength="500" value="" />
     </p>
@@ -186,6 +187,8 @@ if(isset($_POST['submit'])){
     </p>
 
     <button type="submit" class="send">Send</button>
+    
+    
 
 
 </form>
