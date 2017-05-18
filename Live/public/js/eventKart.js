@@ -14,6 +14,7 @@ $(document).ready(function() {
 				zoom: 16, //zoom level, 0 = earth view to higher value
 				maxZoom: 25,
 				minZoom: 10,
+                scrollwheel: false,
 				zoomControlOptions: {
 				style: google.maps.ZoomControlStyle.SMALL //zoom control size
 			},
