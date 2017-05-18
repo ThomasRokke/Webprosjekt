@@ -5,7 +5,7 @@
             <a href="../public/Index.php">Hjem</a>
         </li>
         <li>
-            <a href="../public/utesteder.php">Utesteder</a>
+            <a href="../public/event.php">Event</a>
         </li>
         <li>
             <a href="../public/matogdrikke.php">Mat og drikke</a>
