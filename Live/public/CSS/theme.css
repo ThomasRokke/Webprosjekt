@@ -209,7 +209,7 @@ article{
 
 input{
     display: block;
-    margin: 5px 5px 5px 0;
+    margin: 15px 5px 15px 0;
     width: 50%;
     border-radius: 1px;
     height: 25px; 
@@ -219,6 +219,18 @@ input{
 input:focus{
     border: 2px solid green;
 }
+
+input[type=radio]{
+    display: inline-block;
+    width: 5%;
+    height: 20px;
+    vertical-align: middle;
+}
+
+label{
+    vertical-align: middle;
+}
+
 
 button{
     width: 15%;
