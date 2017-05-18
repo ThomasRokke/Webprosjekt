@@ -149,7 +149,7 @@ if(isset($_POST['submit'])){
 
 <form action="/Web/Webprosjekt-test/Live/public/adddcontent.php" method="post" autocomplete="on">
 
-    <b>Legg til innhold</b>
+    <p class="Form_title">Legg til innhold</p>
 
     <p>Navn:
         <input type="text" name="name" value="" />
@@ -185,10 +185,7 @@ if(isset($_POST['submit'])){
         <input type="text" name="imagepath" size="30" maxlength="60" value="" />
     </p>
 
-    <p>
-        <input type="submit" name="submit" value="Send" />
-    </p>
-
+    <button type="submit" class="send">Send</button>
 
 
 </form>

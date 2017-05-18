@@ -206,11 +206,38 @@ article{
     text-align: left;
 }
 
+/* Input Fields */
+
+input{
+    display: block;
+    margin: 5px 5px 5px 0;
+    width: 50%;
+    border-radius: 1px;
+    height: 25px; 
+    border: 2px solid black;
+}
+
+input:focus{
+    border: 2px solid green;
+}
+
+button{
+    width: 20%;
+    height: 30px;
+}
+
+.Form_title{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
 /* ---- Admin ---- */
 
 #adminH1 {
     font-size: 4em;
 }
+
 
 
 

@@ -17,11 +17,11 @@
 
 
 
-
+    <button onclick="findLatLng()">Finn koordinater</button>
 
 </section>
 
-<button onclick="findLatLng()">Finn koordinater</button>
+
 
 
 <script type="text/javascript">
