@@ -152,7 +152,7 @@ if(isset($_POST['submit'])){
     <b>Legg til innhold</b>
 
     <p>Navn:
-        <input type="text" name="name" size="30" maxlength="60" value="" />
+        <input type="text" name="name" value="" />
     </p>
 
     <p>Marker info:
