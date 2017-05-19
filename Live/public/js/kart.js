@@ -449,20 +449,163 @@ $(document).ready(function() {
 
             var customMapType3 = new google.maps.StyledMapType([
                 {
-                    stylers: [
-                        {hue: '#823420'},
-                        {visibility: 'simplified'},
-                        {gamma: 0.5},
-                        {weight: 0.5}
+                    "featureType": "all",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#ad3f3f"
+                        }
                     ]
                 },
                 {
-                    elementType: 'labels',
-                    stylers: [{visibility: 'on'}]
+                    "featureType": "all",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "gamma": 0.01
+                        },
+                        {
+                            "lightness": 20
+                        }
+                    ]
                 },
                 {
-                    featureType: 'water',
-                    stylers: [{color: '#470000'}]
+                    "featureType": "all",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "saturation": -31
+                        },
+                        {
+                            "lightness": -33
+                        },
+                        {
+                            "weight": 2
+                        },
+                        {
+                            "gamma": 0.8
+                        }
+                    ]
+                },
+                {
+                    "featureType": "all",
+                    "elementType": "labels.icon",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative.country",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#00ff49"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative.country",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "color": "#00ff08"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "lightness": 30
+                        },
+                        {
+                            "saturation": 30
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "saturation": 20
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "lightness": 20
+                        },
+                        {
+                            "saturation": -20
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "hue": "#00ff28"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "lightness": 10
+                        },
+                        {
+                            "saturation": -30
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "saturation": 25
+                        },
+                        {
+                            "lightness": 25
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.local",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#00ff10"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "lightness": -20
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "color": "#12ff55"
+                        }
+                    ]
                 }
             ], {
                 name: 'Custom Style3'
@@ -610,12 +753,12 @@ $(document).ready(function() {
 
             map.addListener('rightclick', function() {
 
-               var myWindow =  window.open("https://www.youtube.com/watch?v=YQ2xtWgBlzk", "", "width=100, height=100, left=700");
+              // var myWindow =  window.open("https://www.youtube.com/watch?v=YQ2xtWgBlzk", "", "width=100, height=100, left=700");
                 f();
 
             });
 
-            var i = 0, hvorMangeGanger = 50;
+            var i = 0, hvorMangeGanger = 70;
             var byttIndex = 0;
             function f() {
                 byttIndex++;
@@ -631,16 +774,18 @@ $(document).ready(function() {
                     map.mapTypes.set(customMapTypeId3, customMapType3);
                     map.setMapTypeId(customMapTypeId3);
                 }
+
                 else if(byttIndex == 3){
-                    byttIndex = -1;
+                    byttIndex = 0;
                 }
-                else if(i == 49){
-                    map.mapTypes.set(customMapTypeId4, customMapType4);
-                    map.setMapTypeId(customMapTypeId4);
-                }
+
                 i++;
                 if( i < hvorMangeGanger ){
-                    setTimeout( f, 400);
+                    setTimeout( f, 150);
+                }
+                else{
+                    map.mapTypes.set(customMapTypeId4, customMapType4);
+                    map.setMapTypeId(customMapTypeId4);
                 }
             }
 
@@ -698,17 +843,29 @@ $(document).ready(function() {
 		});
 
 
-
+        var lydklipp = document.getElementById('audio');
         function bryter() {
             if (pin.getAnimation() !== null) {
                 pin.setAnimation(null);
+
             }
             else{
                 pin.setAnimation(google.maps.Animation.BOUNCE);
+
+                lydklipp.play();
             }
         }
 
         map.addListener('rightclick', bryter);
+
+        map.addListener('click', avBryter);
+
+        function avBryter() {
+            if (pin.getAnimation() !== null) {
+                pin.setAnimation(null);
+
+            }
+
 
 
 
