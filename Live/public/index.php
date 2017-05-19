@@ -9,41 +9,44 @@
 
 <section class="main-content">
 
-    <article class="headArticle">
-        <h2>Skulle vi ha noe her?</h2>
-        <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum
-            vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex
-            arbitror arbitrantur, magna ita possumus de velit, eu ipsum ingeniis, qui a
-            despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum
-        </p>
-    </article>
+    <section class="topSection">
+        <article class="headArticle">
+            <h2>Skulle vi ha noe her?</h2>
+            <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum
+                vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex
+                arbitror arbitrantur, magna ita possumus de velit, eu ipsum ingeniis, qui a
+                despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum
+            </p>
+        </article>
 
 
-    <div id="google_map"></div>
+        <div id="google_map"></div>
 
 
+    </section>
 
+    <section class="parallax">
+    <div class="parallax-inner">
+
+
+    <section class="thaBoxes">
     <?php
 
     require_once('../Includes/getAllBox.php');
 
     ?>
-
-
-
-
-    <div class="CTbreak"></div>
-
+    </section>
 
 
 </section>
 
 
-<footer class="TRfooter">
+<!--<footer class="TRfooter">
     <p class="footerText">&copy; 2017 WZup?<p>
     <p class="footerAdr">Chr. Krohgs gate 32, 0186 Oslo</p>
 
 </footer>
+-->
 
 
 
