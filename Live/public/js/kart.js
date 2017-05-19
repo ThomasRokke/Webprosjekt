@@ -468,20 +468,157 @@ $(document).ready(function() {
                 name: 'Custom Style3'
             });
 
+            var customMapTypeId4 = 'custom_style4';
+
+            var customMapType4 = new google.maps.StyledMapType([
+                {
+                    "featureType": "water",
+                    "stylers": [
+                        {
+                            "saturation": 43
+                        },
+                        {
+                            "lightness": -11
+                        },
+                        {
+                            "hue": "#0088ff"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "hue": "#ff0000"
+                        },
+                        {
+                            "saturation": -100
+                        },
+                        {
+                            "lightness": 99
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "color": "#808080"
+                        },
+                        {
+                            "lightness": 54
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape.man_made",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "color": "#ece2d9"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "color": "#ccdca1"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#767676"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "color": "#ffffff"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape.natural",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "visibility": "on"
+                        },
+                        {
+                            "color": "#b8cb93"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "stylers": [
+                        {
+                            "visibility": "on"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.sports_complex",
+                    "stylers": [
+                        {
+                            "visibility": "on"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.medical",
+                    "stylers": [
+                        {
+                            "visibility": "on"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.business",
+                    "stylers": [
+                        {
+                            "visibility": "simplified"
+                        }
+                    ]
+                }
+            ], {
+                name: 'Custom Style4'
+            });
+
 
 
 		   	map = new google.maps.Map(document.getElementById("google_map"), googleMapOptions);
 
             map.addListener('rightclick', function() {
-                var audio = new Audio('audio_file.mp3');
-                audio.play();
+
+               var myWindow =  window.open("https://www.youtube.com/watch?v=YQ2xtWgBlzk", "", "width=100, height=100, left=700");
                 f();
 
             });
 
-            var i = 0, hvorMangeGanger = 10;
+            var i = 0, hvorMangeGanger = 50;
             var byttIndex = 0;
             function f() {
+                byttIndex++;
                 if(byttIndex == 0){
                     map.mapTypes.set(customMapTypeId, customMapType);
                     map.setMapTypeId(customMapTypeId);
@@ -497,10 +634,13 @@ $(document).ready(function() {
                 else if(byttIndex == 3){
                     byttIndex = -1;
                 }
-                byttIndex++;
+                else if(i == 49){
+                    map.mapTypes.set(customMapTypeId4, customMapType4);
+                    map.setMapTypeId(customMapTypeId4);
+                }
                 i++;
                 if( i < hvorMangeGanger ){
-                    setTimeout( f, 700);
+                    setTimeout( f, 400);
                 }
             }
 
