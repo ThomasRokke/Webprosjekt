@@ -54,7 +54,7 @@
 <script src="js/kart.js" type="text/javascript">
 </script>
 
-
+<audio id="audio" src="lyd.mp3" ></audio>
 
 
 </body>
