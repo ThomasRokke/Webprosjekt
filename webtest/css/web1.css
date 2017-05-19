@@ -1,0 +1,346 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Fonts 
+font-family: 'Bree Serif', serif;
+*/
+
+/* Globals */
+
+li a{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: #515151;
+}
+
+h2 {
+    position: relative;
+    font-size: 40px;
+    line-height: 50px;
+    color: #515151;
+
+
+}
+h1, h3, h4, h5, h6{
+    text-align: center;
+    color: #515151;
+}
+
+    
+
+
+/* Navbar Top */
+
+.menu{
+    font-family: 'Bree Serif', serif;
+    background: #024E82;
+    background: -webkit-linear-gradient(#4076C6, #024E82);
+    background:    -moz-linear-gradient(#4076C6, #024E82);
+    background:         linear-gradient(#4076C6, #024E82);
+    text-align: center;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding: 5px;
+    margin: 0 20px 0 20px;
+    opacity: 1;
+    position: relative;
+    top: 20px;
+}
+
+.menu li a{
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px; 
+    color: white;
+}
+
+.menu li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Top Image */
+
+.top-image{
+    width: 100%;
+    height: 80vh;
+    background: url("../Images/barcodenatt.jpg") center no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Main Section */
+
+.main-content{
+    width: 100%;
+    margin-bottom: 1200px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+article{
+    
+    padding: 40px 20px 100px 20px;
+    width: 400px;
+    line-height: 32px;
+    position: relative;
+    left: 100px;
+    text-align: left;
+    bottom: 140px;
+}
+
+.westerdals {
+    position: relative;
+    bottom: -200px;
+    width:700px;
+    left: 600px;
+    
+}
+
+    
+
+/* Google Maps map inside main section */
+
+#map{
+    position: relative;
+    width: 50%;
+    height: 500px;
+     -webkit-box-shadow: 0px 1px 16px 4px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 1px 16px 4px rgba(0,0,0,0.32);
+    box-shadow: 0px 1px 16px 4px rgba(0,0,0,0.32);
+    left: 600px;
+    bottom: 1400px;
+    
+
+    
+     
+}
+
+/* Parallax1 */
+.parallax {
+background: url(../images/bridge.jpg)repeat fixed 100%;
+    background-position: center;
+    margin:auto;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.parallax-inner {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    
+    
+    
+    
+}
+/* slutt Parallax1*/
+
+/* Paralla2 */
+.parallax2 {
+background: url(../images/bj%C3%B8rvikaedit4.jpg)repeat fixed 100%;
+position: relative;
+bottom: -2117px;
+    background-position: center,center;
+    margin: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
+.parallax-inner2 {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    
+   
+    
+    
+}
+
+
+
+/* slutt Parallax2*/
+
+/* Footer */
+
+.TRfooter {
+    width: 100%;
+    background: #24C6DC;  
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  
+    background: linear-gradient(to right, #514A9D, #24C6DC); 
+    text-align: center;
+    height: 310px;
+    
+    
+}
+
+
+.footerText {
+    color:white;
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+
+.footerAdr {
+    color: white;
+    font-size: 1em;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    
+}
+
+.Footerbilde1 {
+    position: relative;
+    width: 10%;
+    height: 10%;
+    left: 650px;
+
+   
+
+    
+}
+
+
+
+/* Link button */
+
+.CTbutton{
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+    padding: 10px;
+    margin-top: 10px;
+    width: 90px;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    height: 25px;
+    position: relative;
+    bottom: -35px;
+}
+
+
+
+/* Christians forslag til boks */
+
+.CTbox{
+    display: inline-block;
+    margin: -5px;
+    background-color: ;
+  
+    width: 400px;
+    height: 425px;
+    border-radius: 1px;
+    overflow: hidden;
+    
+    bottom: -275px;
+    position: relative;
+    
+}
+
+.CTbox-image{
+    height: 250px;
+    width: 400px;
+    overflow: hidden;
+    
+}
+
+.CTbox-image img{
+    height: 90%;
+    width: 90%;
+    position: relative;
+    bottom: -10px;
+    border-radius: 5px;
+}
+
+.CTbox-info{
+    padding: 7px;
+}
+
+.CTtittle {
+    position: relative;
+    bottom: 1970px;
+    text-align: center;
+    line-height: 120px;
+    
+    
+}
+
+
+.CTtittle2 {
+    position: relative;
+    bottom: 1175px;
+    text-align: left;
+    line-height: 35px;
+    width:40%;
+    margin-left: 15px;
+    
+    
+}
+
+.CTbreak{
+   width: 300px;
+    left: 565px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;  
+    bottom: 1870px;
+}
+
+.CTbox h4{
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    bottom: 15px;
+}
+
+.CTbox p{
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+    
+}
+
+
+
+.CTbox-info a:hover{
+    background-color: #EAEAEA;
+    
+}
+
+
+
+/* Skille mellom boksområde og infoområde */
+
+
+
+/* Info Område */
+
+
+
+body{
+    background-image: url("../images/cream_dust_@2X.png");
+    
+    
+}
