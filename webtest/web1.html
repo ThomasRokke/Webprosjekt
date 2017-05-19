@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="css/web1.css">
+    
+ <!-- Link to google fonts for "Bree Serif" font used in menu-->
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    
+<title>Wzup</title>
+</head>
+<body> 
+       
+    
+
+ 
+ <div class="top-image">
+        
+        <?php include("../includes/menu.php"); ?>
+     
+     <ul class="menu">
+        <li>
+            <a href="">Utesteder</a>
+        </li>
+        <li>
+            <a href="">Mat og drikke</a>
+        </li>
+        <li>
+            <a href="">Aktiviteter</a>
+        </li>
+        <li>
+            <a href="">Om oss</a>
+        </li>
+    </ul>
+    
+        
+    
+    </div>
+    
+
+    
+    
+    
+    <section class="main-content">
+        <div class="westerdals">
+            <img src="../web2/images/westerdals.jpg"></div>
+        
+    
+    
+        
+        <article>
+            <h2>Skulle vi ha noe her?</h2>
+            <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum 
+                vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex 
+                arbitror arbitrantur, magna ita possumus de velit, eu ipsum ingeniis, qui a 
+                despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum 
+            </p>
+        </article>
+        
+        <section class="parallax">
+        <div class="parallax-inner">
+            
+            </div>
+        
+        </section>
+        
+        
+        
+        <div  class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/oslonatt.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Fest</h4>
+                <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum 
+                vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex .</p>
+                <a class="CTbutton" href="#fest">MORE</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/barcodenatt.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Party</h4>
+                <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum 
+                vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex .</p>
+                <a class="CTbutton" href="#fest">MORE</a>
+            </div>
+        </div>
+        
+        <div class="CTbox" id="festbox">
+            <div class="CTbox-image">
+                <img src="Images/bj%C3%B8rvika.jpg">
+            </div>
+            
+            <div class="CTbox-info">
+                <h4>Konsert</h4>
+                <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum 
+                vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex .</p>
+                <a class="CTbutton" href="#fest">MORE</a>
+            </div>
+        
+            
+           
+        </div>
+        
+        <section class="parallax2">
+        <div class="parallax-inner2">
+            
+            </div>
+        
+        </section>
+        
+        
+        
+    </section>
+    
+    <div class="CTbreak"></div>
+    
+     <div class="CTtittle" id=""><h2>Aktiviteter</h2><p>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, 
+            </div>
+    
+    <div class="CTtittle2" id=""><h2>Plassering</h2><p>Eu aliqua mandaremus possumus e in lorem si noster te nisi laboris se doctrina, Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum 
+    vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex 
+    arbitror arbitrantur, magna ita possumus de velit, eu ipsum ingeniis, qui a 
+    despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum
+            </div>
+    
+    <div id="map"> </div>
+
+
+    <footer class="TRfooter">
+         <p class="footerText">&copy; 2017 WZup?<p>
+         <p class="footerAdr">Chr. Krohgs gate 32, 0186 Oslo</p>
+        <div class="Footerbilde1">
+            <img src="../web2/images/instagram-logo.png">
+            <img src="../web2/images/facebok.png">
+            <img src="../web2/images/twitter.png">
+        
+        </div>
+      
+            
+
+    </footer>
+
+
+
+
+    <!-- Javascript -->
+    
+    <script>
+        function initMap(){
+            var location = {lat: 59.913869, lng: 10.752245};
+            var mapOptions = {
+                zoom: 14, 
+                center: location,
+                scrollwheel: false
+            }
+            
+            var map = new google.maps.Map(document.getElementById('map'),mapOptions
+            )
+            
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            })
+            }; 
+    </script>
+    
+   <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUOSBwWQ1fKQHF-40kF5kK4h_h4VYA46U&callback=initMap">
+    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            
+            $(function() {
+                
+                var documentEl = $(document),
+                    fadeElem = $('.CTbox');
+                
+                
+                documentEl.on('scroll', function() {
+                    var currScrollPos = documentEl.scrollTop();
+                    
+                    fadeElem.each(function() {
+                        var $this = $(this),
+                            elemOffsetTop = $this.offset().top;
+                        if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/250);
+                    }); 
+                });
+                
+            });
+        
+        </script>
+    
+    
+    
+    
+
+
+</body>
+</html>

@@ -836,7 +836,7 @@ $(document).ready(function() {
 			position: MapPos,
 			map: map,
 			draggable:DragAble,
-			animation: google.maps.Animation.DROP,
+			animation: google.maps.Animation.BOUNCE,
 			title:"Hello World!",
 			icon: ikon
             
@@ -861,6 +861,7 @@ $(document).ready(function() {
         // Når du trykker eller avslutter en "drag" så stopper animasjonen som ble startet av bryter ^
         map.addListener('click', avBryter);
         map.addListener('dragend', avBryter);
+        map.addListener('mouseover', avBryter);
 
         function avBryter() {
             if (pin.getAnimation() !== null) {

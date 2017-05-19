@@ -61,27 +61,50 @@ h1, h2, h3, h4, h5, h6{
 
 /* ---- Top Image ---- */
 
-.top-image{
+/*.top-image{
     width: 100%;
     height: 80vh;
     background: url("../Images/barcodenatt.jpg") center no-repeat;
     background-size: 100% 100%;
     margin-bottom: 50px;
 }
+*/
+.top-image{
+    width: 100%;
+    height: 80vh;
+    background: url("../Images/barcodenatt.jpg") center no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* ---- Main Section ---- */
 
 .main-content{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 100px;
+    width: 100%;
+    margin-bottom: 1200px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .overskrift{
     font-size:2em;
 }
+
+.headArticle{
+
+    padding: 130px 20px 100px 20px;
+    width: 400px;
+    line-height: 32px;
+    position: relative;
+    left: 100px;
+    text-align: left;
+    bottom: 140px;
+}
+
 article{
     margin-bottom: 50px;
     border-bottom: 1px solid black;
@@ -92,9 +115,17 @@ article{
 /* ---- Google Maps map inside main section ---- */
 
 #map{
-    width: auto;
+    width: 60%;
     height: 500px;
     margin-bottom: 70px;
+}
+
+#google_map {
+    width: 60%;
+    height: 80vh;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /* ---- Footer ---- */
@@ -138,8 +169,9 @@ article{
     display: inline-block;
     margin: 10px;
     background-color: aliceblue ;
-    width: 300px;
-    height: 330px;
+    width: 20%;
+    height: width*1,2;
+
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 5px 5px 1px #888888;
