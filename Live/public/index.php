@@ -9,7 +9,7 @@
 
 <section class="main-content">
 
-    <article>
+    <article class="headArticle">
         <h2>Skulle vi ha noe her?</h2>
         <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum
             vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex
@@ -17,6 +17,8 @@
             despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum
         </p>
     </article>
+
+
     <div id="google_map"></div>
 
 
