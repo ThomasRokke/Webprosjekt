@@ -88,45 +88,75 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 1200px;
     box-sizing: border-box;
     text-align: center;
+
+
+
 }
 
 .overskrift{
     font-size:2em;
 }
 
+.topSection{
+    width: 100%;
+    height: 500px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+
+}
+
 .headArticle{
-
-    padding: 130px 20px 100px 20px;
-    width: 400px;
+    padding-top: 100px;
+    margin-left:10%;
+    width: 20%;
     line-height: 32px;
-    position: relative;
-    left: 100px;
-    text-align: left;
-    bottom: 140px;
+    float:left;
 }
 
-article{
-    margin-bottom: 50px;
-    border-bottom: 1px solid black;
+#google_map{
+    margin-right:3%;
+    width: 60%; !important;
+    height: 600px; !important;
+    background-color: black; !important;
+    float:right;
 
-    padding: 40px 20px 40px 20px;
 }
+
+.parallax {
+    background: url(../Images/bridge.jpg)repeat fixed 100%;
+    background-position: center;
+    margin:auto;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px ;
+
+}
+
+.parallax-inner {
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+}
+.thaBoxes{
+    padding-top: 100px;
+    width: 80%;
+
+}
+
+
 
 /* ---- Google Maps map inside main section ---- */
 
-#map{
+/*#map{
     width: 60%;
     height: 500px;
     margin-bottom: 70px;
 }
+*/
 
-#google_map {
-    width: 60%;
-    height: 80vh;
-    margin-top:0px;
-    margin-left:auto;
-    margin-right:auto;
-}
+
 
 /* ---- Footer ---- */
 
@@ -169,8 +199,8 @@ article{
     display: inline-block;
     margin: 10px;
     background-color: aliceblue ;
-    width: 20%;
-    height: width*1,2;
+    width: 25%;
+    height: 350px;
 
     border-radius: 5px;
     overflow: hidden;
@@ -178,7 +208,7 @@ article{
 }
 
 .CTbox-image{
-    height: 200px;
+    height: 60%;
     overflow: hidden;
 }
 
@@ -295,6 +325,10 @@ button:active{
     font-size: 4em;
 }
 
-
+@media (max-width: 900px){
+    body{
+        
+    }
+}
 
 
