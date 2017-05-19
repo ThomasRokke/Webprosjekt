@@ -758,7 +758,7 @@ $(document).ready(function() {
 
             });
 
-            var i = 0, hvorMangeGanger = 70;
+            var i = 0, hvorMangeGanger = 55;
             var byttIndex = 0;
             function f() {
                 byttIndex++;
@@ -858,13 +858,16 @@ $(document).ready(function() {
 
         map.addListener('rightclick', bryter);
 
+        // Når du trykker eller avslutter en "drag" så stopper animasjonen som ble startet av bryter ^
         map.addListener('click', avBryter);
+        map.addListener('dragend', avBryter);
 
         function avBryter() {
             if (pin.getAnimation() !== null) {
                 pin.setAnimation(null);
 
             }
+        }
 
 
 
