@@ -36,10 +36,6 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
-.menu{
-    
-}
-
 ul li{
     display: inline-block;
     padding: 5px;
@@ -280,7 +276,6 @@ button:active{
     width: 100%;
     background: linear-gradient(to right, #514A9D, #24C6DC);
     text-align: center;
-    
 }
 
 .footerText {
@@ -299,6 +294,7 @@ button:active{
 /* Media Queries */
 @media only screen and (max-width: 850px){
 
+    /* CSS for dropdown-menu funksjonen */ 
     .dropdown_menu{
         display: block;
         height: 40px;
@@ -320,10 +316,38 @@ button:active{
     ul li{
         display: block;
     }
-    
-    
 }
 
 
- 
+@media only screen and (max-width: 650px){
+    .headArticle{
+        float: none;
+        margin: auto;
+        padding-top: 20px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    
+    #google_map{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    }
+    
+    .topSection{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    
+    .CTbox{
+        margin: 0px 0px 15px 0px;
+    }
+    
+    .box_section{
+        width: 100%;
+    }
+}
+
 
