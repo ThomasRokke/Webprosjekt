@@ -4,7 +4,6 @@
 
     <?php include("../includes/menu.php"); ?>
 
-    </ul>
 </div>
 
 <section class="main-content">
@@ -53,6 +52,8 @@
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAUOSBwWQ1fKQHF-40kF5kK4h_h4VYA46U"></script>
 
 <script src="js/kart.js" type="text/javascript">
+</script>
+<script src="js/dropdown.js" type="text/javascript">
 </script>
 
 <audio id="audio" src="lyd.mp3" ></audio>

@@ -1,6 +1,7 @@
    
-<div id="menu-div">
-    <ul class="menu">
+<div class="menu-div">
+    <a class="dropdown_menu"></a>
+    <ul>
         <li>
             <a href="../public/Index.php">Hjem</a>
         </li>
