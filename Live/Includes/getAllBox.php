@@ -8,7 +8,7 @@
 
 require_once('../Includes/db_tilkobling.php');
 
-$query = "SELECT name, imagepath, sDesc, type FROM markers";
+$query = "SELECT id, name, imagepath, sDesc, type FROM markers";
 
 $response = @mysqli_query($dbc, $query);
 
@@ -37,7 +37,9 @@ if($response){
                 '<p>'.
                 $row['sDesc'].
                 '</p>' .
-                '<a class="CTbutton" href="#fest">Mer info!</a>' .
+                '<a class="CTbutton" href="merinfo.php?id=' .
+                $row['id'] .
+                '">Mer info!</a>' .
                 '</div>' .
                 '</div>';
 

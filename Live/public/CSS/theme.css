@@ -113,6 +113,13 @@ ul li a:hover{
     height: 600px;
 }
 
+.merInfoBilde{
+    display: inline-block;
+    margin-right:3%;
+    width: 50%;
+    height: 600px;
+}
+
 .parallax {
     background: url(../Images/bridge.jpg)repeat fixed 100%;
     background-position: center;
