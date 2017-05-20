@@ -37,11 +37,11 @@
 
                         '</article>' .
 
-                        '<img class="merInfoBilde" src="Images/' .
+                        '<img class="merInfoBilde" src="Images/storeBilder/' .
 
                         $row['imagepath'] .
 
-                        '">';
+                        'S.jpg">';
 
                 }
 
