@@ -19,34 +19,30 @@
             </p>
         </article>
 
-
         <div id="google_map"></div>
-
 
     </section>
 
     <section class="parallax">
-    <div class="parallax-inner">
-
-
-    <section class="thaBoxes">
-    <?php
-
-    require_once('../Includes/getAllBox.php');
-
-    ?>
+        
     </section>
-
+        
+    <section class="box_section">
+        <?php
+            require_once('../Includes/getAllBox.php');
+        ?>
+    </section>
+    
 
 </section>
 
 
-<!--<footer class="TRfooter">
+<footer class="TRfooter">
     <p class="footerText">&copy; 2017 WZup?<p>
     <p class="footerAdr">Chr. Krohgs gate 32, 0186 Oslo</p>
 
 </footer>
--->
+
 
 
 
