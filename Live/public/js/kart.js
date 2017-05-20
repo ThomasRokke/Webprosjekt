@@ -793,6 +793,7 @@ $(document).ready(function() {
 			//Hent markører fra XML filen, se (kart_prosess.php)
 			$.get("kart_prosess.php", function (data) {
 				$(data).find("marker").each(function () {
+                      var id        = $(this).attr('id');
 					  var name 		= $(this).attr('name');
 					  var address 	= '<p>'+ $(this).attr('address') +'</p>';
 					  
@@ -800,7 +801,7 @@ $(document).ready(function() {
                    
                       var type = $(this).attr('type');
                     
-                        lag_pin(point, name, address, false, false, false, type);
+                        lag_pin(point, name, address, false, false, false, type, id);
                    
                     
                     
@@ -812,7 +813,7 @@ $(document).ready(function() {
 
 
     
-        function lag_pin(MapPos, MapTitle, MapDesc,  InfoOpenDefault, DragAble, Removable, type)
+        function lag_pin(MapPos, MapTitle, MapDesc,  InfoOpenDefault, DragAble, Removable, type, id)
 	{	  	  		  
 
         var ikon = ''; //deklarerer en varabel som skal ta vare på ikon navn.
@@ -874,12 +875,12 @@ $(document).ready(function() {
 
 
 		////Innhold struktur til info Window for markørene
-		var contentString = $('<div class="marker-info-win">'+
-		'<div class="marker-inner-win"><span class="info-content">'+
-		'<h1 class="marker-heading">'+MapTitle+'</h1>'+
-		MapDesc+ 
-		'</span><button name="til-nettside" class="til-nettside" title="Til Nettside">Mer Info</button>'+
-		'</div></div>');	
+        var contentString = $('<div class="marker-info-win">'+
+            '<div class="marker-inner-win"><span class="info-content">'+
+            '<h1 class="marker-heading">'+MapTitle+'</h1>'+
+            MapDesc+
+            '</span><a href="merinfo.php?id='+id+'"<button name="til-nettside" class="til-nettside" title="Til Nettside">Mer Info</button></a>'+
+            '</div></div>');
 
 		
 		//Lag et infoWindow
