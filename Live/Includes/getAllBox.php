@@ -27,7 +27,7 @@ if($response){
                 '<div class="CTbox-image">' .
                 '<img src="Images/'.
                 $row['imagepath'] .
-                '">' .
+                '.jpg">' .
                 '</div>' .
 
                 '<div class="CTbox-info">' .
