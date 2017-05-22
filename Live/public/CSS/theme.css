@@ -1,0 +1,360 @@
+/* ---- Reset ---- */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Fonts 
+
+font-family: 'Bree Serif', serif;
+
+*/
+
+/* ---- Globals ---- */
+
+li a{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+/* ---- Navbar Top ---- */
+
+.menu-div{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+    font-family: 'Bree Serif', serif;
+    background-color: rgba(000,000,000,0.4);
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 0 20px 0 20px;
+    opacity: 1;
+}
+
+ul li a{
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px; 
+    color: white;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* ---- Top Image ---- */
+
+/*.top-image{
+    width: 100%;
+    height: 80vh;
+    background: url("../Images/barcodenatt.jpg") center no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+}
+*/
+
+.top-image{
+    width: 100%;
+    height: 80vh;
+    background: url("../Images/barcodenatt.jpg") center no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ---- Main Section ---- */
+
+.main-content{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    text-align: center;
+    
+}
+
+.overskrift{
+    font-size:2em;
+}
+
+.topSection{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.headArticle{
+    float: left;
+    padding-top: 100px;
+    line-height: 32px;
+    margin-left: 10%;
+    width: 30%;
+}
+
+#google_map{
+    display: inline-block;
+    margin-right:3%;
+    width: 50%;
+    height: 600px;
+}
+
+.merInfoBilde{
+    display: inline-block;
+    margin-right:3%;
+    width: 50%;
+    height: 600px;
+}
+
+.parallax {
+    background: url(../Images/bridge.jpg)repeat fixed 100%;
+    background-position: center;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.box_section{
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+/* ---- Info bokser ---- */
+
+.CTbox{
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 1px #888888;
+}
+
+.CTbox-image{
+    height: 60%;
+    overflow: hidden;
+}
+
+.CTbox-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.CTbox-info{
+    padding: 7px;
+}
+
+.CTbox h4{
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+}
+
+.CTbox p{
+    padding: 5px;
+    text-align: left;
+    height: 40px;
+}
+
+.CTbox-info a:hover{
+    background-color: lightblue;
+}
+
+.CTbox:hover img{
+    transform: scale(1.05);
+    overflow: hidden;
+}
+
+.CTbutton{
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: beige;
+    padding: 10px;
+    margin-top: 30px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+/* ---- Skille mellom boksområde og infoområde ---- */
+
+.CTbreak{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black; 
+}
+
+/* ---- Info Område ---- */
+
+.CTinfo-div{
+    padding: 20px;
+    text-align: center;
+}
+
+.CTinfo-div h2{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.CTinfo-div p{
+    display: block;
+    text-align: left;
+}
+
+/* Input Fields */
+
+input{
+    display: block;
+    margin: 15px 5px 15px 0;
+    width: 50%;
+    border-radius: 1px;
+    height: 25px; 
+    border: 2px solid black;
+}
+
+input:focus{
+    border: 2px solid green;
+}
+
+input[type=radio]{
+    display: inline-block;
+    width: 5%;
+    height: 20px;
+    vertical-align: middle;
+}
+
+label{
+    vertical-align: middle;
+}
+
+
+button{
+    width: 15%;
+    height: 30px;
+    margin: 5px; 
+    cursor: pointer;
+    border : 1px solid rgb(128,128,128);
+    border-radius: 4px;
+}
+
+button:hover{
+    border : 2px solid rgb(128,128,128);
+}
+
+button:active{
+    border : 3px solid rgb(128,128,128);
+}
+
+.Form_title{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* ---- Admin ---- */
+
+#adminH1 {
+    font-size: 4em;
+}
+
+
+/* ---- Footer ---- */
+
+.TRfooter {
+    width: 100%;
+    background: linear-gradient(to right, #514A9D, #24C6DC);
+    text-align: center;
+}
+
+.footerText {
+    color:white;
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+
+.footerAdr {
+    color: white;
+    font-size: 1em;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 850px){
+
+    /* CSS for dropdown-menu funksjonen */ 
+    .dropdown_menu{
+        display: block;
+        height: 40px;
+        width: 100%;
+        background: url(../Images/Menu-48.png) no-repeat 5% center;
+        background-size: 30px;
+        background-color: linear-gradient(to right, #514A9D, #24C6DC);
+        cursor: pointer;
+    }
+    
+    div ul{
+        height: 0;
+    }
+    
+    div ul.open{
+        height: auto;
+    }
+    
+    ul li{
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 650px){
+    .headArticle{
+        float: none;
+        margin: auto;
+        padding-top: 20px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    
+    #google_map{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    }
+    
+    .topSection{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    
+    .CTbox{
+        margin: 0px 0px 15px 0px;
+    }
+    
+    .box_section{
+        width: 100%;
+    }
+}
+
+
