@@ -4,7 +4,7 @@
     define("DB_SERVER", "localhost");
 	define("DB_USER", "my_cms");
 	define("DB_PASS", "webprosjekt");
-	define("DB_NAME", "wzup");
+	define("DB_NAME", "my_company");
 
 //mysqli
 $mysqli = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
