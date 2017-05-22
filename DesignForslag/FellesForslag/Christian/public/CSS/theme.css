@@ -6,7 +6,7 @@
 
 /* Fonts 
 
-font-family: 'Bree Serif', serif;
+For top menu -> font-family: 'Bree Serif', serif;
 
 */
 
@@ -22,6 +22,10 @@ a{
 
 h1, h2, h3, h4, h5, h6{
     text-align: center;
+}
+
+body{
+    
 }
 
     
@@ -61,10 +65,11 @@ h1, h2, h3, h4, h5, h6{
 
 .top-image{
     width: 100%;
-    height: 80vh;
+    height: 10vh;
     background: url("../Images/barcodenatt.jpg") center no-repeat;
     background-size: 100% 100%;
     margin-bottom: 50px;
+    
 }
 
 
@@ -216,8 +221,9 @@ article{
     }
 }
 
-
-
+/* Input Fields */
+body{
+}
 
 
 
