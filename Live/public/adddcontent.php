@@ -6,13 +6,14 @@
 <div class="top-image">
 </div>
 
-<section class="main-content">
+<section class="admin_content">
 
     <?php
     include_once('../Includes/content_added.php');
     ?>
 
 </section>
+
 
 
 

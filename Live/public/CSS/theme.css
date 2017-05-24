@@ -100,6 +100,7 @@ ul li a:hover{
 
 .headArticle{
     float: left;
+    text-align: left;
     padding-top: 100px;
     line-height: 32px;
     margin-left: 10%;
@@ -107,13 +108,6 @@ ul li a:hover{
 }
 
 #google_map{
-    display: inline-block;
-    margin-right:3%;
-    width: 50%;
-    height: 600px;
-}
-
-.merInfoBilde{
     display: inline-block;
     margin-right:3%;
     width: 50%;
@@ -146,6 +140,10 @@ ul li a:hover{
     overflow: hidden;
     box-shadow: 5px 5px 1px #888888;
 }
+
+/*webkit-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);*/
 
 .CTbox-image{
     height: 60%;
@@ -220,6 +218,28 @@ ul li a:hover{
     text-align: left;
 }
 
+/* Mer-info område */
+
+.merInfoBilde{
+    display: inline-block;
+    margin-right:3%;
+    width: 50%;
+    height: 600px;
+}
+
+/* Admin Area */
+
+.admin_content{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 70px;
+}
+
+#adminH1 {
+    font-size: 4em;
+}
+
+
 /* Input Fields */
 
 input{
@@ -270,10 +290,15 @@ button:active{
     margin-bottom: 10px;
 }
 
-/* ---- Admin ---- */
+.mangel_liste{
+    padding: 30px 0 100px 0;
+}
 
-#adminH1 {
-    font-size: 4em;
+.mangel_liste li p{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    color: red;
 }
 
 
@@ -343,6 +368,12 @@ button:active{
     
     .topSection{
         margin-bottom: 30px;
+    }
+
+    .merInfoBilde{
+        width: 90%;
+        height: 400px;
+        margin: auto;
     }
 }
 
