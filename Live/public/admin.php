@@ -66,7 +66,9 @@
         </form>
 
         
-
+        <?php
+        include('../Includes/adminGetRowsDelete.php');
+        ?>
 
 
     </section>

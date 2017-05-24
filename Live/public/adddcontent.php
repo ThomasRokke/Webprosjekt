@@ -12,6 +12,10 @@
     include_once('../Includes/content_added.php');
     ?>
 
+    <?php
+    include_once('../Includes/adminGetRowsDelete.php');
+    ?>
+
 </section>
 
 
