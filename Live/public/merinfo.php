@@ -7,6 +7,7 @@
 
 </div>
 
+
 <section class="main-content">
 
     <section id="scrollDown" class="topSection">
@@ -17,7 +18,7 @@
 
             $getID = $_GET['id'];
 
-            $query = "SELECT name, imagepath, description FROM markers WHERE id = $getID";
+            $query = "SELECT name, id, imagepath, description FROM markers WHERE id = $getID";
 
             $response = @mysqli_query($dbc, $query);
 
@@ -33,7 +34,92 @@
                         $row['description'] .
                         '</p><br>' .
                         
+                        '<table>' .
+                        '<tr>' .
+                        '<th>Dag</th>' .
+                        '<th>Åpner</th>' .
+                        '<th>Stenger</th>' .
+                        '</tr>' .
+                        
+                        '<tr>' .
+                        '<td> Mandag' .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '</tr>' .
+                        
+                        '<tr>' .
+                        '<td> Tirsdag' .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '</tr>' .
+                        
+                        '<tr>' .
+                        '<td> Onsdag' .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '</tr>' .
+                        
+                        '<tr>' .
+                        '<td> Torsdag' .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '</tr>' .
+                        
+                        '<tr>' .
+                        '<td> Fredag' .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '</tr>' .
+                        
+                        '<tr>' .
+                        '<td> Lørdag' .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '</tr>' .
+                        
+                        '<tr>' .
+                        '<td> Søndag' .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '<td>' .
+                        $row['id'] .
+                        '</td>' .
+                        '</tr>' .
+                        '</table>' .
                         '</article>' .
+                        
 
                         '<img class="merInfoBilde" src="Images/storeBilder/' .
 
