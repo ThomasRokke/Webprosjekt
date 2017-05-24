@@ -227,6 +227,23 @@ box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);*/
     height: 600px;
 }
 
+.headArticle table,
+.headArticle th,
+.headArticle td {
+    border: 1px solid black;
+}
+
+.headArticle table{
+}
+
+.headArticle th,
+.headArticle td{
+    padding: 2px;
+}
+
+.headArticle td{
+    width: 90px;
+}
 /* Admin Area */
 
 .admin_content{
