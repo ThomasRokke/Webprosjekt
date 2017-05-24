@@ -10,7 +10,7 @@
 
 
 
-    <section class="main-content">
+    <section class="admin_content">
 
         <form id="form1" action="/Web/Webprosjekt-test/Live/public/adddcontent.php" method="post" autocomplete="on">
 
@@ -25,11 +25,11 @@
             </p>
 
 
-            <p>lat(lengdegrad):
+            <p>Latitude (lengdegrad):
                 <input type="text" name="lat" size="30" placeholder="F.eks 59.913869" maxlength="60" value="" />
             </p>
 
-            <p>lng(breddegrad):
+            <p>Longditude (breddegrad):
                 <input type="text" name="lng" placeholder="F.eks 10.752245" size="30" maxlength="60" value="" />
             </p>
             <button type="button" class="find_coord" onclick="findLatLng()">Finn koordinater</button>
