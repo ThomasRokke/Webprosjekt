@@ -33,18 +33,20 @@
 
 
 
-<table>
-    <tr>
-        <th>Navn</th>
-        <th>Beskrivelse</th>
-        <th>Type</th>
-        <th>SLETT</th>
-    </tr>
+
     <?php
 
     require_once('../Includes/db_tilkobling.php');
 
-    $query = "SELECT name, sDesc, type FROM markers";
+    echo '<table>
+     <tr>
+        <th>Navn</th>
+        <th>Beskrivelse</th>
+        <th>Type</th>
+        <th>Slett rad</th>
+    </tr>';
+
+    $query = "SELECT id, name, sDesc, type FROM markers";
 
     $response = @mysqli_query($dbc, $query);
 
@@ -64,11 +66,18 @@
             $row['type'].
             '</td>'.
             '<td>'.
-            '<a class="aKnapp" href="www.vg.no">SLETT</a>'.
+            '<a href="/Web/Webprosjekt-test/Live/public/rjBO9lLeIVN6av.php?id=' .
+            $row['id'] .
+            '" onclick="return confirm(\'er du sikker på du vil slette ' .
+            $row['name'] .
+            '? \n\nDet er ikke mulighet til å angre i ettertid! \n\nTrykk OK for å slette. Avbryt for angre.\')">Slett meg</a>'.
+            '</td>' .
+            '</form>'.
             '</td>'.
         '</tr>';
 
         }}
+
 
 
     else {
@@ -79,10 +88,12 @@
 
     }
 
+    echo '</table>';
+
     // Close connection to the database
     mysqli_close($dbc);
     ?>
-</table>
+
 
 
 
