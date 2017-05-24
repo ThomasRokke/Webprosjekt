@@ -7,12 +7,11 @@
 
 </div>
 
-
-
 <section class="main-content">
 
     <section id="scrollDown" class="topSection">
         <article class="headArticle">
+            
             <?php
             require_once('../Includes/db_tilkobling.php');
 
@@ -22,10 +21,9 @@
 
             $response = @mysqli_query($dbc, $query);
 
-
             if($response){
 
-                while($row = mysqli_fetch_array($response)) {
+                if($row = mysqli_fetch_array($response)) {
 
                     echo '<h2>' .
                         $row['name'] .
@@ -33,8 +31,8 @@
 
                         '<p>' .
                         $row['description'] .
-                        '</p>' .
-
+                        '</p><br>' .
+                        
                         '</article>' .
 
                         '<img class="merInfoBilde" src="Images/storeBilder/' .
@@ -42,25 +40,17 @@
                         $row['imagepath'] .
 
                         'S.jpg">';
-
                 }
-
-
-
             }
             else {
 
                 echo "Couldn't issue database query<br />";
 
                 echo mysqli_error($dbc);
-
             }
 
             // Lukker database tilkoblingen.
             mysqli_close($dbc);
-
-
-
 
             ?>
 
