@@ -92,9 +92,7 @@
 
 
     
-   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUOSBwWQ1fKQHF-40kF5kK4h_h4VYA46U&callback=initMap">
-    </script>
+
 
 
 </body>
