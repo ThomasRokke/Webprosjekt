@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     if(empty($_POST['name'])){
 
         // Adds name to array
-        $manglende_info[] = 'Navn';
+        $manglende_info[] = 'Tittel';
 
     } else {
 
@@ -91,7 +91,7 @@ if(isset($_POST['submit'])){
     if(empty($_POST['imagepath'])){
 
         
-        $manglende_info[] = 'Bildenavn';
+        $manglende_info[] = 'Filnavn på bilde';
 
     } else {
 
@@ -126,15 +126,15 @@ if(isset($_POST['submit'])){
 
     } else {
 
-        echo 'Du trenger følgende data<br />';
+        echo 'Obs! Du mangler følgende data<br/>';
 
 
-        echo '<ul>';
+        echo '<ul class="mangel_liste">';
         foreach($manglende_info as $missing){
 
-            echo '<li>'.
+            echo '<li><p>'.
             $missing .
-            '</li>';
+            '</p></li>';
 
         }
           echo '</ul>';
@@ -160,11 +160,11 @@ if(isset($_POST['submit'])){
     </p>
 
 
-    <p>lat(lengdegrad):
+    <p>Latitude(lengdegrad):
         <input type="text" name="lat" size="30" placeholder="F.eks 59.913869" maxlength="60" value="" />
     </p>
 
-    <p>lng(breddegrad):
+    <p>Longditude(breddegrad):
         <input type="text" name="lng" placeholder="F.eks 10.752245" size="30" maxlength="60" value="" />
     </p>
     <button type="button" class="find_coord" onclick="findLatLng()">Finn koordinater</button>
