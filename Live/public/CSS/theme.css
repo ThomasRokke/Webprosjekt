@@ -68,6 +68,11 @@ ul li{
     opacity: 1;
 }
 
+.menu-div li:first-child{
+    float: left;
+    padding: 10px;
+}
+
 ul li a{
     padding: 10px;
     font-weight: bold;
@@ -99,13 +104,21 @@ ul li a:hover{
 
 .logo{
     position: relative;
-    top: 150px;
+    top: 20%;
     background: url(../Images/bl%C3%A5W.png);
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    height: 10em;
+    width: 10em;
     margin: auto;
 }
+
+.menu_logo{
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+}
+
+
 
 /* ---- Main Section ---- */
 
@@ -404,6 +417,14 @@ button:active{
         background-color: linear-gradient(to right, #514A9D, #24C6DC);
         cursor: pointer;
     }
+    
+    .menu_logo{
+        display: none;
+    }
+    
+    .menu-div li:first-child{
+    float: none;
+}
     
     div ul{
         height: 0;
