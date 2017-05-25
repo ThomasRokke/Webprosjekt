@@ -112,7 +112,6 @@ if(isset($_POST['submit'])){
         $sporring = "INSERT INTO markers (name, address, lat, lng, type, sDesc, description, imagepath) 
             VALUES ('$name', '$address', '$lat', '$lng', '$type', '$sDesc', '$description', '$imagepath');";
 
-
         if (mysqli_query($dbc, $sporring)) {
             echo "Innhold er lagt til i databasen";
         }
@@ -120,6 +119,31 @@ if(isset($_POST['submit'])){
         else {
             echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
         }
+        
+
+        $IDquery = "SELECT id FROM markers WHERE name = '$name'";
+
+        $IDsvar = @mysqli_query($dbc, $IDquery);
+
+        $id = 0;
+
+        if($IDsvar){
+            if($IDresult = mysqli_fetch_array($IDsvar)){
+                $id = $IDresult['id'];
+                ECHO 'RIGHT BITCH' . $id . $name;
+            }
+
+        }
+        else{
+            ECHO 'WRONG BITCH';
+        }
+
+
+
+
+
+
+
         mysqli_close($dbc);
 
     } else {
@@ -218,7 +242,7 @@ if(isset($_POST['submit'])){
         <label for="aktivitet">Aktivitet</label><br>
     </p>
 
-   <!-- funkar ikkje  <input class="send" type="submit" name="submit" value="Send" /> -->
+   \
 
     <button name="submit" type="submit" value="send" class="send">Send</button>
     
