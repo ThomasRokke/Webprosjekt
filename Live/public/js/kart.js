@@ -791,17 +791,22 @@ $(document).ready(function() {
 
 
 			//Hent markører fra XML filen, se (kart_prosess.php)
+            //Her har jeg brukt JQuery da veileder som hjalp til ikke fikk til samme effekt med JavaScript. 
 			$.get("kart_prosess.php", function (data) {
 				$(data).find("marker").each(function () {
-                      var id        = $(this).attr('id');
-					  var name 		= $(this).attr('name');
-					  var address 	= '<p>'+ $(this).attr('address') +'</p>';
-					  
-					  var point 	= new google.maps.LatLng(parseFloat($(this).attr('lat')),parseFloat($(this).attr('lng')));
-                   
-                      var type = $(this).attr('type');
+                      var id        = $(this).attr('id'); //Setter XML til en JS variabel
+					  var name 		= $(this).attr('name'); // -----,----- 
+					  var address 	= '<p>'+ $(this).attr('address') +'</p>'; //setter XML address til JS, og omkapsler det med <p> tags. 
                     
-                        lag_pin(point, name, address, false, false, type, id);
+					  // Her henter den in lat og lng (koordinater) fra XML filen. Ved hjelp av en funksjon i google sin API blir de klartgjort
+                      // For bruk. De blir også parset slik at riktig datatype som google.maps.LatLng krever. 
+					  var kartPos 	= new google.maps.LatLng(parseFloat($(this).attr('lat')),parseFloat($(this).attr('lng')));
+                   
+                      var type = $(this).attr('type'); //Setter XML til en JS variabel. 
+                    
+                        //Kaller på funksjonen lag_pin og gir den de nylig inhentede JS variablene som parametere.                 
+                    
+                        lag_pin(kartPos, name, address, false, false, type, id);
                    
                     
                     
@@ -813,11 +818,13 @@ $(document).ready(function() {
 
 
     
+    
         function lag_pin(kartPosisjon, kartTittel, kartBeskrivelse,  infoVinduOpenDefault, flyttbar, type, id)
 	{	  	  		  
 
         var ikon = ''; //deklarerer en varabel som skal ta vare på ikon navn.
         
+        // Ut i hva hvilken type(kategori) markører en så settes det riktig ikon. 
         switch(type){
             case 'mat':
                 ikon = 'food.svg';
@@ -832,38 +839,43 @@ $(document).ready(function() {
                 ikon = 'bank.svg';
         }
 
-		//ny markør
+		// Kode for å opprette en ny markør
 		var pin = new google.maps.Marker({
-			position: kartPosisjon,
-			map: map,
-			draggable:flyttbar,
+			position: kartPosisjon, //Hvilken posisjon markøren skal dukke opp på
+			map: map, 
+			draggable:flyttbar, //Boolean om det er mulig å flytte på markøren - det er det ikke. 
 			animation: google.maps.Animation.BOUNCE,
-			title:"Hello World!",
-			icon: ikon
+			title:"Wzup world!",
+			icon: ikon //Hvilket ikon som blir brukt på kartet - avhenger av type
             
 		});
 
 
-        var lydklipp = document.getElementById('audio');
-        function bryter() {
-            if (pin.getAnimation() !== null) {
+        var lydklipp = document.getElementById('audio'); //Henter inn ID som er satt på HTML audio tag
+        
+        //En funksjon som blir trigget når det høyreklikkes på kartet. Da starter animasjonen og musikken blir avspilt. 
+        function partyBryter() {
+            if (pin.getAnimation() !== null) { 
                 pin.setAnimation(null);
 
             }
             else{
-                pin.setAnimation(google.maps.Animation.BOUNCE);
+                pin.setAnimation(google.maps.Animation.BOUNCE); //Sett markør animasjon til BOUNCE. 
 
-                lydklipp.play();
+                lydklipp.play(); //spill musikk
             }
         }
 
-        map.addListener('rightclick', bryter);
+        map.addListener('rightclick', partyBryter); //Starter partyBryter funksjonen. aka. starter DISCO PARTY
 
-        // Når du trykker eller avslutter en "drag" så stopper animasjonen som ble startet av bryter ^
+        // Når du trykker eller avslutter en "drag" så stopper animasjonen som ble startet av partyBryter ^
+        // Dette er for å stoppe animasjonen til markørene etter 
         map.addListener('click', avBryter);
         map.addListener('dragend', avBryter);
         map.addListener('mouseover', avBryter);
-
+        
+        
+        //Funksjonen som avbryter animasjonen
         function avBryter() {
             if (pin.getAnimation() !== null) {
                 pin.setAnimation(null);
@@ -871,10 +883,7 @@ $(document).ready(function() {
             }
         }
 
-
-
-
-		////Innhold struktur til info Window for markørene
+		////Innhold  til infoWindow for markørene
         var contentString = $('<div class="marker-info-win">'+
             '<div class="marker-inner-win"><span class="info-content">'+
             '<h1 class="marker-heading">'+kartTittel+'</h1>'+
@@ -883,15 +892,14 @@ $(document).ready(function() {
             '</div></div>');
 
 		
-		//Lag et infoWindow
+		//opprett et infoWindow
 		var infowindow = new google.maps.InfoWindow();
 		//setter innholdet til infoWindow
 		infowindow.setContent(contentString[0]);
         
         //legger til click listener på knappen		 
 		google.maps.event.addListener(pin, 'click', function() {
-				infowindow.open(map,pin); // click på markør åpnerinfoWindow
-
+				infowindow.open(map,pin); // når du klikker på markører åpner info window seg 
 	    });
 		  
 		if(infoVinduOpenDefault) //om infoWindow skal åpnes som default
