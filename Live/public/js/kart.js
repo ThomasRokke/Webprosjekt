@@ -31,7 +31,11 @@ $(document).ready(function() {
 
 
 			};
-
+            
+    
+            // For å få til denne "disco" effekten når man høyreklikker på kartet må jeg definere flere sett med "styles" som funksjonen bruker for å bytte stil
+            // Jeg har brukt en style generator, der verdiene har blitt justert ved hjelp av programmvaren link: www.mapstyle.withgoogle.com
+            // Her eksporterer man style i JSON format - der har har blitt klippet og limt inn under. 
             var customMapTypeId = 'custom_style';
             var customMapType = new google.maps.StyledMapType([
                 {
@@ -751,16 +755,18 @@ $(document).ready(function() {
 
 		   	map = new google.maps.Map(document.getElementById("google_map"), googleMapOptions);
 
+    
+            // Legger til en map listener når brukeren høyreklikker på kartet og kaller på funksjonen styleStrobe 
             map.addListener('rightclick', function() {
 
-              // var myWindow =  window.open("https://www.youtube.com/watch?v=YQ2xtWgBlzk", "", "width=100, height=100, left=700");
-                f();
+              
+                styleStrobe();
 
             });
 
             var i = 0, hvorMangeGanger = 55;
             var byttIndex = 0;
-            function f() {
+            function styleStrobe() {
                 byttIndex++;
                 if(byttIndex == 0){
                     map.mapTypes.set(customMapTypeId, customMapType);
@@ -816,8 +822,7 @@ $(document).ready(function() {
    
 }
 
-
-    
+        // Dette er funksjonen som opprretter markører på kartet. Den tar i mot flere parametere og blir kalt ovenfor når data er hentet fra XML (kart_prosess.php)
     
         function lag_pin(kartPosisjon, kartTittel, kartBeskrivelse,  infoVinduOpenDefault, flyttbar, type, id)
 	{	  	  		  
