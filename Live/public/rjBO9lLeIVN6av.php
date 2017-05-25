@@ -29,8 +29,15 @@
 
             $query = "DELETE FROM markers WHERE id = $getID LIMIT 1;";
 
+            $timeQuery = "DELETE FROM openinghours WHERE BarId = $getID LIMIT 1;";
+
+            if(mysqli_query($dbc, $timeQuery)){
+                echo 'Timetable Suksess' .
+                '<br>';
+            }
+
             if (mysqli_query($dbc, $query)) {
-                echo 'Suksess';
+                echo 'Markers Suksess';
 
 
 
@@ -40,9 +47,6 @@
                 echo 'Ooops, det skjedde visst noe feil. Se på SQL feilmeldingen under:';
 
                 echo mysqli_error($dbc);
-
-
-
 
             }
 
