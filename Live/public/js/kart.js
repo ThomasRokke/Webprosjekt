@@ -764,8 +764,14 @@ $(document).ready(function() {
 
             });
 
+            // Denne funksjonen endrer stilen på kartet i et fast tempo for å simulere disco, eller da party lys. 
+            // Helt unødvendig funksjon, men viktig å prokrastinere til TK eksamen ved å bruke timesvis på dette. hehe. 
+            // Det er satt opp en timeout funksjon slik at loopen ikke går for raskt. Antall ganger er deklarert under. 
+            // setTimeOut sin parametere setter en tids
+        
             var i = 0, hvorMangeGanger = 55;
             var byttIndex = 0;
+    
             function styleStrobe() {
                 byttIndex++;
                 if(byttIndex == 0){
@@ -787,7 +793,7 @@ $(document).ready(function() {
 
                 i++;
                 if( i < hvorMangeGanger ){
-                    setTimeout( f, 150);
+                    setTimeout( styleStrobe, 150);
                 }
                 else{
                     map.mapTypes.set(customMapTypeId4, customMapType4);
