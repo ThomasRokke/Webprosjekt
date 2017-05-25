@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 
 
-	var mapCenter = new google.maps.LatLng(59.916158, 10.759654); //Google map Coordinates
+	var mapCenter = new google.maps.LatLng(59.923339, 10.752497); //Google map Coordinates
 	var map;
 
 	map_initialize(); // initialize google map
