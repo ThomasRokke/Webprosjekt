@@ -34,7 +34,8 @@
                         $row['description'] .
                         '</p><br>' .
                         
-                        '<table>' .
+                        '<div class="table_container">' .
+                        '<table class="tid_table">' .
                         '<tr>' .
                         '<th>Dag</th>' .
                         '<th>Åpner</th>' .
@@ -118,6 +119,7 @@
                         '</td>' .
                         '</tr>' .
                         '</table>' .
+                        '</div>' .
                         '</article>' .
                         
 
