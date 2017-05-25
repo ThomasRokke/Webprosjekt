@@ -83,15 +83,6 @@ ul li a:hover{
 
 /* ---- Top Image ---- */
 
-/*.top-image{
-    width: 100%;
-    height: 80vh;
-    background: url("../Images/barcodenatt.jpg") center no-repeat;
-    background-size: 100% 100%;
-    margin-bottom: 50px;
-}
-*/
-
 .top-image{
     width: 100%;
     height: 80vh;
@@ -102,6 +93,18 @@ ul li a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Logo */
+
+.logo{
+    position: relative;
+    top: 150px;
+    background: url(../Images/bl%C3%A5W.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: auto;
 }
 
 /* ---- Main Section ---- */
