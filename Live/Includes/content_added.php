@@ -100,6 +100,167 @@ if(isset($_POST['submit'])){
 
     }
 
+    if(empty($_POST['1o'])){
+
+
+        $manglende_info[] = 'Mandag Open';
+
+    } else {
+
+
+        $mO = trim($_POST['1o']);
+
+    }
+    if(empty($_POST['1s'])){
+
+
+        $manglende_info[] = 'Mandag Close';
+
+    } else {
+
+
+        $mS = trim($_POST['1s']);
+
+    }
+    if(empty($_POST['2o'])){
+
+
+        $manglende_info[] = 'Tirsdag Open';
+
+    } else {
+
+
+        $tiO = trim($_POST['2o']);
+
+    }
+    if(empty($_POST['2s'])){
+
+
+        $manglende_info[] = 'Tirsdag close';
+
+    } else {
+
+
+        $tiS = trim($_POST['2s']);
+
+    }
+    if(empty($_POST['3o'])){
+
+
+        $manglende_info[] = 'Onsdag Open';
+
+    } else {
+
+
+        $oO = trim($_POST['3o']);
+
+    }
+    if(empty($_POST['3s'])){
+
+
+        $manglende_info[] = 'Onsdag Close';
+
+    } else {
+
+
+        $oS = trim($_POST['3s']);
+
+    }
+    if(empty($_POST['4o'])){
+
+
+        $manglende_info[] = 'Torsdag Open';
+
+    } else {
+
+
+        $tO = trim($_POST['4o']);
+
+    }
+    if(empty($_POST['4s'])){
+
+
+        $manglende_info[] = 'Torsdag Open';
+
+    } else {
+
+
+        $tS = trim($_POST['4s']);
+
+    }
+
+    if(empty($_POST['5o'])){
+
+
+        $manglende_info[] = 'Fredag Open';
+
+    } else {
+
+
+        $fO = trim($_POST['5o']);
+
+    }
+
+    if(empty($_POST['5s'])){
+
+
+        $manglende_info[] = 'Fredag Close';
+
+    } else {
+
+
+        $fS = trim($_POST['5s']);
+
+    }
+
+    if(empty($_POST['6o'])){
+
+
+        $manglende_info[] = 'Lørdag Open';
+
+    } else {
+
+
+        $lO = trim($_POST['6o']);
+
+    }
+
+    if(empty($_POST['6s'])){
+
+
+        $manglende_info[] = 'Lørdag stengt';
+
+    } else {
+
+
+        $lS = trim($_POST['6s']);
+
+    }
+
+    if(empty($_POST['7o'])){
+
+
+        $manglende_info[] = 'Søndag open';
+
+    } else {
+
+
+        $sO = trim($_POST['7o']);
+
+    }
+
+    if(empty($_POST['7s'])){
+
+
+        $manglende_info[] = 'Søndag stengt';
+
+    } else {
+
+
+        $sS = trim($_POST['7s']);
+
+    }
+
 
 
     if(empty($manglende_info)){
@@ -138,6 +299,60 @@ if(isset($_POST['submit'])){
             ECHO 'WRONG BITCH';
         }
 
+        $MtimeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
+            VALUES ('$id', 1, '$mO', '$mS');";
+
+        if (mysqli_query($dbc, $MtimeSporring)) {
+            echo "Innhold er lagt til i databasen";
+        }
+
+        else {
+            echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
+        }
+
+        $TtimeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
+            VALUES ('$id', 2, '$tiO', '$tiS');";
+
+        if (mysqli_query($dbc, $TtimeSporring)) {
+            echo "Innhold er lagt til i databasen";
+        }
+
+        else {
+            echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
+        }
+
+        $OtimeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
+            VALUES ('$id', 3, '$oO', '$oS');";
+
+        if (mysqli_query($dbc, $OtimeSporring)) {
+            echo "Innhold er lagt til i databasen";
+        }
+
+        else {
+            echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
+        }
+
+        $timeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
+            VALUES ('$id', 1, '$mO', '$mS');";
+
+        if (mysqli_query($dbc, $timeSporring)) {
+            echo "Innhold er lagt til i databasen";
+        }
+
+        else {
+            echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
+        }
+
+        $timeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
+            VALUES ('$id', 1, '$mO', '$mS');";
+
+        if (mysqli_query($dbc, $timeSporring)) {
+            echo "Innhold er lagt til i databasen";
+        }
+
+        else {
+            echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
+        }
 
 
 
