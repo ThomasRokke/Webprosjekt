@@ -3,8 +3,7 @@
     
     <?php include("../includes/menu.php"); ?>
 
-    <div class="top-image">    
-    </div>
+    
 
 
 
