@@ -39,7 +39,7 @@ if($response){
                 '</p>' .
                 '<a class="CTbutton" href="merinfo.php?id=' .
                 $row['id'] .
-                 '">Mer info!</a>' .
+                 '#merInfoAnchor">Mer info!</a>' .
                 '</div>' .
                 '</div>';
         }
