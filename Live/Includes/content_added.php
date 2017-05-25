@@ -291,7 +291,7 @@ if(isset($_POST['submit'])){
         if($IDsvar){
             if($IDresult = mysqli_fetch_array($IDsvar)){
                 $id = $IDresult['id'];
-                ECHO 'RIGHT BITCH' . $id . $name;
+               
             }
 
         }
@@ -303,55 +303,77 @@ if(isset($_POST['submit'])){
             VALUES ('$id', 1, '$mO', '$mS');";
 
         if (mysqli_query($dbc, $MtimeSporring)) {
-            echo "Innhold er lagt til i databasen";
+
         }
 
         else {
             echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
         }
 
-        $TtimeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
+        $TitimeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
             VALUES ('$id', 2, '$tiO', '$tiS');";
 
-        if (mysqli_query($dbc, $TtimeSporring)) {
-            echo "Innhold er lagt til i databasen";
+        if (mysqli_query($dbc, $TitimeSporring)) {
+
         }
 
         else {
-            echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
+            echo "Error: " . $OtimeSporring . "<br>" . mysqli_error($dbc);
         }
 
         $OtimeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
             VALUES ('$id', 3, '$oO', '$oS');";
 
         if (mysqli_query($dbc, $OtimeSporring)) {
-            echo "Innhold er lagt til i databasen";
+
         }
 
         else {
-            echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
+            echo "Error: " . $OtimeSporring . "<br>" . mysqli_error($dbc);
         }
 
-        $timeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
-            VALUES ('$id', 1, '$mO', '$mS');";
+        $TtimeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
+            VALUES ('$id', 4, '$tO', '$tS');";
 
-        if (mysqli_query($dbc, $timeSporring)) {
-            echo "Innhold er lagt til i databasen";
-        }
+        if (mysqli_query($dbc, $TtimeSporring)) {
 
-        else {
-            echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
-        }
-
-        $timeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
-            VALUES ('$id', 1, '$mO', '$mS');";
-
-        if (mysqli_query($dbc, $timeSporring)) {
-            echo "Innhold er lagt til i databasen";
         }
 
         else {
-            echo "Error: " . $sporring . "<br>" . mysqli_error($dbc);
+            echo "Error: " . $TtimeSporring . "<br>" . mysqli_error($dbc);
+        }
+
+        $FtimeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
+            VALUES ('$id', 5, '$fO', '$fS');";
+
+        if (mysqli_query($dbc, $FtimeSporring)) {
+
+        }
+
+        else {
+            echo "Error: " . $FtimeSporring . "<br>" . mysqli_error($dbc);
+        }
+
+        $LtimeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
+            VALUES ('$id', 6, '$lO', '$lS');";
+
+        if (mysqli_query($dbc, $LtimeSporring)) {
+
+        }
+
+        else {
+            echo "Error: " . $LtimeSporring . "<br>" . mysqli_error($dbc);
+        }
+
+        $StimeSporring = "INSERT INTO openinghours (BarId, DayId, StartTime, EndTime) 
+            VALUES ('$id', 7, '$sO', '$sS');";
+
+        if (mysqli_query($dbc, $StimeSporring)) {
+
+        }
+
+        else {
+            echo "Error: " . $StimeSporring . "<br>" . mysqli_error($dbc);
         }
 
 
