@@ -101,7 +101,7 @@ ul li a:hover{
 .headArticle{
     float: left;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 20px;
     line-height: 32px;
     margin-left: 10%;
     width: 30%;
@@ -115,7 +115,7 @@ ul li a:hover{
 }
 /* ----- TABLE SOM BLIR BRUKT PÅ ADMIN SIDE FOR GET CONTENT DELETE SHIET --------*/
 
-table {
+#admin_table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -142,6 +142,7 @@ tr:nth-child(even) {
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
+    margin-top: 00px;
 }
 
 .box_section{
@@ -248,13 +249,14 @@ box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);*/
     height: 600px;
 }
 
-.headArticle table,
-.headArticle th,
-.headArticle td {
-    border: 1px solid black;
+.table_container{
+    display: inline-block;
+    background-color: aqua;
 }
 
-.headArticle table{
+.tid_table{
+    table-layout: fixed;
+    width: 100%;
 }
 
 .headArticle th,
