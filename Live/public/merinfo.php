@@ -20,7 +20,7 @@
 
             $query = "SELECT name, description, imagepath FROM markers WHERE id = $getID";
 
-            $dayQuery = "SELECT DayId, StartTime, EndTime FROM openinghours WHERE BarId = $getID";
+            $dayQuery = "SELECT * FROM openinghours WHERE BarId = $getID";
 
             $dayResponse =  @mysqli_query($dbc, $dayQuery);
 
@@ -51,30 +51,37 @@
             if($dayResponse){
                while($rad = mysqli_fetch_array($dayResponse)){
                    $dag = "tirs";
-                   switch($rad['DayID']){
+                   $dagTall = $rad['DayID'];
+                   switch($dagTall){
                        case 1:
                            $dag = "Mandag";
                            break;
                        case 2:
                            $dag = "Tirsdag";
                            break;
-                       case 2:
-                           $dag = "Tirsdag";
+                       case 3:
+                           $dag = "Onsdag";
                            break;
-                       case 2:
-                           $dag = "Tirsdag";
+                       case 4:
+                           $dag = "Torsdag";
                            break;
-                       case 2:
-                           $dag = "Tirsdag";
+                       case 5:
+                           $dag = "Fredag";
                            break;
-                       case 2:
-                           $dag = "Tirsdag";
+                       case 6:
+                           $dag = "Lørdag";
                            break;
+                       case 7:
+                           $dag = "Søndag";
+                           break;
+                       Default:
+                           $dag = "Kunne ikke hente dag";
+
                    }
 
                    echo '<tr>' .
                    '<td>' .
-                       $dag.
+                       $dag .
                    '</td>' .
                    '<td class="table_right_align">' .
                    $rad['StartTime'] . ' - ' . $rad['EndTime'] .

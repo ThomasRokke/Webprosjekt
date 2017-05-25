@@ -24,11 +24,11 @@
             </p>
 
 
-            <p>Latitude (lengdegrad):
+            <p>Latitude(lengdegrad):
                 <input type="text" name="lat" size="30" placeholder="F.eks 59.913869" maxlength="60" value="" />
             </p>
 
-            <p>Longditude (breddegrad):
+            <p>Longditude(breddegrad):
                 <input type="text" name="lng" placeholder="F.eks 10.752245" size="30" maxlength="60" value="" />
             </p>
             <button type="button" class="find_coord" onclick="findLatLng()">Finn koordinater</button>
@@ -46,6 +46,62 @@
                 <input type="text" name="imagepath" size="30" maxlength="60" value="" />
             </p>
 
+            <p>Mandag:<br></p>
+            <p>Åpner:
+                <input class="opening_hours" type="text" name="1o" size="30" maxlength="60" value="" />
+            </p>
+            <p>Stenger:
+                <input class="opening_hours" type="text" name="1s" size="30" maxlength="60" value="" />
+            </p>
+
+            <p>Tirsdag:<br></p>
+            <p>Åpner:
+                <input class="opening_hours" type="text" name="2o" size="30" maxlength="60" value="" />
+            </p>
+            <p>Stenger:
+                <input class="opening_hours" type="text" name="2s" size="30" maxlength="60" value="" />
+            </p>
+
+            <p>Onsdag:<br></p>
+            <p>Åpner:
+                <input class="opening_hours" type="text" name="3o" size="30" maxlength="60" value="" />
+            </p>
+            <p>Stenger:
+                <input class="opening_hours" type="text" name="3s" size="30" maxlength="60" value="" />
+            </p>
+
+            <p>Torsdag:<br></p>
+            <p>Åpner:
+                <input class="opening_hours" type="text" name="4o" size="30" maxlength="60" value="" />
+            </p>
+            <p>Stenger:
+                <input class="opening_hours" type="text" name="4s" size="30" maxlength="60" value="" />
+            </p>
+
+            <p>Fredag:<br></p>
+            <p>Åpner:
+                <input class="opening_hours" type="text" name="5o" size="30" maxlength="60" value="" />
+            </p>
+            <p>Stenger:
+                <input class="opening_hours" type="text" name="5s" size="30" maxlength="60" value="" />
+            </p>
+
+            <p>Lørdag:<br></p>
+            <p>Åpner:
+                <input class="opening_hours" type="text" name="6o" size="30" maxlength="60" value="" />
+            </p>
+            <p>Stenger:
+                <input class="opening_hours" type="text" name="6s" size="30" maxlength="60" value="" />
+            </p>
+
+            <p>Søndag:<br></p>
+            <p>Åpner:
+                <input class="opening_hours" type="text" name="7o" size="30" maxlength="60" value="" />
+            </p>
+            <p>Stenger:
+                <input class="opening_hours" type="text" name="7s" size="30" maxlength="60" value="" />
+            </p>
+
             <p><p>Type:</p>
             <input type="radio" id="event" value="event" name="type">
             <label for="event">Event</label><br>
@@ -54,11 +110,6 @@
             <input type="radio" id="aktivitet" value="aktivitet" name="type" >
             <label for="aktivitet">Aktivitet</label><br>
             </p>
-        
-        
-            
-
-            <!-- funkar ikkje  <input class="send" type="submit" name="submit" value="Send" /> -->
 
             <button name="submit" type="submit" value="send" class="send">Send</button>
 
