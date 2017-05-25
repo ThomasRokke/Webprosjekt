@@ -3,6 +3,9 @@
     <a class="dropdown_menu"></a>
     <ul>
         <li>
+            <img class="menu_logo" src="../public/Images/bl%C3%A5W.png">
+        </li>
+        <li>
             <a href="../public/Index.php">Hjem</a>
         </li>
         <li>
