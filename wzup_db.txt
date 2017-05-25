@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `markers`;
 CREATE TABLE `markers` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) AUTO_INCREMENT,
   `name` varchar(60) NOT NULL,
   `address` varchar(85) NOT NULL,
   `lat` float(10,6) NOT NULL,
