@@ -269,8 +269,6 @@ if(isset($_POST['submit'])){
         <label for="aktivitet">Aktivitet</label><br>
     </p>
 
-   \
-
     <button name="submit" type="submit" value="send" class="send">Send</button>
     
     
