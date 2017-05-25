@@ -3,6 +3,7 @@
 <div class="top-image">
 
     <?php include("../includes/menu.php"); ?>
+    <?php include("logo.php"); ?>
 
 </div>
 
