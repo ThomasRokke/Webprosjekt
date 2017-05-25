@@ -857,7 +857,11 @@ $(document).ready(function() {
 			draggable:flyttbar, //Boolean om det er mulig å flytte på markøren - det er det ikke. 
 			animation: google.maps.Animation.BOUNCE,
 			title:"Wzup world!",
-			icon: ikon //Hvilket ikon som blir brukt på kartet - avhenger av type
+			icon: {
+                url: ikon, //Hvilket ikon som blir brukt på kartet - avhenger av type
+                scaledSize: new google.maps.Size(70,70)
+
+            }
             
 		});
 
