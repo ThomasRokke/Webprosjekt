@@ -801,7 +801,7 @@ $(document).ready(function() {
                    
                       var type = $(this).attr('type');
                     
-                        lag_pin(point, name, address, false, false, false, type, id);
+                        lag_pin(point, name, address, false, false, type, id);
                    
                     
                     
@@ -813,7 +813,7 @@ $(document).ready(function() {
 
 
     
-        function lag_pin(MapPos, MapTitle, MapDesc,  InfoOpenDefault, DragAble, Removable, type, id)
+        function lag_pin(kartPosisjon, kartTittel, kartBeskrivelse,  infoVinduOpenDefault, flyttbar, type, id)
 	{	  	  		  
 
         var ikon = ''; //deklarerer en varabel som skal ta vare på ikon navn.
@@ -834,9 +834,9 @@ $(document).ready(function() {
 
 		//ny markør
 		var pin = new google.maps.Marker({
-			position: MapPos,
+			position: kartPosisjon,
 			map: map,
-			draggable:DragAble,
+			draggable:flyttbar,
 			animation: google.maps.Animation.BOUNCE,
 			title:"Hello World!",
 			icon: ikon
@@ -877,9 +877,9 @@ $(document).ready(function() {
 		////Innhold struktur til info Window for markørene
         var contentString = $('<div class="marker-info-win">'+
             '<div class="marker-inner-win"><span class="info-content">'+
-            '<h1 class="marker-heading">'+MapTitle+'</h1>'+
-            MapDesc+
-            '</span><a href="merinfo.php?id='+id+'"<button name="til-nettside" class="til-nettside" title="Til Nettside">Mer Info</button></a>'+
+            '<h1 class="marker-heading">'+kartTittel+'</h1>'+
+            kartBeskrivelse+
+            '</span><a href="merinfo.php?id='+id+'#merInfoAnchor"<button name="til-nettside" class="til-nettside" title="Til Nettside">Mer Info</button></a>'+
             '</div></div>');
 
 		
@@ -894,7 +894,7 @@ $(document).ready(function() {
 
 	    });
 		  
-		if(InfoOpenDefault) //om infoWindow skal åpnes som default
+		if(infoVinduOpenDefault) //om infoWindow skal åpnes som default
 		{
 		  infowindow.open(map,pin);
 		}
