@@ -136,7 +136,7 @@ tr:nth-child(even) {
 /* ------------------------ */
 
 .parallax {
-    background: url(../Images/bridge.jpg)repeat fixed 100%;
+    background: url(../Images/vulkan.jpg)repeat fixed 100%;
     background-position: center;
     padding: 0;
     background-size: cover;
