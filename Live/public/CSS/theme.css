@@ -332,6 +332,10 @@ td{
 
 /* Input Fields */
 
+form p{
+    font-weight: bold;
+}
+
 input{
     display: block;
     margin: 15px 5px 15px 0;
@@ -339,6 +343,11 @@ input{
     border-radius: 1px;
     height: 25px; 
     border: 2px solid black;
+}
+
+.opening_hours{
+    display: inline-block;
+    width: 25%;
 }
 
 input:focus{

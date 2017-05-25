@@ -180,34 +180,61 @@ if(isset($_POST['submit'])){
         <input type="text" name="imagepath" size="30" maxlength="60" value="" />
     </p>
 
-    <p>Åpningstid Mandag:
-        <input type="text" name="mandag" size="30" maxlength="60" value="" />
+    <p>Mandag:<br></p>
+    <p>Åpner:
+        <input class="opening_hours" type="text" name="1o" size="30" maxlength="60" value="" />
+    </p>
+    <p>Stenger:
+        <input class="opening_hours" type="text" name="1s" size="30" maxlength="60" value="" />
     </p>
 
-    <p>Tirsdag:
-        <input type="text" name="tirsdag" size="30" maxlength="60" value="" />
+    <p>Tirsdag:<br></p>
+    <p>Åpner:
+        <input class="opening_hours" type="text" name="2o" size="30" maxlength="60" value="" />
     </p>
-
-    <p>Onsdag:
-        <input type="text" name="onsdag" size="30" maxlength="60" value="" />
+    <p>Stenger:
+        <input class="opening_hours" type="text" name="2s" size="30" maxlength="60" value="" />
     </p>
-
-    <p>Torsdag:
-        <input type="text" name="torsdag" size="30" maxlength="60" value="" />
+    
+    <p>Onsdag:<br></p>
+    <p>Åpner:
+        <input class="opening_hours" type="text" name="3o" size="30" maxlength="60" value="" />
     </p>
-
-    <p>Fredag:
-        <input type="text" name="fredag" size="30" maxlength="60" value="" />
+    <p>Stenger:
+        <input class="opening_hours" type="text" name="3s" size="30" maxlength="60" value="" />
     </p>
-
-    <p>Lørdag:
-        <input type="text" name="lørdag" size="30" maxlength="60" value="" />
+    
+    <p>Torsdag:<br></p>
+    <p>Åpner:
+        <input class="opening_hours" type="text" name="4o" size="30" maxlength="60" value="" />
     </p>
-
-    <p>Søndag:
-        <input type="text" name="søndag" size="30" maxlength="60" value="" />
+    <p>Stenger:
+        <input class="opening_hours" type="text" name="4s" size="30" maxlength="60" value="" />
     </p>
-
+    
+    <p>Fredag:<br></p>
+    <p>Åpner:
+        <input class="opening_hours" type="text" name="5o" size="30" maxlength="60" value="" />
+    </p>
+    <p>Stenger:
+        <input class="opening_hours" type="text" name="5s" size="30" maxlength="60" value="" />
+    </p>
+    
+    <p>Lørdag:<br></p>
+    <p>Åpner:
+        <input class="opening_hours" type="text" name="6o" size="30" maxlength="60" value="" />
+    </p>
+    <p>Stenger:
+        <input class="opening_hours" type="text" name="6s" size="30" maxlength="60" value="" />
+    </p>
+    
+    <p>Søndag:<br></p>
+    <p>Åpner:
+        <input class="opening_hours" type="text" name="7o" size="30" maxlength="60" value="" />
+    </p>
+    <p>Stenger:
+        <input class="opening_hours" type="text" name="7s" size="30" maxlength="60" value="" />
+    </p>
     
     <p><p>Type:</p>
         <input type="radio" id="event" value="event" name="type">
