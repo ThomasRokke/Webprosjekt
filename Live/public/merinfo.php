@@ -34,21 +34,17 @@
                         $row['description'] .
                         '</p><br>' .
                         
-                        '<div class="table_container">' .
-                        '<table class="tid_table">' .
+                        
+                        '<table>' .
                         '<tr>' .
                         '<th>Dag</th>' .
-                        '<th>Åpner</th>' .
-                        '<th>Stenger</th>' .
+                        '<th  class="table_right_align">Åpningstid</th>' .
                         '</tr>' .
                         
                         '<tr>' .
                         '<td> Mandag' .
                         '</td>' .
-                        '<td>' .
-                        $row['id'] .
-                        '</td>' .
-                        '<td>' .
+                        '<td class="table_right_align">' .
                         $row['id'] .
                         '</td>' .
                         '</tr>' .
@@ -56,10 +52,7 @@
                         '<tr>' .
                         '<td> Tirsdag' .
                         '</td>' .
-                        '<td>' .
-                        $row['id'] .
-                        '</td>' .
-                        '<td>' .
+                        '<td class="table_right_align">' .
                         $row['id'] .
                         '</td>' .
                         '</tr>' .
@@ -67,10 +60,7 @@
                         '<tr>' .
                         '<td> Onsdag' .
                         '</td>' .
-                        '<td>' .
-                        $row['id'] .
-                        '</td>' .
-                        '<td>' .
+                        '<td class="table_right_align">' .
                         $row['id'] .
                         '</td>' .
                         '</tr>' .
@@ -78,10 +68,7 @@
                         '<tr>' .
                         '<td> Torsdag' .
                         '</td>' .
-                        '<td>' .
-                        $row['id'] .
-                        '</td>' .
-                        '<td>' .
+                        '<td class="table_right_align">' .
                         $row['id'] .
                         '</td>' .
                         '</tr>' .
@@ -89,10 +76,7 @@
                         '<tr>' .
                         '<td> Fredag' .
                         '</td>' .
-                        '<td>' .
-                        $row['id'] .
-                        '</td>' .
-                        '<td>' .
+                        '<td class="table_right_align">' .
                         $row['id'] .
                         '</td>' .
                         '</tr>' .
@@ -100,10 +84,7 @@
                         '<tr>' .
                         '<td> Lørdag' .
                         '</td>' .
-                        '<td>' .
-                        $row['id'] .
-                        '</td>' .
-                        '<td>' .
+                        '<td class="table_right_align">' .
                         $row['id'] .
                         '</td>' .
                         '</tr>' .
@@ -111,15 +92,11 @@
                         '<tr>' .
                         '<td> Søndag' .
                         '</td>' .
-                        '<td>' .
-                        $row['id'] .
-                        '</td>' .
-                        '<td>' .
+                        '<td class="table_right_align">' .
                         $row['id'] .
                         '</td>' .
                         '</tr>' .
                         '</table>' .
-                        '</div>' .
                         '</article>' .
                         
 
@@ -152,9 +129,6 @@
 
     </section>
 
-    <section class="box_section">
-
-    </section>
 
 
 </section>

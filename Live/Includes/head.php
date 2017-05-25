@@ -10,6 +10,7 @@
     
  <!-- Link to google fonts for "Bree Serif" font used in menu-->
 <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
     <?php
         //include('kartCSS.php');
