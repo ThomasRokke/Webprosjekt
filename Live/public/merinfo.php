@@ -11,7 +11,7 @@
 <section class="main-content">
 
     <section id="scrollDown" class="topSection">
-        <article class="headArticle">
+        <article id="merInfoAnchor" class="headArticle">
             
             <?php
             require_once('../Includes/db_tilkobling.php');
