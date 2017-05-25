@@ -826,7 +826,7 @@ $(document).ready(function() {
                 ikon = 'alc.svg';
                 break;
             case 'event':
-                ikon = 'cal.svg';
+                ikon = 'cal1.svg';
                 break; 
             default:
                 ikon = 'bank.svg';
