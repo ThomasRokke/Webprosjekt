@@ -34,7 +34,7 @@
                         $row['description'] .
                         '</p><br>' .
                         
-                        
+                        '<div class="table_container">' .
                         '<table>' .
                         '<tr>' .
                         '<th>Dag</th>' .
@@ -97,6 +97,7 @@
                         '</td>' .
                         '</tr>' .
                         '</table>' .
+                        '</div>' .
                         '</article>' .
                         
 
@@ -118,11 +119,6 @@
             mysqli_close($dbc);
 
             ?>
-
-
-
-
-
     </section>
 
     <section class="parallax">
