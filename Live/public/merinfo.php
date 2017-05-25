@@ -18,7 +18,7 @@
 
             $getID = $_GET['id'];
 
-            $query = "SELECT ma.name, ma.id, ma.imagepath, ma.description oh.StartTime oh.EndTime FROM markers AS ma JOIN openinghours AS oh ON ma.id = oh.BarId WHERE ma.id = $getID";
+            $query = "SELECT ma.name, ma.id, ma.imagepath, ma.description, oh.StartTime, oh.EndTime FROM markers AS ma JOIN openinghours AS oh ON ma.id = oh.BarId WHERE ma.id = $getID";
 
             $response = @mysqli_query($dbc, $query);
 
