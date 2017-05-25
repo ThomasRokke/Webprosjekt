@@ -54,6 +54,9 @@
             <input type="radio" id="aktivitet" value="aktivitet" name="type" >
             <label for="aktivitet">Aktivitet</label><br>
             </p>
+        
+        
+            
 
             <!-- funkar ikkje  <input class="send" type="submit" name="submit" value="Send" /> -->
 
