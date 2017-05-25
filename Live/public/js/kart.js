@@ -5,13 +5,13 @@ $(document).ready(function() {
 	var mapCenter = new google.maps.LatLng(59.923339, 10.752497); //Google map Coordinates
 	var map;
 
-	map_initialize(); // initialize google map
+	kart_init(); // initialize google map
 
-	//############### Google Map Initialize ##############
-	function map_initialize()
+	// Starter google maps
+	function kart_init()
 {
 
-			var googleMapOptions =
+			var kartEgenskaper =
 			{
 				center: mapCenter, // map center
 				zoom: 16, //zoom level, 0 = earth view to higher value
@@ -753,7 +753,7 @@ $(document).ready(function() {
 
 
 
-		   	map = new google.maps.Map(document.getElementById("google_map"), googleMapOptions);
+		   	map = new google.maps.Map(document.getElementById("google_map"), kartEgenskaper);
 
     
             // Legger til en map listener når brukeren høyreklikker på kartet og kaller på funksjonen styleStrobe 
