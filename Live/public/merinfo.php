@@ -18,7 +18,11 @@
 
             $getID = $_GET['id'];
 
-            $query = "SELECT ma.name, ma.id, ma.imagepath, ma.description, oh.StartTime, oh.EndTime FROM markers AS ma JOIN openinghours AS oh ON ma.id = oh.BarId WHERE ma.id = $getID";
+            $query = "SELECT name, description, imagepath FROM markers WHERE id = $getID";
+
+            $dayQuery = "SELECT DayId, StartTime, EndTime FROM openinghours WHERE BarId = $getID";
+
+            $dayResponse =  @mysqli_query($dbc, $dayQuery);
 
             $response = @mysqli_query($dbc, $query);
 
@@ -33,87 +37,69 @@
                         '<p>' .
                         $row['description'] .
                         '</p><br>' .
-                        
                         '<div class="table_container">' .
                         '<table>' .
                         '<tr>' .
                         '<th>Dag</th>' .
                         '<th  class="table_right_align">Åpningstid</th>' .
-                        '</tr>' .
-                        
-                        '<tr>' .
-                        '<td> Mandag' .
-                        '</td>' .
-                        '<td class="table_right_align">' .
-                        $row['id'] .
-                        '</td>' .
-                        '</tr>' .
-                        
-                        '<tr>' .
-                        '<td> Tirsdag' .
-                        '</td>' .
-                        '<td class="table_right_align">' .
-                        $row['id'] .
-                        '</td>' .
-                        '</tr>' .
-                        
-                        '<tr>' .
-                        '<td> Onsdag' .
-                        '</td>' .
-                        '<td class="table_right_align">' .
-                        $row['id'] .
-                        '</td>' .
-                        '</tr>' .
-                        
-                        '<tr>' .
-                        '<td> Torsdag' .
-                        '</td>' .
-                        '<td class="table_right_align">' .
-                        $row['id'] .
-                        '</td>' .
-                        '</tr>' .
-                        
-                        '<tr>' .
-                        '<td> Fredag' .
-                        '</td>' .
-                        '<td class="table_right_align">' .
-                        $row['id'] .
-                        '</td>' .
-                        '</tr>' .
-                        
-                        '<tr>' .
-                        '<td> Lørdag' .
-                        '</td>' .
-                        '<td class="table_right_align">' .
-                        $row['id'] .
-                        '</td>' .
-                        '</tr>' .
-                        
-                        '<tr>' .
-                        '<td> Søndag' .
-                        '</td>' .
-                        '<td class="table_right_align">' .
-                        $row['id'] .
-                        '</td>' .
-                        '</tr>' .
-                        '</table>' .
-                        '</div>' .
-                        '</article>' .
-                        
+                        '</tr>' ;
 
-                        '<img class="merInfoBilde" src="Images/storeBilder/' .
 
-                        $row['imagepath'] .
-
-                        'S.jpg">';
                 }
             }
+
+            if($dayResponse){
+               while($rad = mysqli_fetch_array($dayResponse)){
+                   $dag = "tirs";
+                   switch($rad['DayID']){
+                       case 1:
+                           $dag = "Mandag";
+                           break;
+                       case 2:
+                           $dag = "Tirsdag";
+                           break;
+                       case 2:
+                           $dag = "Tirsdag";
+                           break;
+                       case 2:
+                           $dag = "Tirsdag";
+                           break;
+                       case 2:
+                           $dag = "Tirsdag";
+                           break;
+                       case 2:
+                           $dag = "Tirsdag";
+                           break;
+                   }
+
+                   echo '<tr>' .
+                   '<td>' .
+                       $dag.
+                   '</td>' .
+                   '<td class="table_right_align">' .
+                   $rad['StartTime'] . ' - ' . $rad['EndTime'] .
+                   '</td>' .
+                   '</tr>' ;
+               }
+               echo'</table>' .
+                   '</div>' .
+                   '</article>' .
+
+
+                   '<img class="merInfoBilde" src="Images/storeBilder/' .
+
+                   $row['imagepath'] .
+
+                   'S.jpg">';
+            }
+
             else {
 
                 echo "Couldn't issue database query<br />";
 
                 echo mysqli_error($dbc);
             }
+
 
             // Lukker database tilkoblingen.
             mysqli_close($dbc);
