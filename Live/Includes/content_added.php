@@ -113,8 +113,6 @@ if(isset($_POST['submit'])){
             VALUES ('$name', '$address', '$lat', '$lng', '$type', '$sDesc', '$description', '$imagepath');";
 
 
-
-
         if (mysqli_query($dbc, $sporring)) {
             echo "Innhold er lagt til i databasen";
         }
@@ -181,6 +179,35 @@ if(isset($_POST['submit'])){
     <p>Filnavn på bilde:
         <input type="text" name="imagepath" size="30" maxlength="60" value="" />
     </p>
+
+    <p>Åpningstid Mandag:
+        <input type="text" name="mandag" size="30" maxlength="60" value="" />
+    </p>
+
+    <p>Tirsdag:
+        <input type="text" name="tirsdag" size="30" maxlength="60" value="" />
+    </p>
+
+    <p>Onsdag:
+        <input type="text" name="onsdag" size="30" maxlength="60" value="" />
+    </p>
+
+    <p>Torsdag:
+        <input type="text" name="torsdag" size="30" maxlength="60" value="" />
+    </p>
+
+    <p>Fredag:
+        <input type="text" name="fredag" size="30" maxlength="60" value="" />
+    </p>
+
+    <p>Lørdag:
+        <input type="text" name="lørdag" size="30" maxlength="60" value="" />
+    </p>
+
+    <p>Søndag:
+        <input type="text" name="søndag" size="30" maxlength="60" value="" />
+    </p>
+
     
     <p><p>Type:</p>
         <input type="radio" id="event" value="event" name="type">
