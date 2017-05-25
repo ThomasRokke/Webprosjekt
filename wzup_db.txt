@@ -32,8 +32,8 @@ CREATE TABLE `EventTime` (
   `EventId` INT,
   `Date` DATE,
   `DayId` INT,
-  `Start-time` TIME,
-  `End-time` TIME,
+  `StartTime` TIME,
+  `EndTime` TIME,
   PRIMARY KEY (`Date`, `EventId`),
   FOREIGN KEY (`EventId`) REFERENCES events (`EventId`),
   FOREIGN KEY (`DayId`) REFERENCES days (`DayID`)
@@ -121,8 +121,8 @@ INSERT INTO `markers` (`id`, `UserId`, `name`, `address`, `lat`, `lng`, `type`, 
 CREATE TABLE `OpeningHours` (
   `BarId` INT,
   `DayID` INT,
-  `Start-time` TIME,
-  `End-time` TIME,
+  `StartTime` TIME,
+  `EndTime` TIME,
   PRIMARY KEY (`BarId`, `DayId`),
   FOREIGN KEY (`BarId`) REFERENCES markers (`id`),
   FOREIGN KEY (`DayID`) REFERENCES days (`DayID`)
