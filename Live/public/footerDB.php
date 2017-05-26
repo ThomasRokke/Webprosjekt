@@ -1,5 +1,5 @@
 <?php 
-
+    require_once('../Includes/db_tilkobling.php');
     if(isset($_POST['submit'])){
 
         $tips = $_POST['tips'];
