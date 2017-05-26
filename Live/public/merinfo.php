@@ -7,7 +7,6 @@
 
 </div>
 
-
 <section class="main-content">
 
     <section id="scrollDown" class="topSection">
@@ -20,7 +19,11 @@
 
             $query = "SELECT name, description, imagepath FROM markers WHERE id = $getID";
 
-            $dayQuery = "SELECT * FROM openinghours WHERE BarId = $getID";
+            $dayQuery = "SELECT BarId, DayID, TIME_FORMAT(`StartTime`, '%H:%i') AS StartTime, TIME_FORMAT(`EndTime`, '%H:%i') AS EndTime FROM openinghours WHERE BarId = $getID";
+            
+            /*SELECT FORMAT(CAST(StartTime AS DATETIME),'hh:mm tt') AS StartTime
+            FROM TableA*/
+            
 
             $dayResponse =  @mysqli_query($dbc, $dayQuery);
 
@@ -92,7 +95,6 @@
                    '</div>' .
                    '</article>' .
 
-
                    '<img class="merInfoBilde" src="Images/storeBilder/' .
 
                    $row['imagepath'] .
@@ -107,7 +109,6 @@
                 echo mysqli_error($dbc);
             }
 
-
             // Lukker database tilkoblingen.
             mysqli_close($dbc);
 
@@ -118,20 +119,13 @@
 
     </section>
 
-
-
 </section>
-
 
 <footer class="TRfooter">
     <p class="footerText">&copy; 2017 WZup?<p>
     <p class="footerAdr">Chr. Krohgs gate 32, 0186 Oslo</p>
 
 </footer>
-
-
-
-
 
 <!-- Javascript -->
 
