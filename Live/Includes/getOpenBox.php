@@ -8,11 +8,14 @@
 
 require_once('../Includes/db_tilkobling.php');
 
-date_default_timezone_set('UTC');
+//Setter riktig tidssone
+date_default_timezone_set('Europe/Berlin');
 
 $engDay = date('l');
 
-$tid = date('H');
+$time = date('His');
+
+
 
 $day = "";
 
@@ -44,12 +47,19 @@ switch($engDay) {
 
 
 
+    if($time > 000000 && $time < 050000 ){
+        $query = "SELECT * FROM markers AS ma join openinghours AS oh on ma.id = oh.BarId JOIN Days AS da on
+        oh.DayId = da.DayId WHERE oh.EndTime > 000000 && oh.EndTime < 050000 && da.Weekday = '$day'";
+        $response = @mysqli_query($dbc, $query);
+    }
+    else{
+        $query = "SELECT * FROM markers AS ma join openinghours AS oh on ma.id = oh.BarId JOIN Days AS da on
+        oh.DayId = da.DayId WHERE (oh.EndTime > $time || oh.EndTime BETWEEN 000000 AND 050000) && oh.StartTime < $time && da.Weekday = '$day';";
+        $response = @mysqli_query($dbc, $query);
+    }
 
 
 
-$query = "SELECT id, name, imagepath, sDesc, type FROM markers";
-
-$response = @mysqli_query($dbc, $query);
 
 
 
@@ -65,17 +75,20 @@ if($response){
 
         echo '<div class="CTbox" id="festbox">' .
             '<div class="CTbox-image">' .
+            '<h3 class="boksStenger">' .
+            'Stenger: ' . $row['EndTime'] .
+            '</h3>' .
             '<img src="Images/'.
             $row['imagepath'] .
             '.jpg">' .
             '</div>' .
-
             '<div class="CTbox-info">' .
             '<h4>'.
             $row['name'].
             '</h4>' .
             '<p>'.
-            $row['sDesc']. $tid .
+            $row['sDesc']. '<br>' .
+
 
             '</p>' .
             '<a class="CTbutton" href="merinfo.php?id=' .
