@@ -18,7 +18,7 @@
             <a href="../public/aktiviteter.php">Aktiviteter</a>
         </li>
         <li>
-            <a href="../public/omoss.php">Om oss</a>
+            <a href="../public/opennow.php">Åpen nå</a>
         </li>
     </ul>
 </div>
