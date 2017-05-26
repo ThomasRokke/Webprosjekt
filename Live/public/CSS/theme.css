@@ -448,7 +448,6 @@ button:active{
 }
 
 .footer_social_media_icons{
-    background-color: aqua;
     width: 100px;
     height: 100px;
     display: inline-block;
@@ -457,7 +456,6 @@ button:active{
 }
 
 .footer_form_container{
-    background-color: red;
     display: inline-block;
     vertical-align: top;
     margin-left: 20px;
@@ -468,7 +466,6 @@ button:active{
     margin: auto;
     border-radius: 10px;  
     display: block;
-    background-color: green;
     width: 85%;
     padding-left: 5%;
     padding-right: 5%;
@@ -477,7 +474,6 @@ button:active{
 .footer_text{
     vertical-align: top;
     display: inline-block;
-    background-color: beige;
     width: 20%;
     margin-left: 10%;
 }
