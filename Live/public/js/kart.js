@@ -859,7 +859,7 @@ $(document).ready(function() {
 			title:"Wzup world!",
 			icon: {
                 url: ikon, //Hvilket ikon som blir brukt på kartet - avhenger av type
-                scaledSize: new google.maps.Size(70,70)
+                scaledSize: new google.maps.Size(60,60)
 
             }
             

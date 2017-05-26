@@ -21,9 +21,6 @@
 
             $dayQuery = "SELECT BarId, DayID, TIME_FORMAT(`StartTime`, '%H:%i') AS StartTime, TIME_FORMAT(`EndTime`, '%H:%i') AS EndTime FROM openinghours WHERE BarId = $getID";
             
-            /*SELECT FORMAT(CAST(StartTime AS DATETIME),'hh:mm tt') AS StartTime
-            FROM TableA*/
-            
 
             $dayResponse =  @mysqli_query($dbc, $dayQuery);
 

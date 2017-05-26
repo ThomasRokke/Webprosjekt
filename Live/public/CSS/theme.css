@@ -49,6 +49,10 @@ article p{
     font-size: 1.2em;
 }
 
+input:focus{
+    border: 2px solid green;
+}
+
 /* ---- Navbar Top ---- */
 
 .menu-div{
@@ -165,27 +169,6 @@ ul li a:hover{
 .marker-text{
     font-size: 25px;
 }
-/* ----- TABLE SOM BLIR BRUKT PÅ ADMIN SIDE FOR GET CONTENT DELETE SHIET --------*/
-
-#admin_table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 40px;
-}
-
-td, th {
-    text-align: left;
-    padding: 8px;
-}
-
-td{
-    border-bottom: 1px solid black; 
-}
-
-#admin_table tr:nth-child(even) {
-    background-color: #dddddd;
-}
 
 
 /* ------------------------ */
@@ -217,11 +200,7 @@ td{
     overflow: hidden;
     box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
-    
-
 }
-
-
 
 .CTbox-image{
     height: 60%;
@@ -332,17 +311,35 @@ td{
     font-size: 4em;
 }
 
+#admin_table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+}
 
-/* Input Fields */
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+td{
+    border-bottom: 1px solid black; 
+}
+
+#admin_table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/* Input Fields in Admin Area */
 
 form p{
     font-weight: bold;
 }
 
-input{
+.admin_form{
     display: block;
     margin: 15px 5px 15px 0;
-    width: 50%;
+    width: 55%;
     border-radius: 1px;
     height: 25px; 
     border: 2px solid black;
@@ -351,10 +348,6 @@ input{
 .opening_hours{
     display: inline-block;
     width: 25%;
-}
-
-input:focus{
-    border: 2px solid green;
 }
 
 input[type=radio]{
@@ -369,8 +362,8 @@ label{
 }
 
 
-button{
-    width: 15%;
+.button_send{
+    width: 20%;
     height: 30px;
     margin: 5px; 
     cursor: pointer;
@@ -406,23 +399,58 @@ button:active{
 
 /* ---- Footer ---- */
 
-.TRfooter {
+.footer {
+    box-sizing: border-box;
     width: 100%;
     background: linear-gradient(to right, #514A9D, #24C6DC);
-    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.footerText {
-    color:white;
-    font-size: 1.4em;
-    padding-top: 10px;
+.footer_social_media_icons{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    width: 25%;
+    margin-left: 10%;
 }
 
-.footerAdr {
-    color: white;
-    font-size: 1em;
-    padding-top: 40px;
-    padding-bottom: 20px;
+.footer_form_container{
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    width: 25%;
+}
+
+.footer_input_area{
+    margin: auto;
+    border-radius: 10px;  
+    display: block;
+    background-color: green;
+    width: 85%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer_text{
+    vertical-align: top;
+    display: inline-block;
+    background-color: beige;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.footer_navn{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.footer_adresse{
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
 }
 
 /* Media Queries */
