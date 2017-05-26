@@ -103,7 +103,7 @@ if(isset($_POST['submit'])){
     if(empty($_POST['1o'])){
 
 
-        $manglende_info[] = 'Mandag Open';
+        $manglende_info[] = 'Mandag Open    ';
 
     } else {
 
