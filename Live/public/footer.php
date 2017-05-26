@@ -1,6 +1,3 @@
-<?php require_once('../Includes/db_tilkobling.php'); ?>
-
-
 
 
 <footer class="footer">
