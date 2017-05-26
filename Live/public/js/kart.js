@@ -841,10 +841,10 @@ $(document).ready(function() {
                 ikon = 'food.svg';
                 break;
             case 'aktivitet':
-                ikon = 'alc.svg';
+                ikon = 'aktivitet.svg';
                 break;
             case 'event':
-                ikon = 'okeida.svg';
+                ikon = 'alc.svg';
                 break; 
             default:
                 ikon = 'bank.svg';
