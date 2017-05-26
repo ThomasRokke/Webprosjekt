@@ -1,3 +1,4 @@
+
 <?php include("../includes/head.php"); ?>
 
 <div class="top-image">
@@ -21,19 +22,20 @@
     </section>
 
     <section class="parallax">
-        
+
     </section>
-        
+
     <section class="box_section">
         <?php
 
 
         ?>
         <?php
-            require_once('../Includes/getAllBox.php');
+        //require_once('../Includes/getAllBox.php');
+        require_once ('../Includes/getOpenBox.php');
         ?>
     </section>
-    
+
 
 </section>
 
