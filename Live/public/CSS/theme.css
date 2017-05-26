@@ -166,8 +166,48 @@ ul li a:hover{
     box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
 }
+
 .marker-text{
     font-size: 25px;
+}
+
+
+h1.marker-heading{color: #585858;margin: 0px;padding: 0px;font: 18px "Trebuchet MS", Arial;border-bottom: 1px dotted #D8D8D8;}
+div.marker-info-win {width: 90%; margin-right: -20px;}
+div.marker-info-win p{padding: 0px;margin: 10px 0px 10px 0;}
+div.marker-inner-win{padding: 5px;}
+button.til-nettside, button.til-nettside{border: none;background: rgba(0, 0, 0, 0);color: #00F;padding: 0px;text-decoration: underline;margin-right: 10px;cursor: pointer;
+}
+
+/*
+        var contentString = $('<div class="marker-info-win">'+
+            '<div class="marker-inner-win"><span class="info-content">'+
+            '<h1 class="marker-heading">'+kartTittel+'</h1>'+
+            '<p class="marker-tekst">'+kartBeskrivelse+ '</p>' +
+            '</span><a href="merinfo.php?id='+id+'#merInfoAnchor"<button name="til-nettside" class="til-nettside" title="Til Nettside">Mer Info</button></a>'+
+            '</div></div>');
+/*
+ */
+/* ----- TABLE SOM BLIR BRUKT PÅ ADMIN SIDE FOR GET CONTENT DELETE SHIET --------*/
+
+#admin_table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+td{
+    border-bottom: 1px solid black; 
+}
+
+#admin_table tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 

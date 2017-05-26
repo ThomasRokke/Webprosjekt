@@ -1,3 +1,4 @@
+
 <?php include("../includes/head.php"); ?>
 
 <div class="top-image">
@@ -21,24 +22,29 @@
     </section>
 
     <section class="parallax">
-        
+
     </section>
-        
+
     <section class="box_section">
         <?php
 
 
         ?>
         <?php
-            require_once('../Includes/getAllBox.php');
+
+        require_once ('../Includes/getOpenBox.php');
         ?>
     </section>
-    
+
 
 </section>
 
 
-<?php include("footer.php") ?>
+<footer class="TRfooter">
+    <p class="footerText">&copy; 2017 WZup?<p>
+    <p class="footerAdr">Chr. Krohgs gate 32, 0186 Oslo</p>
+
+</footer>
 
 
 
@@ -49,7 +55,7 @@
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAUOSBwWQ1fKQHF-40kF5kK4h_h4VYA46U"></script>
 
-<script src="js/kart.js" type="text/javascript">
+<script src="js/Openkart.js" type="text/javascript">
 </script>
 <script src="js/dropdown.js" type="text/javascript">
 </script>
