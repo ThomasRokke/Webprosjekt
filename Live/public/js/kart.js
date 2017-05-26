@@ -844,7 +844,7 @@ $(document).ready(function() {
                 ikon = 'alc.svg';
                 break;
             case 'event':
-                ikon = 'cal1.svg';
+                ikon = 'okeida.svg';
                 break; 
             default:
                 ikon = 'bank.svg';
@@ -902,7 +902,7 @@ $(document).ready(function() {
         var contentString = $('<div class="marker-info-win">'+
             '<div class="marker-inner-win"><span class="info-content">'+
             '<h1 class="marker-heading">'+kartTittel+'</h1>'+
-            kartBeskrivelse+
+            '<p class="marker-tekst">'+kartBeskrivelse+ '</p>' +
             '</span><a href="merinfo.php?id='+id+'#merInfoAnchor"<button name="til-nettside" class="til-nettside" title="Til Nettside">Mer Info</button></a>'+
             '</div></div>');
 
