@@ -73,8 +73,11 @@ $time = date('His');
                 $day = "Lørdag";
 
                 break;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 0ac36e3df9958391dce018abde6f5ad0a5b872f5
         }
 
 
