@@ -75,15 +75,7 @@
 
 
 
-<footer class="TRfooter">
-
-    <p class="footerText">&copy; 2017 WZup?<p>
-
-    <p class="footerAdr">Chr. Krohgs gate 32, 0186 Oslo</p>
-
-
-
-</footer>
+<?php include("footer.php") ?>
 
 
 
