@@ -1,383 +1,196 @@
 /* ---- Reset ---- */
-
 *{
-
     padding: 0;
-
     margin: 0;
-
     font-size: 1em;
-
 }
-
-
 
 /* Fonts 
 
-
-
 font-family: 'Bree Serif', serif;
-
-
 
 */
 
-
-
 /* ---- Globals ---- */
 
-
-
 body{
-
     background-image: url(../Images/backgoundcolor.png);
-
 }
-
-
 
 li a{
-
     display: block;
-
 }
-
-
 
 a{
-
     text-decoration: none;
-
 }
-
-
 
 h1, h2, h3, h4, h5, h6{
-
     text-align: center;
-
     font-family: 'Crimson Text', serif;
-
 }
-
-
 
 h2{
-
     font-size: 1.5em;
-
 }
-
-
 
 table{
-
     border-collapse: collapse;
-
     table-layout: fixed;
-
     width: 100%;
-
 }
-
-
 
 p{
-
     font-family: 'Crimson Text', serif;
-
     word-wrap: break-word;
-
 }
-
-
 
 article p{
-
     font-size: 1.2em;
-
 }
-
-
 
 input:focus{
-
     border: 2px solid green;
-
 }
-
-
 
 /* ---- Navbar Top ---- */
 
-
-
 .menu-div{
-
     position: fixed;
-
     width: 100%;
-
     z-index: 9999;
-
     overflow: hidden;
-
     font-family: 'Bree Serif', serif;
-
     background-color: rgba(000,000,000,0.4);
-
     text-align: center;
-
 }
-
-
 
 ul li{
-
     display: inline-block;
-
     padding: 5px;
-
     margin: 0 20px 0 20px;
-
     opacity: 1;
-
 }
-
-
 
 .menu-div li:first-child{
-
     float: left;
-
     padding: 10px;
-
 }
-
-
 
 ul li a{
-
     padding: 10px;
-
     font-weight: bold;
-
     text-transform: uppercase;
-
     border-radius: 15px; 
-
     color: white;
-
 }
-
-
 
 ul li a:hover{
-
     background-color: white;
-
     color: black;
-
 }
-
-
 
 /* ---- Top Image ---- */
 
-
-
 .top-image{
-
     width: 100%;
-
     height: 80vh;
-
     background: url("../Images/barcodenatt.jpg") center no-repeat;
-
     background-size: 100% 100%;
-
     margin-bottom: 50px;
-
     background-attachment: fixed;
-
     background-position: center;
-
     background-repeat: no-repeat;
-
     background-size: cover;
-
 }
-
-
 
 /* Logo */
 
-
-
 .logo{
-
     position: relative;
-
     top: 20%;
-
     background: url("../Images/bl%C3%A5W.png");
-
     background-size: cover;
-
     height: 10em;
-
     width: 10em;
-
     margin: auto;
-
 }
-
-
 
 .menu_logo{
-
     height: 35px;
-
     width: 35px;
-
     vertical-align: middle;
-
 }
 
-
-
-
-
-
+.logo_menu_text{
+    padding-top: 3px;
+    padding-left: 3px;
+    float: right;
+    color: white;
+    font-weight: bold;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+}
 
 /* ---- Main Section ---- */
 
-
-
 .main-content{
-
     width: 100%;
-
     box-sizing: border-box;
-
     text-align: center;
-
 }
-
-
 
 .overskrift{
-
     font-size:2em;
-
 }
-
-
 
 .topSection{
-
     width: 100%;
-
     margin-bottom: 100px;
-
 }
-
-
-
-
 
 .headArticle{
-
     display: inline-block;
-
     vertical-align: top;
-
     text-align: left;
-
     padding: 20px 30px 20px 30px;
-
     line-height: 32px;
-
     margin-left: 10%;
-
     margin-right: 20px;
-
     width: 30%;
-
     transition: 2s;
-
 }
-
-
-
-.headArticle:hover{
-
-    box-shadow: inset 0 0 0 25px rgba(0,0,0,0.1);
-
-}
-
-
 
 #google_map{
-
     display: inline-block;
-
     margin-right:3%;
-
     width: 50%;
-
     height: 600px;
-
     box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
-
     -moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
-
 }
-
-
 
 .marker-text{
-
     font-size: 25px;
-
 }
-
-
-
-
 
 h1.marker-heading{color: #585858;margin: 0px;padding: 0px;font: 18px "Trebuchet MS", Arial;border-bottom: 1px dotted #D8D8D8;}
-
 div.marker-info-win {width: 90%; margin-right: -20px;}
-
 div.marker-info-win p{padding: 0px;margin: 10px 0px 10px 0;}
-
 div.marker-inner-win{padding: 5px;}
-
 button.til-nettside, button.til-nettside{border: none;background: rgba(0, 0, 0, 0);color: #00F;padding: 0px;text-decoration: underline;margin-right: 10px;cursor: pointer;
-
 }
 
-
-
 /*
-
         var contentString = $('<div class="marker-info-win">'+
-
             '<div class="marker-inner-win"><span class="info-content">'+
-
             '<h1 class="marker-heading">'+kartTittel+'</h1>'+
-
             '<p class="marker-tekst">'+kartBeskrivelse+ '</p>' +
-
             '</span><a href="merinfo.php?id='+id+'#merInfoAnchor"<button name="til-nettside" class="til-nettside" title="Til Nettside">Mer Info</button></a>'+
-
             '</div></div>');
-
 /*
-
  */
-
 /* ----- TABLE SOM BLIR BRUKT PÅ ADMIN SIDE FOR GET CONTENT DELETE SHIET --------*/
 
 
@@ -442,11 +255,17 @@ td{
 
     height: 60vh;
 
-    margin-top: 00px;
-
 }
 
-
+.parallax_bottom {
+    background: url(../Images/vulkan.jpg)repeat fixed 100%;
+    background-position: center;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    margin-top: 00px;
+}
 
 .box_section{
 
@@ -540,7 +359,7 @@ td{
 
 .CTbox-info a:hover{
 
-    background-color: lightblue;
+    background-color: #EAEAEA;
 
 }
 
@@ -571,11 +390,8 @@ td{
     width: 40%;
 
     border-radius: 10px;
-
-    box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
-
-    -moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
-
+    
+    border: 1px solid rgb(74, 150, 173);
 }
 
 
@@ -802,74 +618,40 @@ label{
 
 }
 
-
-
-
-
 .button_send{
-
     width: 20%;
-
     height: 30px;
-
     margin: 5px; 
-
     cursor: pointer;
-
     border : 1px solid rgb(128,128,128);
-
     border-radius: 4px;
-
+    box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
 }
-
-
 
 button:hover{
-
     border : 2px solid rgb(128,128,128);
-
 }
-
-
 
 button:active{
-
     border : 3px solid rgb(128,128,128);
-
 }
-
-
 
 .Form_title{
-
     text-transform: uppercase;
-
     font-weight: bold;
-
     margin-bottom: 10px;
-
 }
-
-
 
 .mangel_liste{
-
     padding: 30px 0 100px 0;
-
 }
 
-
-
 .mangel_liste li p{
-
     display: inline-block;
-
     border-bottom: 1px solid black;
-
     padding: 5px;
-
     color: red;
-
 }
 
 
@@ -881,270 +663,151 @@ button:active{
 
 
 .footer {
-
     box-sizing: border-box;
-
     width: 100%;
-
     background: linear-gradient(to right, #514A9D, #24C6DC);
-
     padding-top: 30px;
-
     padding-bottom: 30px;
-
 }
-
-
 
 .footer_social_media_icons{
-
     width: 100px;
-
     height: 100px;
-
     display: inline-block;
-
     width: 25%;
-
     margin-left: 10%;
-
 }
-
-
 
 .footer_form_container{
-
     display: inline-block;
-
     vertical-align: top;
-
     margin-left: 20px;
-
     width: 25%;
-
 }
 
-
-
 .footer_input_area{
-
     margin: auto;
-
     border-radius: 10px;  
-
     display: block;
-
     width: 85%;
-
     padding-left: 5%;
-
     padding-right: 5%;
-
 }
 
 
 
 .footer_text{
-
     vertical-align: top;
-
     display: inline-block;
-
     width: 20%;
-
     margin-left: 10%;
-
 }
-
-
 
 .footer_navn{
-
     vertical-align: top;
-
     display: inline-block;
-
 }
-
-
 
 .footer_adresse{
-
     position: relative;
-
     vertical-align: top;
-
     display: inline-block;
-
 }
 
-
+.footer_logo{
+    display: inline-block;
+    margin-left: 16%;
+}
 
 /* Media Queries */
 
 @media only screen and (max-width: 850px){
 
-
-
     /* CSS for dropdown-menu funksjonen */ 
-
     .dropdown_menu{
-
         display: block;
-
         height: 40px;
-
         width: 100%;
-
         background: url(../Images/Menu-48.png) no-repeat 5% center;
-
         background-size: 30px;
-
         background-color: linear-gradient(to right, #514A9D, #24C6DC);
-
         cursor: pointer;
-
     }
-
-    
-
     .menu_logo{
-
         display: none;
-
     }
-
     
-
     .menu-div li:first-child{
-
     float: none;
-
-}
-
-    
+    }
 
     div ul{
-
         height: 0;
-
     }
-
-    
 
     div ul.open{
-
         height: auto;
-
     }
-
-    
 
     ul li{
-
         display: block;
-
     }
-
-    
 
     .merInfoBilde{
-
         height: 500px;
-
     }
-
 }
 
 
 
 @media only screen and (max-width: 650px){
-
     .headArticle{
-
         float: none;
-
         margin: auto;
-
         padding-top: 20px;
-
         width: 80%;
-
         margin-bottom: 30px;
-
     }
-
-    
 
     #google_map{
-
     width: 90%;
-
     height: 500px;
-
     margin: auto;
-
     }
-
-    
 
     .topSection{
-
         margin-bottom: 30px;
-
     }
-
-
 
     .merInfoBilde{
-
         width: 90%;
-
         margin: auto;
-
         height: 500px;
-
     }
-
 }
-
-
 
 @media only screen and (max-width: 410px){
 
     
 
     .CTbox{
-
         margin: 0px 0px 15px 0px;
-
     }
 
-    
-
     .box_section{
-
         width: 100%;
-
     }
 
     td, th {
-
         padding: 3px;
-
     }
 
-    
-
     .merInfoBilde{
-
         height: 300px;
-
     }
     .parallax {
 	display:none;
-}
-
+    }
 }
 
 
