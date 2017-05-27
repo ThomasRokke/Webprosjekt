@@ -21,18 +21,16 @@ require_once('../Includes/db_tilkobling.php');
 
 date_default_timezone_set('Europe/Berlin');
 
-
-
 $engDay = date('l');
 
 $time = 140000; //date('His');
 
 
-    if($time > 000000 && $time < 050000 ){
+    if($time > 000000 && $time < 050000 ) {
 
         echo 'hei';
 
-        switch($engDay) {
+        switch ($engDay) {
 
             case "Monday":
 
@@ -77,9 +75,7 @@ $time = 140000; //date('His');
                 break;
 
 
-
         }
-
 
 
         $query = "SELECT * FROM markers AS ma join OpeningHours AS oh on ma.id = oh.BarId JOIN Days AS da on
@@ -88,151 +84,187 @@ $time = 140000; //date('His');
 
         $response = @mysqli_query($dbc, $query);
 
-        hentBox($response);
+
+        if ($response) {
+
+            while ($row = mysqli_fetch_array($response)) {
+
+                echo '<div class="CTbox" id="festbox">' .
+
+                    '<div class="CTbox-image">' .
+
+                    '<h3 class="boksStenger">' .
+
+                    'Stenger: ' . $row['EndTime'] .
+
+                    '</h3>' .
+
+                    '<img src="Images/' .
+
+                    $row['imagepath'] .
+
+                    '.JPG">' .
+
+                    '</div>' .
+
+                    '<div class="CTbox-info">' .
+
+                    '<h4>' .
+
+                    $row['name'] .
+
+                    '</h4>' .
+
+                    '<p>' .
+
+                    $row['sDesc'] . '<br>' .
+
+                    '</p>' .
+
+                    '<a class="CTbutton" href="merinfo.php?id=' .
+
+                    $row['id'] .
+
+                    '#merInfoAnchor">Mer info!</a>' .
+
+                    '</div>' .
+
+                    '</div>';
 
 
+            }
+            // Close connection to the database
 
+            mysqli_close($dbc);
+        }
     }
 
-    else{
+    else {
 
         echo '<script type="text/javascript">alert("else!");</script>';
-        $getDay = date('l');
-
-        $dag = "Fredag";
-
-        switch($getDay) {
+        echo $engDay;
+        $time = 140000;
+        switch ($engDay) {
 
             case "Monday":
 
-                $dag = "Mandag";
+                $day = "Mandag";
 
                 break;
 
             case "Tuesday":
 
-                $dag = "Tirsdag";
+                $day = "Tirsdag";
 
                 break;
 
             case "Wednesday":
 
-                $dag = "Onsdag";
+                $day = "Onsdag";
 
                 break;
 
             case "Thursday":
 
-                $dag = "Torsdag";
+                $day = "Torsdag";
 
                 break;
 
             case "Friday":
 
-                $dag = "Fredag";
+                $day = "Fredag";
 
                 break;
 
             case "Saturday":
 
-                $dag = "Lørdag";
+                $day = "Lordag";
 
                 break;
 
             case "Sunday":
 
-                $dag = "Søndag";
+                $day = "Søndag";
 
                 break;
 
         }
+        $query = "SELECT * FROM markers AS ma join openinghours AS oh on ma.id = oh.BarId JOIN Days AS da on
+            oh.DayId = da.DayId WHERE (oh.EndTime > $time || oh.EndTime BETWEEN 000000 AND 050000) && oh.StartTime < $time && da.Weekday = '$day'";
 
-        echo '<script type="text/javascript">alert("else2");</script>';
-        $dagQuery = "SELECT * FROM markers AS ma join OpeningHours AS oh on ma.id = oh.BarId JOIN Days AS da on
+        $response = @mysqli_query($dbc, $query);
 
-        oh.DayId = da.DayId WHERE (oh.EndTime > 140000 || oh.EndTime BETWEEN 000000 AND 050000) && oh.StartTime < 140000 && da.Weekday = '$dag'";
-        $resp = @mysqli_query($dbc, $dagQuery);
+        if ($response) {
 
-        if($resp){
-            while($row = mysqli_fetch_array($resp)){
-                echo '<script type="text/javascript">alert("response");</script>';
+            while ($row = mysqli_fetch_array($response)) {
+                echo 'DUST';
+
+                echo '<div class="CTbox" id="festbox">' .
+
+                    '<div class="CTbox-image">' .
+
+                    '<h3 class="boksStenger">' .
+
+                    'Stenger: ' . $row['EndTime'] .
+
+                    '</h3>' .
+
+                    '<img src="Images/' .
+
+                    $row['imagepath'] .
+
+                    '.JPG">' .
+
+                    '</div>' .
+
+                    '<div class="CTbox-info">' .
+
+                    '<h4>' .
+
+                    $row['name'] .
+
+                    '</h4>' .
+
+                    '<p>' .
+
+                    $row['sDesc'] . '<br>' .
+
+                    '</p>' .
+
+                    '<a class="CTbutton" href="merinfo.php?id=' .
+
+                    $row['id'] .
+
+                    '#merInfoAnchor">Mer info!</a>' .
+
+                    '</div>' .
+
+                    '</div>';
+
+
             }
 
         }
 
+    else {
 
 
-        hentBox($resp);
-
-    }
+            echo "Kunne ikke hente data fra databasen<br />";
 
 
-
-function hentBox($res)
-{
+            echo "$query" . mysqli_error($dbc);
 
 
-    if ($res) {
-
-        while ($row = mysqli_fetch_array($res)) {
-
-            echo '<div class="CTbox" id="festbox">' .
-
-                '<div class="CTbox-image">' .
-
-                '<h3 class="boksStenger">' .
-
-                'Stenger: ' . $row['EndTime'] .
-
-                '</h3>' .
-
-                '<img src="Images/' .
-
-                $row['imagepath'] .
-
-                '.JPG">' .
-
-                '</div>' .
-
-                '<div class="CTbox-info">' .
-
-                '<h4>' .
-
-                $row['name'] .
-
-                '</h4>' .
-
-                '<p>' .
-
-                $row['sDesc'] . '<br>' .
-
-                '</p>' .
-
-                '<a class="CTbutton" href="merinfo.php?id=' .
-
-                $row['id'] .
-
-                '#merInfoAnchor">Mer info!</a>' .
-
-                '</div>' .
-
-                '</div>';
 
         }
 
-    } else {
+        mysqli_close($dbc);
 
 
-        echo "Kunne ikke hente data fra databasen<br />";
-
-
-        echo mysqli_error($dbc);
 
     }
 
 
-// Close connection to the database
 
-    mysqli_close($dbc);
 
-}
+
