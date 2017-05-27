@@ -54,19 +54,13 @@
 
     <section class="box_section">
 
-        <?php
 
-
-
-
-
-        ?>
 
         <?php
 
 
 
-        require_once ('../Includes/getOpenBox.php');
+        include('../Includes/getOpenBox.php');
 
         ?>
 
