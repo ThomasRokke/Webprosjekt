@@ -49,12 +49,12 @@
       <file leaf-file-name="getOpenBox.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Includes/getOpenBox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-987">
-              <caret line="86" column="101" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="86" selection-end-column="101" />
+            <state relative-caret-position="357">
+              <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding>
-                <marker date="1495894385706" expanded="true" signature="1012:1203" ph="SELECT * FRO... markers" />
-                <marker date="1495894385706" expanded="true" signature="2234:2469" ph="SELECT * FRO... markers" />
-                <marker date="1495894385706" expanded="true" signature="3166:3188" ph="..." />
+                <marker date="1495895751745" expanded="true" signature="1012:1203" ph="SELECT * FRO... markers" />
+                <marker date="1495895751745" expanded="true" signature="2177:2412" ph="SELECT * FRO... markers" />
+                <marker date="1495895751745" expanded="true" signature="2177:2414" ph="SELECT * FRO... markers" />
               </folding>
             </state>
           </provider>
@@ -253,12 +253,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495891364215</updated>
-      <workItem from="1495891365720" duration="3059000" />
+      <workItem from="1495891365720" duration="4392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3059000" />
+    <option name="totallyTimeSpent" value="4392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1691" height="1038" extended-state="0" />
@@ -335,12 +335,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Includes/getOpenBox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-987">
-          <caret line="86" column="101" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="86" selection-end-column="101" />
+        <state relative-caret-position="357">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
-            <marker date="1495894385706" expanded="true" signature="1012:1203" ph="SELECT * FRO... markers" />
-            <marker date="1495894385706" expanded="true" signature="2234:2469" ph="SELECT * FRO... markers" />
-            <marker date="1495894385706" expanded="true" signature="3166:3188" ph="..." />
+            <marker date="1495895751745" expanded="true" signature="1012:1203" ph="SELECT * FRO... markers" />
+            <marker date="1495895751745" expanded="true" signature="2177:2412" ph="SELECT * FRO... markers" />
+            <marker date="1495895751745" expanded="true" signature="2177:2414" ph="SELECT * FRO... markers" />
           </folding>
         </state>
       </provider>
