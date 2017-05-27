@@ -25,7 +25,7 @@ date_default_timezone_set('Europe/Berlin');
 
 $engDay = date('l');
 
-$time = 170000; //date('His');
+$time = 140000; //date('His');
 
 
     if($time > 000000 && $time < 050000 ){
@@ -98,7 +98,7 @@ $time = 170000; //date('His');
 
         echo '<script type="text/javascript">alert("else!");</script>';
         $getDay = date('l');
-        $tid = 140000; //date('His');
+
         $dag = "Fredag";
 
         switch($getDay) {
@@ -145,20 +145,24 @@ $time = 170000; //date('His');
 
                 break;
 
-
-
         }
-        echo $dag;
+
         echo '<script type="text/javascript">alert("else2");</script>';
         $dagQuery = "SELECT * FROM markers AS ma join OpeningHours AS oh on ma.id = oh.BarId JOIN Days AS da on
 
-        oh.DayId = da.DayId WHERE (oh.EndTime > 020000 || oh.EndTime BETWEEN 000000 AND 050000) && oh.StartTime < 000000 && da.Weekday = '$dag';";
+        oh.DayId = da.DayId WHERE (oh.EndTime > 140000 || oh.EndTime BETWEEN 000000 AND 050000) && oh.StartTime < 140000 && da.Weekday = '$dag'";
+        $resp = @mysqli_query($dbc, $dagQuery);
 
-        $response = @mysqli_query($dbc, $dagQuery);
+        if($resp){
+            while($row = mysqli_fetch_array($resp)){
+                echo '<script type="text/javascript">alert("response");</script>';
+            }
 
-        echo '<script type="text/javascript">alert("'. $response . '");</script>';
+        }
 
-        hentBox($response);
+
+
+        hentBox($resp);
 
     }
 
