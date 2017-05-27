@@ -10,7 +10,9 @@
         </form>
         
     </div>
-    <div class="footer_social_media_icons"></div>
+    <div class="footer_logo">
+        <?php include("logo.php") ?>
+    </div>
     <div class="footer_text">
         <h2 class="footer_navn">2017 WZup?</h2><br>   
         <h3 class="footer_adresse">Chr. Krohgs gate 32, 0186 Oslo</h3>
