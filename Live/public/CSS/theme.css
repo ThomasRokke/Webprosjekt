@@ -68,7 +68,6 @@ input:focus{
 ul li{
     display: inline-block;
     padding: 5px;
-    margin: 0 20px 0 20px;
     opacity: 1;
 }
 
