@@ -1,7 +1,7 @@
    
 
 <div class="menu-div">
-    <a class="dropdown_menu"></a>
+    <a class="dropdown_menu"><p class="dropdown_logo_menu_text">wZup?</p></a>
     <ul>
         <li>
             <img class="menu_logo" src="Images/bl%C3%A5Wmenu.png">
