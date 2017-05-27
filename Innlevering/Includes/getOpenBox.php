@@ -23,7 +23,7 @@ date_default_timezone_set('Europe/Berlin');
 
 $engDay = date('l');
 
-$time = 140000; //date('His');
+$time = date('His');
 
 
     if($time > 000000 && $time < 050000 ) {
@@ -141,8 +141,6 @@ $time = 140000; //date('His');
 
     else {
 
-        echo '<script type="text/javascript">alert("else!");</script>';
-        echo $engDay;
         $time = 140000;
         switch ($engDay) {
 
@@ -197,7 +195,7 @@ $time = 140000; //date('His');
         if ($response) {
 
             while ($row = mysqli_fetch_array($response)) {
-                echo 'DUST';
+
 
                 echo '<div class="CTbox" id="festbox">' .
 
