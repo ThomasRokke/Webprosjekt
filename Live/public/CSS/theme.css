@@ -150,7 +150,7 @@ ul li a:hover{
     line-height: 32px;
     margin-left: 10%;
     margin-right: 20px;
-    width: 30%;
+    width: 25%;
     transition: 2s;
 }
 
@@ -403,12 +403,14 @@ label{
 
 
 .button_send{
-    width: 20%;
+    min-width: 50px;
     height: 30px;
     margin: 5px; 
     cursor: pointer;
     border : 1px solid rgb(128,128,128);
     border-radius: 4px;
+    box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
 }
 
 button:hover{
@@ -487,6 +489,11 @@ button:active{
     position: relative;
     vertical-align: top;
     display: inline-block;
+}
+
+.footer_logo{
+    display: inline-block;
+    margin-left: 16%;
 }
 
 /* Media Queries */
