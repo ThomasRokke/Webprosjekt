@@ -143,9 +143,6 @@ switch($engDay) {
                 $day = "Lørdag";
 
                 break;
-
-
-
         }
 
 

@@ -24,13 +24,7 @@
 
             <h2>Aktiviteter</h2>
 
-            <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum
-
-                vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex
-
-                arbitror arbitrantur, magna ita possumus de velit, eu ipsum ingeniis, qui a
-
-                despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum
+            <p>Se hva nærmiljøet har å tilby deg av diverse aktiviteter. Her finnes alt fra treningsmuligheter og parkområder til minigolf og dansing.
 
             </p>
 
