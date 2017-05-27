@@ -54,13 +54,7 @@
 
     <section class="box_section">
 
-        <?php
 
-
-
-
-
-        ?>
 
         <?php
 
@@ -91,13 +85,6 @@
 
 
 </footer>
-
-
-
-
-
-
-
 
 
 

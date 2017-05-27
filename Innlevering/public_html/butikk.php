@@ -22,7 +22,7 @@
 
         <article class="headArticle">
 
-            <h2>Aktiviteter</h2>
+            <h2>Butikker</h2>
 
             <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum
 
