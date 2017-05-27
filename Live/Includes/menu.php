@@ -3,7 +3,7 @@
     <a class="dropdown_menu"></a>
     <ul>
         <li>
-            <img class="menu_logo" src="../public/Images/bl%C3%A5W.png">
+            <img class="menu_logo" src="../public/Images/bl%C3%A5Wmenu.png"><p class="logo_menu_text">wZup?</p>
         </li>
         <li>
             <a href="../public/Index.php">Hjem</a>
