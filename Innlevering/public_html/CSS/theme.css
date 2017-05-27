@@ -65,7 +65,7 @@ input:focus{
     text-align: center;
 }
 
-ul li{
+.menu-div li{
     display: inline-block;
     padding: 5px;
     margin: 0 5px 0 5px;
@@ -77,7 +77,7 @@ ul li{
     padding: 10px;
 }
 
-ul li a{
+.menu-div ul li a{
     padding: 10px;
     font-weight: bold;
     text-transform: uppercase;
@@ -85,9 +85,13 @@ ul li a{
     color: white;
 }
 
-ul li a:hover{
+.menu-div ul li a:hover{
     background-color: white;
     color: black;
+}
+
+.dropdown_logo_menu_text{
+    display: none;
 }
 
 /* ---- Top Image ---- */
@@ -175,21 +179,40 @@ ul li a:hover{
     font-size: 25px;
 }
 
-h1.marker-heading{color: #585858;margin: 0px;padding: 0px;font: 18px "Trebuchet MS", Arial;border-bottom: 1px dotted #D8D8D8;}
-div.marker-info-win {width: 90%; margin-right: -20px;}
-div.marker-info-win p{padding: 0px;margin: 10px 0px 10px 0;}
-div.marker-inner-win{padding: 5px;}
-button.til-nettside, button.til-nettside{border: none;background: rgba(0, 0, 0, 0);color: #00F;padding: 0px;text-decoration: underline;margin-right: 10px;cursor: pointer;
+
+/* Markers på kart */
+h1.marker-heading{
+    color: #585858;
+    margin: 0px;
+    padding: 0px;
+    font: 18px "Trebuchet MS", Arial;
+    border-bottom: 1px dotted #D8D8D8;
 }
 
-/*
-        var contentString = $('<div class="marker-info-win">'+
-            '<div class="marker-inner-win"><span class="info-content">'+
-            '<h1 class="marker-heading">'+kartTittel+'</h1>'+
-            '<p class="marker-tekst">'+kartBeskrivelse+ '</p>' +
-            '</span><a href="merinfo.php?id='+id+'#merInfoAnchor"<button name="til-nettside" class="til-nettside" title="Til Nettside">Mer Info</button></a>'+
-            '</div></div>');
- */
+div.marker-info-win {
+    width: 90%;
+    margin-right: -20px;
+}
+
+div.marker-info-win p{
+    padding: 0px;
+    margin: 10px 0px 10px 0;
+}
+
+div.marker-inner-win{
+    padding: 5px;
+}
+
+button.til-nettside,
+button.til-nettside{
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    color: #00F;
+    padding: 0px;
+    text-decoration: underline;
+    margin-right: 10px;
+    cursor: pointer;
+}
 
 /* ------------------------ */
 
@@ -200,16 +223,6 @@ button.til-nettside, button.til-nettside{border: none;background: rgba(0, 0, 0, 
     background-size: cover;
     background-attachment: fixed;
     height: 60vh;
-}
-
-.parallax_bottom {
-    background: url(../Images/vulkan.jpg)repeat fixed 100%;
-    background-position: center;
-    padding: 0;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
-    margin-top: 00px;
 }
 
 .box_section{
@@ -524,24 +537,42 @@ button:active{
 
 /* Media Queries */
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 1230px){
+    .headArticle{
+        margin: auto;
+    }
+}
 
-    /* CSS for dropdown-menu funksjonen */ 
+@media only screen and (max-width: 950px){
+    
+     /* CSS for dropdown-menu funksjonen */ 
     .dropdown_menu{
         display: block;
         height: 40px;
         width: 100%;
-        background: url(../Images/Menu-48.png) no-repeat 5% center;
+        background: url(../Images/Menu-48.png) no-repeat 5% center, url(../Images/bl%C3%A5Wmenu.png) no-repeat 90% center;
         background-size: 30px;
         background-color: linear-gradient(to right, #514A9D, #24C6DC);
         cursor: pointer;
     }
+    
+    .dropdown_logo_menu_text{
+        display: block; 
+        padding-top: 7px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Chewy', cursive;
+        letter-spacing: 0.1em;
+        font-size: 1.3em;
+    }
+    
     .menu_logo{
         display: none;
     }
     
-    .menu-div li:first-child{
-    float: none;
+    .logo_menu_text{
+        float: none;
+        display: none;
     }
 
     div ul{
@@ -552,9 +583,18 @@ button:active{
         height: auto;
     }
 
-    ul li{
+    .menu-div ul li{
         display: block;
     }
+    
+    .menu-div li:first-child {
+        float: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 850px){
 
     .merInfoBilde{
         height: 500px;
