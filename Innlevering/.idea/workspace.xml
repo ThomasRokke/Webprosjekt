@@ -39,7 +39,7 @@
       <file leaf-file-name="opennow.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/opennow.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="1074">
               <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
@@ -49,12 +49,26 @@
       <file leaf-file-name="getOpenBox.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Includes/getOpenBox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            <state relative-caret-position="654">
+              <caret line="268" column="0" lean-forward="true" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
               <folding>
-                <marker date="1495895751745" expanded="true" signature="1012:1203" ph="SELECT * FRO... markers" />
-                <marker date="1495895751745" expanded="true" signature="2177:2412" ph="SELECT * FRO... markers" />
-                <marker date="1495895751745" expanded="true" signature="2177:2414" ph="SELECT * FRO... markers" />
+                <element signature="e#277#4586#0#PHP" expanded="false" />
+                <marker date="1495899664645" expanded="true" signature="1010:1201" ph="SELECT * FRO... markers" />
+                <marker date="1495899664645" expanded="true" signature="3116:3346" ph="SELECT * FRO... markers" />
+                <marker date="1495899664645" expanded="true" signature="3116:3351" ph="SELECT * FRO... markers" />
+                <marker date="1495899664645" expanded="true" signature="3116:3352" ph="SELECT * FRO... markers" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="henttid.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/henttid.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1512">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding>
+                <marker date="1495898821869" expanded="true" signature="491:727" ph="SELECT * FRO... markers" />
               </folding>
             </state>
           </provider>
@@ -63,7 +77,7 @@
       <file leaf-file-name="kart_prosessOpen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/kart_prosessOpen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-795">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1495818962000" expanded="true" signature="1792:1982" ph="SELECT * FRO... markers" />
@@ -75,11 +89,17 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hei</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Includes/db_tilkobling.php" />
         <option value="$PROJECT_DIR$/public_html/opennow.php" />
+        <option value="$PROJECT_DIR$/public_html/henttid.php" />
         <option value="$PROJECT_DIR$/Includes/getOpenBox.php" />
       </list>
     </option>
@@ -253,12 +273,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495891364215</updated>
-      <workItem from="1495891365720" duration="4392000" />
+      <workItem from="1495891365720" duration="8722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4392000" />
+    <option name="totallyTimeSpent" value="8722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1691" height="1038" extended-state="0" />
@@ -304,6 +324,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/kart_prosessOpen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-795">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1495818962000" expanded="true" signature="1792:1982" ph="SELECT * FRO... markers" />
+            <marker date="1495818962000" expanded="true" signature="2026:2258" ph="SELECT * FRO... markers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Includes/db_tilkobling.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -314,33 +345,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/kart_prosessOpen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1495818962000" expanded="true" signature="1792:1982" ph="SELECT * FRO... markers" />
-            <marker date="1495818962000" expanded="true" signature="2026:2258" ph="SELECT * FRO... markers" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/opennow.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="1074">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/henttid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <marker date="1495898821869" expanded="true" signature="491:727" ph="SELECT * FRO... markers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Includes/getOpenBox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="654">
+          <caret line="268" column="0" lean-forward="true" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
           <folding>
-            <marker date="1495895751745" expanded="true" signature="1012:1203" ph="SELECT * FRO... markers" />
-            <marker date="1495895751745" expanded="true" signature="2177:2412" ph="SELECT * FRO... markers" />
-            <marker date="1495895751745" expanded="true" signature="2177:2414" ph="SELECT * FRO... markers" />
+            <element signature="e#277#4586#0#PHP" expanded="false" />
+            <marker date="1495899664645" expanded="true" signature="1010:1201" ph="SELECT * FRO... markers" />
+            <marker date="1495899664645" expanded="true" signature="3116:3346" ph="SELECT * FRO... markers" />
+            <marker date="1495899664645" expanded="true" signature="3116:3351" ph="SELECT * FRO... markers" />
+            <marker date="1495899664645" expanded="true" signature="3116:3352" ph="SELECT * FRO... markers" />
           </folding>
         </state>
       </provider>
