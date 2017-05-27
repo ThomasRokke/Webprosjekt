@@ -22,7 +22,7 @@
 
         <article class="headArticle">
 
-            <h2>Mat</h2>
+            <h2>Spisesteder</h2>
 
             <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum
 
@@ -36,23 +36,13 @@
 
         </article>
 
-
-
         <div id="google_map"></div>
 
-
-
     </section>
-
-
 
     <section class="parallax">
 
-
-
     </section>
-
-
 
     <section class="box_section">
 
@@ -66,27 +56,10 @@
 
     </section>
 
-
-
-
-
 </section>
 
 
-
-
-
 <?php include("footer.php") ?>
-
-
-
-
-
-
-
-
-
-
 
 <!-- Javascript -->
 
