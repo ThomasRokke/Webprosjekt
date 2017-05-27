@@ -122,6 +122,17 @@ ul li a:hover{
     vertical-align: middle;
 }
 
+.logo_menu_text{
+    padding-top: 3px;
+    padding-left: 2px;
+    float: right;
+    color: white;
+    font-weight: bold;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+}
+
 
 
 /* ---- Main Section ---- */
@@ -223,6 +234,16 @@ td{
     margin-top: 00px;
 }
 
+.parallax_bottom {
+    background: url(../Images/vulkan.jpg)repeat fixed 100%;
+    background-position: center;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    margin-top: 00px;
+}
+
 .box_section{
     padding-top: 100px;
     width: 80%;
@@ -269,7 +290,7 @@ td{
 }
 
 .CTbox-info a:hover{
-    background-color: lightblue;
+    background-color: #EAEAEA;
 }
 
 .CTbox:hover img{
@@ -284,9 +305,8 @@ td{
     padding: 10px;
     margin-top: 30px;
     width: 40%;
-    border-radius: 10px;
-    box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    border: 1px solid rgb(74, 150, 173);
 }
 
 /* ---- Skille mellom boksområde og infoområde ---- */
