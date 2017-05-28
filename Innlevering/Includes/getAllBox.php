@@ -12,24 +12,11 @@
 
  */
 
-
-
 require_once('../Includes/db_tilkobling.php');
-
-
 
 $query = "SELECT id, name, imagepath, sDesc, type FROM markers";
 
-
-
 $response = @mysqli_query($dbc, $query);
-
-
-
-
-
-
-
 
 if($response){
 
@@ -38,13 +25,7 @@ if($response){
 // until no further data is available
 
 
-
     while($row = mysqli_fetch_array($response)) {
-
-
-
-
-
 
 
             echo '<div class="CTbox" id="festbox">' .
@@ -85,36 +66,17 @@ if($response){
 
                 '</div>';
 
-
-
-
-
-
-
-
-
     }
-
-
-
-
 
 }
 
 else {
 
-
-
     echo "Couldn't issue database query<br />";
-
-
 
     echo mysqli_error($dbc);
 
-
-
 }
-
 
 
 // Close connection to the database

@@ -1,10 +1,6 @@
 <?php include("../Includes/head.php"); ?>
 
-
-
 <div class="top-image">
-
-
 
     <?php include("../Includes/menu.php"); ?>
 
@@ -12,11 +8,7 @@
 
 </div>
 
-
-
 <section class="main-content">
-
-
 
     <section class="topSection">
 
@@ -30,23 +22,11 @@
 
         </article>
 
-
-
         <div id="google_map"></div>
 
-
-
-    </section>
-
-
-
-    <section class="parallax">
-
-
+    </section><section class="parallax">
 
     </section>
-
-
 
     <section class="box_section">
 
@@ -60,37 +40,15 @@
 
     </section>
 
-
-
-
-
 </section>
-
-
-
-
 
 <?php include("footer.php") ?>
 
-
-
-
-
-
-
-
-
-
-
 <!-- Javascript -->
-
-
 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAUOSBwWQ1fKQHF-40kF5kK4h_h4VYA46U"></script>
-
-
 
 <script src="js/aktivitet.js" type="text/javascript">
 
@@ -100,14 +58,7 @@
 
 </script>
 
-
-
 <audio id="audio" src="lyd.mp3" ></audio>
 
-
-
-
-
 </body>
-
 </html>

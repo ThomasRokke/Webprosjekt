@@ -1,21 +1,15 @@
 <?php
 
-
-
 // Jeg definerer verdiene siden de aldri skal byttes
 
-    	define("DB_SERVER", "localhost:3306");
+    define("DB_SERVER", "localhost:3306");
 	define("DB_USER", "roktho16_thomas");
 	define("DB_PASS", "MU8GTHJBXE66");
 	define("DB_NAME", "roktho16_wzup");
 
-
-
 //mysqli
 
 $mysqli = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
-
-
 
 if (mysqli_connect_errno()) 
 
@@ -26,7 +20,6 @@ if (mysqli_connect_errno())
 	exit();
 
 }
-
 
 
 //Lag et nytt DOMDocument objekt
@@ -51,13 +44,9 @@ if (!$resultat) {
 
 } 
 
-
-
 //setter dokument headeren til text/xml
 
 header("Content-type: text/xml"); 
-
-
 
 // Iterer igjennom radene, og legger til XML nodes for hver enkelt
 
@@ -81,13 +70,6 @@ while($obj = $resultat->fetch_object())
 
   $newnode->setAttribute("type", $obj->type);
 
-
-
-
-
 }
 
-
-
 echo $dom->saveXML();
-
