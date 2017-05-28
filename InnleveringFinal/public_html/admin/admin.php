@@ -5,7 +5,7 @@
     <section class="admin_content">
 
 
-        <form id="form1" action="http://tek.westerdals.no/~roktho16/admin/adddcontent.php" method="post" autocomplete="on">
+        <form id="form1" action="adddcontent.php" method="post" autocomplete="on">
 
             <p class="Form_title">Legg til innhold</p>
 
