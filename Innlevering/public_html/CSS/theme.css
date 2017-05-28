@@ -6,10 +6,19 @@
 }
 
 /* Fonts 
+Logo text:
+font-family: 'Chewy', cursive;
 
+Titles/h-tags and paragraphs:
+font-family: 'Crimson Text', serif;
+
+Menu Links:
 font-family: 'Bree Serif', serif;
 
 */
+
+
+
 
 /* ---- Globals ---- */
 
@@ -53,6 +62,10 @@ input:focus{
     border: 2px solid green;
 }
 
+
+
+
+
 /* ---- Navbar Top ---- */
 
 .menu-div{
@@ -94,6 +107,10 @@ input:focus{
     display: none;
 }
 
+
+
+
+
 /* ---- Top Image ---- */
 
 .top-image{
@@ -107,6 +124,10 @@ input:focus{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+
 
 /* Logo */
 
@@ -136,6 +157,10 @@ input:focus{
     letter-spacing: 0.1em;
     font-size: 1.3em;
 }
+
+
+
+
 
 /* ---- Main Section ---- */
 
@@ -180,6 +205,8 @@ input:focus{
 }
 
 
+
+
 /* Markers på kart */
 h1.marker-heading{
     color: #585858;
@@ -214,7 +241,10 @@ button.til-nettside{
     cursor: pointer;
 }
 
-/* ------------------------ */
+
+
+
+/* Parallax */
 
 .parallax {
     background: url(../Images/vulkan.JPG)repeat fixed 100%;
@@ -225,13 +255,16 @@ button.til-nettside{
     height: 60vh;
 }
 
+
+
+
+/* ---- Info bokser ---- */
+
 .box_section{
     padding-top: 100px;
     width: 80%;
     margin: auto;
 }
-
-/* ---- Info bokser ---- */
 
 .CTbox{
     display: inline-block;
@@ -290,14 +323,8 @@ button.til-nettside{
     border: 1px solid rgb(74, 150, 173);
 }
 
-/* ---- Skille mellom boksområde og infoområde ---- */
 
 
-.CTbreak{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-bottom: 2px solid black; 
-}
 
 /* ---- Info Område ---- */
 
@@ -305,8 +332,6 @@ button.til-nettside{
     padding: 20px;
     text-align: center;
 }
-
-
 
 .CTinfo-div h2{
     border-bottom: 1px solid black;
@@ -321,6 +346,9 @@ button.til-nettside{
     text-align: left;
 }
 
+
+
+
 /* Mer-info område */
 
 .merInfoBilde{
@@ -330,13 +358,9 @@ button.til-nettside{
     height: 600px;
 }
 
-
-
 .table_right_align{
     text-align: right;
 }
-
-
 
 .headArticle th,
 .headArticle td{
@@ -348,8 +372,6 @@ button.til-nettside{
 }
 
 /* Admin Area */
-
-
 
 .admin_content{
     width: 80%;
@@ -383,8 +405,6 @@ td{
     font-size: 4em;
 }
 
-
-
 #admin_table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -392,20 +412,14 @@ td{
     margin-top: 40px;
 }
 
-
-
 td, th {
     text-align: left;
     padding: 8px;
 }
 
-
-
 td{
     border-bottom: 1px solid black; 
 }
-
-
 
 #admin_table tr:nth-child(even) {
     background-color: #dddddd;
@@ -413,13 +427,9 @@ td{
 
 /* Input Fields in Admin Area */
 
-
-
 form p{
     font-weight: bold;
 }
-
-
 
 .admin_form{
     display: block;
@@ -430,14 +440,10 @@ form p{
     border: 2px solid black;
 }
 
-
-
 .opening_hours{
     display: inline-block;
     width: 25%;
 }
-
-
 
 input[type=radio]{
     display: inline-block;
@@ -486,6 +492,9 @@ button:active{
     color: red;
 }
 
+
+
+
 /* ---- Footer ---- */
 
 .footer {
@@ -496,20 +505,23 @@ button:active{
     padding-bottom: 30px;
 }
 
-.footer_form_container{
+.footer_mail_container{
     display: inline-block;
     vertical-align: top;
     margin-left: 20px;
     width: 25%;
 }
 
-.footer_input_area{
-    margin: auto;
-    border-radius: 10px;  
-    display: block;
-    width: 85%;
-    padding-left: 5%;
-    padding-right: 5%;
+.a_button{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: white;
+    display: inline-block;
+}
+
+.a_button:hover{
+    background-color: #EAEAEA;
 }
 
 .footer_text{
@@ -534,6 +546,10 @@ button:active{
     display: inline-block;
     margin-left: 16%;
 }
+
+
+
+
 
 /* Media Queries */
 
@@ -602,10 +618,11 @@ button:active{
     
     /* Footer skalering */
     
-    .footer_form_container{
+    .footer_mail_container{
         display: block;
         margin: auto;
         width: 80%;
+        padding-bottom: 20px;
     }
     
     .footer_text{
@@ -621,8 +638,6 @@ button:active{
     
     
 }
-
-
 
 @media only screen and (max-width: 650px){
     .headArticle{
