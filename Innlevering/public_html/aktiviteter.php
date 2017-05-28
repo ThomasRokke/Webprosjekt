@@ -16,6 +16,7 @@
 
             <h2>Aktiviteter</h2>
 
+            
             <p>Alt blir bedre hvis du beveger deg litt. Fysisk aktivitet fremmer helse, gir overskudd og er et viktig virkemiddel. Av og til kan det være lurt å komme seg vekk fra skole benken, da kan det være sunt og morsomt å gjøre noe aktiviteter med venner eller andre studenter. Blar du ned ser du forskjellig typer aktiviteter som kan være morsomme. Trykk mer info for å få mer informasjon.
 
             </p>
