@@ -188,9 +188,11 @@
 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 
-<script src="js/dropdown.js" type="text/javascript"></script>
+<script src="js/dropdown.js" type="text/javascript">
+</script>
 
-<audio id="audio" src="lyd.mp3" ></audio>
+<audio id="audio" src="lyd.mp3">
+</audio>
 
 </body>
 </html>

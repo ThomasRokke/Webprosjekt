@@ -208,6 +208,7 @@ input:focus{
 
 
 /* Markers på kart */
+
 h1.marker-heading{
     color: #585858;
     margin: 0px;
@@ -641,7 +642,6 @@ button:active{
         display: block;
         margin: auto;
     }
-    
     
 }
 
