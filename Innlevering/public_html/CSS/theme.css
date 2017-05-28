@@ -166,7 +166,8 @@ input:focus{
 
 .main-content{
     width: 100%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     text-align: center;
 }
 
@@ -188,7 +189,6 @@ input:focus{
     margin-left: 10%;
     margin-right: 20px;
     width: 30%;
-    transition: 2s;
 }
 
 #google_map{
@@ -196,7 +196,8 @@ input:focus{
     margin-right:3%;
     width: 50%;
     height: 600px;
-    box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+            box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
 }
 
@@ -274,7 +275,8 @@ button.til-nettside{
     height: 400px;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+            box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
 }
 
@@ -286,6 +288,7 @@ button.til-nettside{
 .CTbox-image img{
     height: 100%;
     width: 100%;
+    -webkit-transition: 1s;
     transition: 1s;
 }
 
@@ -309,7 +312,8 @@ button.til-nettside{
 }
 
 .CTbox:hover img{
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
     overflow: hidden;
 }
 
@@ -470,7 +474,8 @@ label{
     cursor: pointer;
     border : 1px solid rgb(128,128,128);
     border-radius: 4px;
-    box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
+            box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px -1px 17px -2px rgba(0,0,0,0.75);
 }
 
@@ -505,8 +510,10 @@ button:active{
 /* ---- Footer ---- */
 
 .footer {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#514A9D), to(#24C6DC));
     background: linear-gradient(to right, #514A9D, #24C6DC);
     padding-top: 30px;
     padding-bottom: 30px;
@@ -517,6 +524,11 @@ button:active{
     vertical-align: top;
     margin-left: 20px;
     width: 25%;
+}
+
+.footer_mail_container p{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .a_button{
@@ -541,12 +553,16 @@ button:active{
 .footer_navn{
     vertical-align: top;
     display: inline-block;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .footer_adresse{
     position: relative;
     vertical-align: top;
     display: inline-block;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .footer_logo{
@@ -613,6 +629,11 @@ button:active{
     .menu-div li:first-child {
         float: none;
     }
+    
+    /* IOS Kompatibilitet*/
+    .top-image{
+    background-attachment: scroll;
+}
 
 }
 
@@ -630,6 +651,7 @@ button:active{
         margin: auto;
         width: 80%;
         padding-bottom: 20px;
+        text-align: center;
     }
     
     .footer_text{
@@ -691,7 +713,6 @@ button:active{
 	display:none;
     }
 }
-
 
 
 
