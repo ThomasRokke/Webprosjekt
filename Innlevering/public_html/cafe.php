@@ -12,10 +12,7 @@
         <article class="headArticle">
 
             <h2>Cafe</h2>
-            <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum
-                vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex
-                arbitror arbitrantur, magna ita possumus de velit, eu ipsum ingeniis, qui a
-                despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum
+            <p>I dag kan være en fin dag å dra på kafe med venner. Finn den nærmeste cafeen på kartet og nyt et varm kaffe. Trykk mer info for å få mer informasjon.
             </p>
 
         </article>
