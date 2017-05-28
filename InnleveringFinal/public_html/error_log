@@ -1,0 +1,146 @@
+[26-May-2017 15:53:56 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/index.php on line 1
+[26-May-2017 15:53:56 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/index.php on line 1
+[26-May-2017 15:53:56 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/index.php on line 5
+[26-May-2017 15:53:56 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/index.php on line 5
+[26-May-2017 15:55:23 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/index.php on line 1
+[26-May-2017 15:55:23 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/index.php on line 1
+[26-May-2017 15:55:23 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/index.php on line 5
+[26-May-2017 15:55:23 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/index.php on line 5
+[26-May-2017 15:55:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 15:57:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:00:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:01:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:01:13 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/event.php on line 1
+[26-May-2017 16:01:13 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/event.php on line 1
+[26-May-2017 16:01:13 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/event.php on line 5
+[26-May-2017 16:01:13 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/event.php on line 5
+[26-May-2017 16:01:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:01:20 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/event.php on line 1
+[26-May-2017 16:01:20 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/event.php on line 1
+[26-May-2017 16:01:20 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/event.php on line 5
+[26-May-2017 16:01:20 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/event.php on line 5
+[26-May-2017 16:01:20 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/event.php on line 1
+[26-May-2017 16:01:20 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/event.php on line 1
+[26-May-2017 16:01:20 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/event.php on line 5
+[26-May-2017 16:01:20 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/event.php on line 5
+[26-May-2017 16:01:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:01:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:01:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:02:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:02:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:03:34 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/merinfo.php on line 1
+[26-May-2017 16:03:34 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/merinfo.php on line 1
+[26-May-2017 16:03:34 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/merinfo.php on line 5
+[26-May-2017 16:03:34 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/merinfo.php on line 5
+[26-May-2017 16:03:34 UTC] PHP Warning:  include(../includes/db_tilkobling.php): failed to open stream: No such file or directory in /home/roktho16/public_html/merinfo.php on line 6
+[26-May-2017 16:03:34 UTC] PHP Warning:  include(): Failed opening '../includes/db_tilkobling.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/merinfo.php on line 6
+[26-May-2017 16:04:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:05:11 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/event.php on line 1
+[26-May-2017 16:05:11 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/event.php on line 1
+[26-May-2017 16:05:11 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/event.php on line 5
+[26-May-2017 16:05:11 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/event.php on line 5
+[26-May-2017 16:05:11 UTC] PHP Warning:  require_once(../../Includes/db_tilkobling.php): failed to open stream: No such file or directory in /home/roktho16/Includes/getBox.php on line 17
+[26-May-2017 16:05:11 UTC] PHP Fatal error:  require_once(): Failed opening required '../../Includes/db_tilkobling.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/Includes/getBox.php on line 17
+[26-May-2017 16:05:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:08:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:08:08 UTC] PHP Warning:  require_once(../../Includes/db_tilkobling.php): failed to open stream: No such file or directory in /home/roktho16/Includes/getBox.php on line 17
+[26-May-2017 16:08:08 UTC] PHP Fatal error:  require_once(): Failed opening required '../../Includes/db_tilkobling.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/Includes/getBox.php on line 17
+[26-May-2017 16:08:50 UTC] PHP Warning:  require_once(../../Includes/db_tilkobling.php): failed to open stream: No such file or directory in /home/roktho16/Includes/getBox.php on line 17
+[26-May-2017 16:08:50 UTC] PHP Fatal error:  require_once(): Failed opening required '../../Includes/db_tilkobling.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/Includes/getBox.php on line 17
+[26-May-2017 16:09:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:11:24 UTC] PHP Warning:  require_once(../../Includes/db_tilkobling.php): failed to open stream: No such file or directory in /home/roktho16/Includes/getBox.php on line 17
+[26-May-2017 16:11:24 UTC] PHP Fatal error:  require_once(): Failed opening required '../../Includes/db_tilkobling.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/Includes/getBox.php on line 17
+[26-May-2017 16:12:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:15:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:15:51 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/matogdrikke.php on line 1
+[26-May-2017 16:15:51 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/matogdrikke.php on line 1
+[26-May-2017 16:15:51 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/matogdrikke.php on line 5
+[26-May-2017 16:15:51 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/matogdrikke.php on line 5
+[26-May-2017 16:15:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:15:57 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/aktiviteter.php on line 1
+[26-May-2017 16:15:57 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/aktiviteter.php on line 1
+[26-May-2017 16:15:57 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/aktiviteter.php on line 5
+[26-May-2017 16:15:57 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/aktiviteter.php on line 5
+[26-May-2017 16:15:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:16:04 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/opennow.php on line 2
+[26-May-2017 16:16:04 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/opennow.php on line 2
+[26-May-2017 16:16:04 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/opennow.php on line 6
+[26-May-2017 16:16:04 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/opennow.php on line 6
+[26-May-2017 16:20:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:20:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:20:11 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/matogdrikke.php on line 1
+[26-May-2017 16:20:11 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/matogdrikke.php on line 1
+[26-May-2017 16:20:11 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/matogdrikke.php on line 5
+[26-May-2017 16:20:11 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/matogdrikke.php on line 5
+[26-May-2017 16:20:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:20:15 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/opennow.php on line 2
+[26-May-2017 16:20:15 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/opennow.php on line 2
+[26-May-2017 16:20:15 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/opennow.php on line 6
+[26-May-2017 16:20:15 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/opennow.php on line 6
+[26-May-2017 16:21:26 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/opennow.php on line 2
+[26-May-2017 16:21:26 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/opennow.php on line 2
+[26-May-2017 16:21:26 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/opennow.php on line 6
+[26-May-2017 16:21:26 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/opennow.php on line 6
+[26-May-2017 16:21:31 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/opennow.php on line 2
+[26-May-2017 16:21:31 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/opennow.php on line 2
+[26-May-2017 16:21:31 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/opennow.php on line 2
+[26-May-2017 16:21:31 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/opennow.php on line 2
+[26-May-2017 16:21:31 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/opennow.php on line 6
+[26-May-2017 16:21:31 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/opennow.php on line 6
+[26-May-2017 16:21:31 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/opennow.php on line 6
+[26-May-2017 16:21:31 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/opennow.php on line 6
+[26-May-2017 16:25:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:25:56 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_cms'@'localhost' (using password: YES) in /home/roktho16/public_html/kart_prosess.php on line 10
+[26-May-2017 16:28:54 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/matogdrikke.php on line 1
+[26-May-2017 16:28:54 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/matogdrikke.php on line 1
+[26-May-2017 16:28:54 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/matogdrikke.php on line 5
+[26-May-2017 16:28:54 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/matogdrikke.php on line 5
+[26-May-2017 16:38:44 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/merinfo.php on line 1
+[26-May-2017 16:38:44 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/merinfo.php on line 1
+[26-May-2017 16:38:44 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/merinfo.php on line 5
+[26-May-2017 16:38:44 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/merinfo.php on line 5
+[26-May-2017 16:38:44 UTC] PHP Warning:  include(../includes/db_tilkobling.php): failed to open stream: No such file or directory in /home/roktho16/public_html/merinfo.php on line 6
+[26-May-2017 16:38:44 UTC] PHP Warning:  include(): Failed opening '../includes/db_tilkobling.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/merinfo.php on line 6
+[26-May-2017 17:00:05 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/aktiviteter.php on line 1
+[26-May-2017 17:00:05 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/aktiviteter.php on line 1
+[26-May-2017 17:00:05 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/aktiviteter.php on line 5
+[26-May-2017 17:00:05 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/aktiviteter.php on line 5
+[26-May-2017 17:00:21 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/aktiviteter.php on line 1
+[26-May-2017 17:00:21 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/aktiviteter.php on line 1
+[26-May-2017 17:00:21 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/aktiviteter.php on line 5
+[26-May-2017 17:00:21 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/aktiviteter.php on line 5
+[26-May-2017 17:01:12 UTC] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/aktiviteter.php on line 1
+[26-May-2017 17:01:12 UTC] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/aktiviteter.php on line 1
+[26-May-2017 17:01:12 UTC] PHP Warning:  include(../includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/aktiviteter.php on line 5
+[26-May-2017 17:01:12 UTC] PHP Warning:  include(): Failed opening '../includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/aktiviteter.php on line 5
+[26-May-2017 23:41:46 UTC] PHP Warning:  include(../Includes/head.php): failed to open stream: No such file or directory in /home/roktho16/public_html/index.php on line 1
+[26-May-2017 23:41:46 UTC] PHP Warning:  include(): Failed opening '../Includes/head.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/index.php on line 1
+[26-May-2017 23:41:46 UTC] PHP Warning:  include(../Includes/menu.php): failed to open stream: No such file or directory in /home/roktho16/public_html/index.php on line 9
+[26-May-2017 23:41:46 UTC] PHP Warning:  include(): Failed opening '../Includes/menu.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/index.php on line 9
+[26-May-2017 23:41:46 UTC] PHP Warning:  require_once(../Includes/getAllBox.php): failed to open stream: No such file or directory in /home/roktho16/public_html/index.php on line 65
+[26-May-2017 23:41:46 UTC] PHP Fatal error:  require_once(): Failed opening required '../Includes/getAllBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roktho16/public_html/index.php on line 65
+[28-May-2017 09:55:07 UTC] PHP Parse error:  syntax error, unexpected '$alert' (T_VARIABLE), expecting ',' or ';' in /home/roktho16/public_html/merinfo.php on line 174
+[28-May-2017 09:55:30 UTC] PHP Parse error:  syntax error, unexpected 'HEI' (T_STRING), expecting ',' or ';' in /home/roktho16/public_html/merinfo.php on line 174
+[28-May-2017 09:55:57 UTC] PHP Parse error:  syntax error, unexpected 'HEI' (T_STRING), expecting ',' or ';' in /home/roktho16/public_html/merinfo.php on line 174
+[28-May-2017 09:56:27 UTC] PHP Parse error:  syntax error, unexpected 'HEI' (T_STRING), expecting ',' or ';' in /home/roktho16/public_html/merinfo.php on line 174
+[28-May-2017 09:58:33 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/roktho16/public_html/merinfo.php on line 164
+[28-May-2017 10:03:58 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/roktho16/public_html/merinfo.php on line 168
+[28-May-2017 10:48:59 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/roktho16/public_html/merinfo.php on line 178
+[28-May-2017 10:49:10 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting '(' in /home/roktho16/public_html/merinfo.php on line 171
+[28-May-2017 10:49:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/roktho16/public_html/merinfo.php on line 178
+[28-May-2017 10:50:50 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/roktho16/public_html/merinfo.php on line 168
+[28-May-2017 10:59:59 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/roktho16/public_html/merinfo.php on line 171
+[28-May-2017 11:00:30 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/roktho16/public_html/merinfo.php on line 171
+[28-May-2017 11:01:58 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/roktho16/public_html/merinfo.php on line 171
+[28-May-2017 11:03:25 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/roktho16/public_html/merinfo.php on line 171
+[28-May-2017 12:34:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/roktho16/public_html/kart_prosess.php on line 92
+[28-May-2017 12:36:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/roktho16/public_html/kart_prosess.php on line 92
+[28-May-2017 12:37:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/roktho16/public_html/kart_prosess.php on line 92
+[28-May-2017 12:38:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/roktho16/public_html/kart_prosess.php on line 92
+[28-May-2017 12:38:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/roktho16/public_html/kart_prosess.php on line 92
+[28-May-2017 12:38:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/roktho16/public_html/kart_prosess.php on line 92
+[28-May-2017 12:39:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/roktho16/public_html/kart_prosess.php on line 92
+[28-May-2017 12:39:55 UTC] PHP Fatal error:  Call to a member function fetch_all() on null in /home/roktho16/public_html/kart_prosess.php on line 61
+[28-May-2017 12:40:02 UTC] PHP Fatal error:  Call to a member function fetch_all() on null in /home/roktho16/public_html/kart_prosess.php on line 61
+[28-May-2017 12:40:23 UTC] PHP Fatal error:  Call to a member function fetch_all() on null in /home/roktho16/public_html/kart_prosess.php on line 61
+[28-May-2017 12:40:44 UTC] PHP Fatal error:  Call to a member function fetch_all() on null in /home/roktho16/public_html/kart_prosess.php on line 61
