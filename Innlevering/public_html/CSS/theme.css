@@ -371,6 +371,9 @@ button.til-nettside{
     width: 90px;
 }
 
+
+
+
 /* Admin Area */
 
 .admin_content{
@@ -424,6 +427,9 @@ td{
 #admin_table tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+
+
 
 /* Input Fields in Admin Area */
 

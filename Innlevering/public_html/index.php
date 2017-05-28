@@ -25,11 +25,11 @@
     </section>
 
     <section class="box_section">
+        
         <?php
-
             require_once('../Includes/getAllBox.php');
-
         ?>
+        
     </section>
 
 </section>
