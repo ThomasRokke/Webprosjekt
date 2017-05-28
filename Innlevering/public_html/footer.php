@@ -3,9 +3,9 @@
 <footer id="footer" class="footer">
     <div class="footer_mail_container">
         <p>
-            Send oss tipsom steder dere ønsker lagt til på siden på wzupwesterdal@gmail.com eller klikk på "Send mail" knappen:
+            Send oss tipsom steder dere ønsker lagt til på siden på wzupwesterdal@gmail.com eller klikk på "Send mail" knappen: </p>
             <a href="mailto:wzupwesterdals@gmail.com" class="a_button">Send Mail!</a>
-        </p>
+       
     </div>
     <div class="footer_logo">
         <?php include("logo.php") ?>
