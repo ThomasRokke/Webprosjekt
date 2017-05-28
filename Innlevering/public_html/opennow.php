@@ -14,7 +14,7 @@
 
         <article class="headArticle">
             <h2>Wzup</h2>
-            <p>Wzup er en side hvor du som ny student kan finne alle mulige tilbud i nærmiljøet. Her kan du finne butikker, barer, eventer og aktiviteter i nærheten
+            <p>Wzup er en side hvor du som ny student kan finne alle mulige tilbud i nærmiljøet. Her kan du finne butikker, barer, eventer og aktiviteter i nærheten.
             </p>
         </article>
 
@@ -36,7 +36,11 @@
 
 </section>
 
-<?php include("footer.php"); ?>
+
+
+<?php 
+    include("footer.php");
+?>
 
 <!-- Javascript -->
 

@@ -16,13 +16,7 @@
 
             <h2>Spisesteder</h2>
 
-            <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum
-
-                vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex
-
-                arbitror arbitrantur, magna ita possumus de velit, eu ipsum ingeniis, qui a
-
-                despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum
+            <p>Å spise ute er en hyggelig og sosial måte å møtes på. Under kan du finne alt fra pizza til indiske restauranter. Trykk mer info for å få mer informasjon.
 
             </p>
 

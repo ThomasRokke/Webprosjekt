@@ -16,10 +16,7 @@
 
             <h2>Utesteder</h2>
 
-            <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum
-                vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex
-                arbitror arbitrantur, magna ita possumus de velit, eu ipsum ingeniis, qui a
-                despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum
+            <p>Å dra ut å feste er for noen en stor del av studietiden. Det er sosialt og man møter mange nye mennesker. Det er mange måter å dra ut på, under kan se de ulike stedene. Trykk mer info for å få mer informasjon.
             </p>
 
         </article>

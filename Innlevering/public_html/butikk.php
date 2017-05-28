@@ -16,10 +16,7 @@
 
             <h2>Butikker</h2>
 
-            <p>Tamen eiusmod graviterque id se sunt tamen labore admodum, fugiat a ab quorum
-                vidisse ne incididunt dolor non ingeniis illustriora ex ingeniis quid ex
-                arbitror arbitrantur, magna ita possumus de velit, eu ipsum ingeniis, qui a
-                despicationes. Consequat est eiusmod, ubi sint     commodo est tamen appellat. Deserunt quo fugiat laborum, malis mentitum
+            <p>Uten mat og drikke, funker kroppen ikke. Mat og drikke er viktig for kroppen, derfor har vi laget en egen kategori som heter matbutikk. På kartet kan du se matbutikker som er i nærområde. Trykk mer info for å få mer informasjon. 
             </p>
 
         </article>
