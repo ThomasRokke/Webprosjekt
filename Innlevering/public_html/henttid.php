@@ -75,13 +75,9 @@
 
         } else {
 
-
             echo "Kunne ikke hente data fra databasen<br />";
 
-
             echo "$query" . mysqli_error($dbc);
-
-
 
         }
 
