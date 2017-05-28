@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49334e1b-5aa4-4c2f-99e2-2dc52f447b9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Innlevering/Includes/db_tilkobling.php" afterPath="$PROJECT_DIR$/Innlevering/Includes/db_tilkobling.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnleveringFinal/Includes/db_tilkobling.php" afterPath="$PROJECT_DIR$/InnleveringFinal/Includes/db_tilkobling.php" />
-    </list>
+    <list default="true" id="49334e1b-5aa4-4c2f-99e2-2dc52f447b9a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,12 +205,12 @@
       <updated>1495994483385</updated>
       <workItem from="1495994484677" duration="652000" />
       <workItem from="1495995488735" duration="213000" />
-      <workItem from="1495999014555" duration="49000" />
+      <workItem from="1495999014555" duration="93000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="914000" />
+    <option name="totallyTimeSpent" value="958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1691" height="1038" extended-state="0" />
